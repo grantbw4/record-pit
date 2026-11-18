@@ -1,6 +1,7 @@
 import { snapshot } from './data.js';
 import { artwork } from './art.js';
 import { Pit } from './physics.js';
+import { makeSticker } from './stickers.js';
 
 const byId = id => document.getElementById(id);
 const colors = ['#bba2f4', '#f4b5a4', '#f9ce90', '#a9cdae', '#9ec9f3', '#e4a9d0'];
@@ -50,6 +51,7 @@ function duration(seconds) {
 
 function insertArtwork(parent, item) {
   const image = artwork[item.id]?.url;
+  parent.append(makeSticker(item.id));
   if (!image) return;
   const img = element('img');
   img.alt = '';
@@ -78,12 +80,6 @@ function makeBall(item, index) {
   ball.setAttribute('aria-pressed', 'false');
   insertArtwork(ball, item);
 
-  const face = element('span', 'ball-face');
-  face.setAttribute('aria-hidden', 'true');
-  face.append(element('strong', '', item.title));
-  if (mode !== 'artist') face.append(element('span', '', item.artist));
-  ball.append(face);
-
   ball.addEventListener('focus', () => {
     if (ball.matches(':focus-visible')) select(item.id);
   });
@@ -91,6 +87,7 @@ function makeBall(item, index) {
 }
 
 function renderDetail(item, rank) {
+  const imageSource = artwork[item.id];
   const row = element('div', 'detail-entry');
   const art = element('div', 'detail-image');
   art.style.setProperty('--disc', color(item));
@@ -107,9 +104,9 @@ function renderDetail(item, rank) {
   const stats = element('p', 'detail-meta');
   stats.append(element('strong', '', duration(item.seconds) + ' listened'));
   stats.append(element('span', '', countFormat.format(item.events) + ' playback events'));
-  if (artwork[item.id]?.source && artwork[item.id].sourceName !== 'Amazon Music') {
-    const source = element('a', '', artwork[item.id].sourceName || 'Cover source');
-    source.href = artwork[item.id].source;
+  if (imageSource?.source && (mode === 'song' || imageSource.sourceName !== 'Amazon Music')) {
+    const source = element('a', '', imageSource.sourceName === 'Amazon Music' ? 'Album art' : (imageSource.sourceName || 'Cover source'));
+    source.href = imageSource.source;
     source.target = '_blank';
     source.rel = 'noopener noreferrer';
     stats.append(source);
@@ -120,7 +117,8 @@ function renderDetail(item, rank) {
     const path = mode === 'album' && identifier ? 'albums/' + item.catalogId :
       mode === 'artist' && identifier ? 'artists/' + item.catalogId :
       'search/' + encodeURIComponent([item.title, mode !== 'artist' && item.artist].filter(Boolean).join(' '));
-    link.href = 'https://music.amazon.com/' + path;
+    link.href = mode === 'artist' && imageSource?.source?.startsWith('https://music.amazon.com/artists/')
+      ? imageSource.source : 'https://music.amazon.com/' + path;
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     stats.append(link);

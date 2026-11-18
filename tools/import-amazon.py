@@ -82,6 +82,7 @@ def add(group, identity, display, credit, milliseconds, track, entity_id, album=
     card = group.setdefault(identity, {
         "seconds": 0, "events": 0, "names": Counter(), "credits": Counter(),
         "tracks": Counter(), "catalogIds": Counter(), "albums": Counter(),
+        "releaseTracks": defaultdict(Counter),
     })
     card["seconds"] += milliseconds
     card["events"] += 1
@@ -94,6 +95,8 @@ def add(group, identity, display, credit, milliseconds, track, entity_id, album=
         card["catalogIds"][entity_id] += milliseconds
     if album:
         card["albums"][album] += milliseconds
+        if entity_id:
+            card["releaseTracks"][album][entity_id] += milliseconds
 
 
 def top_cards(mode, group, limit):
@@ -111,11 +114,14 @@ def top_cards(mode, group, limit):
             card["catalogId"] = preferred(entry["catalogIds"])
         if mode != "song" and entry["tracks"]:
             card["topTrack"] = preferred(entry["tracks"])
-        if mode == "song" and entry["albums"]:
-            album, album_artist, album_id = preferred(entry["albums"])
+        if mode in {"song", "artist"} and entry["albums"]:
+            release = preferred(entry["albums"])
+            album, album_artist, album_id = release
             card.update(album=album, albumArtist=album_artist)
             if album_id:
                 card["albumCatalogId"] = album_id
+            if mode == "song":
+                card["catalogId"] = preferred(entry["releaseTracks"][release])
         cards.append(card)
     return cards
 
@@ -277,9 +283,9 @@ def build(archive, limit, timezone):
             add(snapshots["album"], album_key(album), *album[:2], milliseconds, track, album[2])
             matched["album"] += milliseconds
         if artist:
-            add(snapshots["artist"], (artist_id,), artist, "", milliseconds, track, artist_id)
+            add(snapshots["artist"], (artist_id,), artist, "", milliseconds, track, artist_id, album)
             matched["artist"] += milliseconds
-        if track and artist and asin:
+        if track and artist and asin and album:
             add(snapshots["song"], (family_id or asin, key(track), artist_id),
                 track, artist, milliseconds, track, asin, album)
             matched["song"] += milliseconds

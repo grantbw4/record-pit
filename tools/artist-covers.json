@@ -1,0 +1,240 @@
+[
+  {
+    "artist": "John Mayer",
+    "catalogId": "B000QJJQJQ",
+    "source": "https://music.amazon.com/artists/B000QJJQJQ/john-mayer",
+    "release": "Tom and Jerry",
+    "image": "https://m.media-amazon.com/images/I/41eMWJcEYIL.jpg"
+  },
+  {
+    "artist": "Sabrina Carpenter",
+    "catalogId": "B0041P77O2",
+    "source": "https://music.amazon.com/artists/B0041P77O2/sabrina-carpenter",
+    "release": "Bring Your Love (Honey Dijon Remixes)",
+    "image": "https://m.media-amazon.com/images/I/413eE-nkewL.jpg"
+  },
+  {
+    "artist": "Ruel",
+    "catalogId": "B001VWBJG0",
+    "source": "https://music.amazon.com/artists/B001VWBJG0/ruel",
+    "release": "Kicking My Feet & Screaming [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/51-8-m0oTfL.jpg"
+  },
+  {
+    "artist": "Jensen McRae",
+    "catalogId": "B00AYLC33W",
+    "source": "https://music.amazon.com/artists/B00AYLC33W/jensen-mcrae",
+    "release": "THAT KID",
+    "image": "https://m.media-amazon.com/images/I/41W9foMptwL.jpg"
+  },
+  {
+    "artist": "Zara Larsson",
+    "catalogId": "B00BE054OW",
+    "source": "https://music.amazon.com/artists/B00BE054OW/zara-larsson",
+    "release": "Talk To Me, Zara",
+    "image": "https://m.media-amazon.com/images/I/416nJZyVmqL.jpg"
+  },
+  {
+    "artist": "Lily Allen",
+    "catalogId": "B000SZKW64",
+    "source": "https://music.amazon.com/artists/B000SZKW64/lily-allen",
+    "release": "West End Girl [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/41Y8TBpH-TL.jpg"
+  },
+  {
+    "artist": "Audrey Hobert",
+    "catalogId": "B09H1XGG2G",
+    "source": "https://music.amazon.com/artists/B09H1XGG2G/audrey-hobert",
+    "release": "Who's the Clown? [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/41NpU6hsWEL.jpg"
+  },
+  {
+    "artist": "Sam Fender",
+    "catalogId": "B06XHTXNT9",
+    "source": "https://music.amazon.com/artists/B06XHTXNT9/sam-fender",
+    "release": "Rein Me In (Live At London Stadium) [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/41NjOxw5vHL.jpg"
+  },
+  {
+    "artist": "Tate McRae",
+    "catalogId": "B078NJRK9P",
+    "source": "https://music.amazon.com/artists/B078NJRK9P/tate-mcrae",
+    "release": "SO CLOSE TO WHAT??? (deluxe) [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/31AHd0UCCfL.jpg"
+  },
+  {
+    "artist": "Eddie Benjamin",
+    "catalogId": "B07TDD1Z3F",
+    "source": "https://music.amazon.com/artists/B07TDD1Z3F/eddie-benjamin",
+    "release": "KISS ME [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/31yi7Mr8cWL.jpg"
+  },
+  {
+    "artist": "Carly Rae Jepsen",
+    "catalogId": "B007BY1R4G",
+    "source": "https://music.amazon.com/artists/B007BY1R4G/carly-rae-jepsen",
+    "release": "Day and Night [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/41azneRGEhL.jpg"
+  },
+  {
+    "artist": "The 1975",
+    "catalogId": "B00GAVCAE2",
+    "source": "https://music.amazon.com/artists/B00GAVCAE2/the-1975",
+    "release": "Still... At Their Very Best (Live From The AO Arena, Manchester, 17.02.24) [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/41Yhcta2dHL.jpg"
+  },
+  {
+    "artist": "Daniel Caesar",
+    "catalogId": "B005IY3XLQ",
+    "source": "https://music.amazon.com/artists/B005IY3XLQ/daniel-caesar",
+    "release": "Blue",
+    "image": "https://m.media-amazon.com/images/I/41dwWKTh3JL.jpg"
+  },
+  {
+    "artist": "Slayyyter",
+    "catalogId": "B07GBCLDQ1",
+    "source": "https://music.amazon.com/artists/B07GBCLDQ1/slayyyter",
+    "release": "WOR$T GIRL IN AMERICA / wor$t man in america [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/511g6oW7EqL.jpg"
+  },
+  {
+    "artist": "Samia",
+    "catalogId": "B000QKW4G2",
+    "source": "https://music.amazon.com/artists/B000QKW4G2/samia",
+    "release": "Bloodless Tour - Live From First Avenue [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/41mrDGzdNSL.jpg"
+  },
+  {
+    "artist": "Alessia Cara",
+    "catalogId": "B00X0FGN26",
+    "source": "https://music.amazon.com/artists/B00X0FGN26/alessia-cara",
+    "release": "Love or Lack Thereof",
+    "image": "https://m.media-amazon.com/images/I/21V0mbQaQqL.jpg"
+  },
+  {
+    "artist": "Bella Kay",
+    "catalogId": "B0CHMMT457",
+    "source": "https://music.amazon.com/artists/B0CHMMT457/bella-kay",
+    "release": "My Reckless Abandon [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/41hUIEL4%2B6L.jpg"
+  },
+  {
+    "artist": "Maggie Rogers",
+    "catalogId": "B008D8DZZ8",
+    "source": "https://music.amazon.com/artists/B008D8DZZ8/maggie-rogers",
+    "release": "Don't Forget Me",
+    "image": "https://m.media-amazon.com/images/I/41M73Z%2BIHvL.jpg"
+  },
+  {
+    "artist": "Sam Hunt",
+    "catalogId": "B001GUTLT4",
+    "source": "https://music.amazon.com/artists/B001GUTLT4/sam-hunt",
+    "release": "Liberty",
+    "image": "https://m.media-amazon.com/images/I/41NJnxSuJfL.jpg"
+  },
+  {
+    "artist": "sombr",
+    "catalogId": "B09GT9KKB6",
+    "source": "https://music.amazon.com/artists/B09GT9KKB6/sombr",
+    "release": "I Barely Know Her",
+    "image": "https://m.media-amazon.com/images/I/51gjLyd5jwL.jpg"
+  },
+  {
+    "artist": "Sara Bareilles",
+    "catalogId": "B000QJWB2U",
+    "source": "https://music.amazon.com/artists/B000QJWB2U/sara-bareilles",
+    "release": "Good Grief",
+    "image": "https://m.media-amazon.com/images/I/41E-YQ-DEnL.jpg"
+  },
+  {
+    "artist": "Adele",
+    "catalogId": "B0014DEFTE",
+    "source": "https://music.amazon.com/artists/B0014DEFTE/adele",
+    "release": "30",
+    "image": "https://m.media-amazon.com/images/I/41A8AjtYgML.jpg"
+  },
+  {
+    "artist": "Leon Thomas",
+    "catalogId": "B000RHPCHW",
+    "source": "https://music.amazon.com/artists/B000RHPCHW/leon-thomas",
+    "release": "NO LIMIT (feat. Leon Thomas) [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/414Ph8krw9L.jpg"
+  },
+  {
+    "artist": "beabadoobee",
+    "catalogId": "B07765GM8M",
+    "source": "https://music.amazon.com/artists/B07765GM8M/beabadoobee",
+    "release": "Pylon [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/51SSmJHoGDL.jpg"
+  },
+  {
+    "artist": "Katy Perry",
+    "catalogId": "B000YBCXDC",
+    "source": "https://music.amazon.com/artists/B000YBCXDC/katy-perry",
+    "release": "Watch It Burn [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/411wKCnVytL.jpg"
+  },
+  {
+    "artist": "Florence + The Machine",
+    "catalogId": "B001NLWWUG",
+    "source": "https://music.amazon.com/artists/B001NLWWUG/florence-the-machine",
+    "release": "What Kind Of Man (Live From Dermot O’Leary’s Saturday Sessions / 2016)",
+    "image": "https://m.media-amazon.com/images/I/41vY4CLya%2BL.jpg"
+  },
+  {
+    "artist": "Stella lefty",
+    "catalogId": "B0BBXJTWQ7",
+    "source": "https://music.amazon.com/artists/B0BBXJTWQ7/stella-lefty",
+    "release": "Something To Lose (Live Acoustic)",
+    "image": "https://m.media-amazon.com/images/I/41aHdzfxOJL.jpg"
+  },
+  {
+    "artist": "Coldplay",
+    "catalogId": "B000QKGN8W",
+    "source": "https://music.amazon.com/artists/B000QKGN8W/coldplay",
+    "release": "ALL MY LOVE",
+    "image": "https://m.media-amazon.com/images/I/41ISR94ZrAL.jpg"
+  },
+  {
+    "artist": "Amelia Moore",
+    "catalogId": "B079T47Y6T",
+    "source": "https://music.amazon.com/artists/B079T47Y6T/amelia-moore",
+    "release": "prom queen [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/41GyAwzHjgL.jpg"
+  },
+  {
+    "artist": "MUNA",
+    "catalogId": "B001J9TI8G",
+    "source": "https://music.amazon.com/artists/B001J9TI8G/muna",
+    "release": "Dancing On The Wall [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/41DMZuDhrfL.jpg"
+  },
+  {
+    "artist": "Leith Ross",
+    "catalogId": "B07CTF28PX",
+    "source": "https://music.amazon.com/artists/B07CTF28PX/leith-ross",
+    "release": "I Can See The Future",
+    "image": "https://m.media-amazon.com/images/I/51Sp7INPn6L.jpg"
+  },
+  {
+    "artist": "Katie Pruitt",
+    "catalogId": "B079QJ7K25",
+    "source": "https://music.amazon.com/artists/B079QJ7K25/katie-pruitt",
+    "release": "Fools for the Fleeting [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/41StbQ0xa8L.jpg"
+  },
+  {
+    "artist": "Ally Salort",
+    "catalogId": "B08WWS9RB2",
+    "source": "https://music.amazon.com/artists/B08WWS9RB2/ally-salort",
+    "release": "Housekeeping",
+    "image": "https://m.media-amazon.com/images/I/51YXmlTMKAL.jpg"
+  },
+  {
+    "artist": "Jessie Murph",
+    "catalogId": "B08T18G3YD",
+    "source": "https://music.amazon.com/artists/B08T18G3YD/jessie-murph",
+    "release": "Sex Hysteria (Deluxe) [Explicit]",
+    "image": "https://m.media-amazon.com/images/I/31lRA%2BR9yyL.jpg"
+  }
+]

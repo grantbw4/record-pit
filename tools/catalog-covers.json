@@ -1,5 +1,11 @@
 [
   {
+    "artist": "Audrey Hobert",
+    "title": "Who's the Clown?",
+    "catalogId": "B0FHHYM8QK",
+    "image": "https://m.media-amazon.com/images/I/41NpU6hsWEL.jpg"
+  },
+  {
     "artist": "Ryan Beatty",
     "title": "Sweet Fortune",
     "catalogId": "B0H37L3R96",
@@ -272,5 +278,65 @@
     "title": "Mud",
     "catalogId": "B0HDWLHLL9",
     "image": "https://m.media-amazon.com/images/I/51G6ezCrXHL.jpg"
+  },
+  {
+    "artist": "Eddie Benjamin",
+    "title": "KISS ME",
+    "catalogId": "B0G625PY2R",
+    "image": "https://m.media-amazon.com/images/I/31yi7Mr8cWL.jpg"
+  },
+  {
+    "artist": "ella jane",
+    "title": "Marginalia (Deluxe)",
+    "catalogId": "B0FDWZ52CH",
+    "image": "https://m.media-amazon.com/images/I/51rXbDBRSIL.jpg"
+  },
+  {
+    "artist": "Ingrid Michaelson",
+    "title": "It Doesn't Have to Make Sense",
+    "catalogId": "B01HI9BW6Q",
+    "image": "https://m.media-amazon.com/images/I/51j95oOjJiL.jpg"
+  },
+  {
+    "artist": "Yana",
+    "title": "Happy",
+    "catalogId": "B0H5TJKTYQ",
+    "image": "https://m.media-amazon.com/images/I/517-sTKAp7L.jpg"
+  },
+  {
+    "artist": "Taylor Swift",
+    "title": "I Knew It, I Knew You (From \"Toy Story 5\")",
+    "catalogId": "B0H3M1J74G",
+    "image": "https://m.media-amazon.com/images/I/41rL5dtSUcL.jpg"
+  },
+  {
+    "artist": "Cassandra Coleman",
+    "title": "Bite My Tongue (From the Netflix Series \"Nobody Wants This\" Season 2)",
+    "catalogId": "B0FRWBQF1K",
+    "image": "https://m.media-amazon.com/images/I/41pduZ6cnSL.jpg"
+  },
+  {
+    "artist": "Ashley Kutcher",
+    "title": "Back To My Roots & These Roots Run Deep",
+    "catalogId": "B0G6L6SJHC",
+    "image": "https://m.media-amazon.com/images/I/513xu5qGotL.jpg"
+  },
+  {
+    "artist": "Halsey",
+    "title": "If I Can’t Have Love, I Want Power (Deluxe)",
+    "catalogId": "B0BCBR2TYW",
+    "image": "https://m.media-amazon.com/images/I/51ptOO9UQ5S.jpg"
+  },
+  {
+    "artist": "Reneé Rapp",
+    "title": "BITE ME",
+    "catalogId": "B0F8PH1R6S",
+    "image": "https://m.media-amazon.com/images/I/51KD28HEXkL.jpg"
+  },
+  {
+    "artist": "ADÉLA",
+    "title": "PRIMA",
+    "catalogId": "B0H9NQRML3",
+    "image": "https://m.media-amazon.com/images/I/41lw%2BuhIqdL.jpg"
   }
 ]

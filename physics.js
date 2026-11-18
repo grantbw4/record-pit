@@ -65,9 +65,6 @@ export class Pit {
       ball.vy = fall ? 95 : 0;
       const diameter = radius * 2;
       ball.node.style.setProperty('--diameter', diameter + 'px');
-      ball.node.style.setProperty('--label-size', diameter * .126 + 'px');
-      ball.node.dataset.label = diameter >= 66 ? 'both' : diameter >= 45 ? 'artist' : 'none';
-      if (!ball.item.artist && diameter >= 45) ball.node.dataset.label = 'both';
     }
 
     if (!fall) {

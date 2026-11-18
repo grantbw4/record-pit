@@ -16,6 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_COVERS = Path(__file__).with_name("catalog-covers.json")
+ARTIST_COVERS = Path(__file__).with_name("artist-covers.json")
 USER_AGENT = "RecordPit/1.0 (https://grantbradywilliams.com/projects)"
 MB_API = "https://musicbrainz.org/ws/2"
 CAA_API = "https://coverartarchive.org"
@@ -143,11 +144,12 @@ def collect_pairs(snapshot):
     for artist in views["artist"]:
         pairs = list(albums_by_artist.get(normalize(artist["title"]), []))
         if artist.get("album"):
-            pairs.append((artist.get("albumArtist") or artist["title"], artist["album"]))
+            pairs.insert(0, (artist.get("albumArtist") or artist["title"], artist["album"]))
         for pair in pairs:
             requests.setdefault(pair_key(*pair), pair)
-        if pairs:
-            cards[artist["id"]] = [pair_key(*pair) for pair in pairs]
+        cards[artist["id"]] = [pair_key(*pair) for pair in pairs]
+        if artist.get("catalogId"):
+            cards[artist["id"]].append(f"artist:{artist['catalogId']}")
     return requests, cards
 
 
@@ -183,6 +185,13 @@ def main():
             "source": entry.get("source") or f"https://music.amazon.com/albums/{entry['catalogId']}",
             "sourceName": entry.get("sourceName", "Amazon Music"),
         }
+    if ARTIST_COVERS.exists():
+        for entry in json.loads(ARTIST_COVERS.read_text(encoding="utf-8")):
+            cache[f"artist:{entry['catalogId']}"] = {
+                "url": entry["image"],
+                "source": entry["source"],
+                "sourceName": entry.get("sourceName", "Amazon Music"),
+            }
     pending = [(key, pair) for key, pair in requests.items() if key not in cache]
     pending = pending[:args.limit]
     print(f"Resolving {len(pending)} album covers for {len(cards)} cards", flush=True)

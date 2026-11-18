@@ -19,29 +19,92 @@
     "name": "petal",
     "artist": "Ariana Grande",
     "asin": "B0GYG8J4BF",
-    "source": "https://music.amazon.com/tracks/B0GYG2C5LN",
-    "trackAsins": ["B0GYG2C5LN"]
+    "source": "https://music.amazon.com/albums/B0GYG8J4BF",
+    "trackAsins": [
+      "B0GYG2C5LN",
+      "B0GYG3WCDX",
+      "B0GYG9KKJ2",
+      "B0GYG4SD77",
+      "B0GYGJZWYY",
+      "B0GYGDPMQD",
+      "B0GYG8X696",
+      "B0GYGBM1X7",
+      "B0GYGBRHV3",
+      "B0GYGBJSW5",
+      "B0GYG5JLMN",
+      "B0GYG62NLJ"
+    ]
   },
   {
     "name": "The Great Divide: The Last Of The Bugs",
     "artist": "Noah Kahan",
     "asin": "B0GXZFGCYK",
     "source": "https://music.amazon.com/albums/B0GXZFGCYK",
-    "trackAsins": ["B0GXZ23ZRJ", "B0GXZF4KFD"]
+    "trackAsins": [
+      "B0GXZ23ZRJ",
+      "B0GXZF4KFD",
+      "B0GXZJ7W1D",
+      "B0GXZBCWCQ",
+      "B0GXZFBP41",
+      "B0GXZRQVQ7",
+      "B0GXZBPKPZ",
+      "B0GXZPZSLS",
+      "B0GXZ958R3",
+      "B0GXZDYPHB",
+      "B0GXZ97YVX",
+      "B0GXZ9TY5H",
+      "B0GXZCLVX4",
+      "B0GXZ6NNY4",
+      "B0GXZ9G5C5",
+      "B0GXZD68VL",
+      "B0GXZ99N4L",
+      "B0GXZFZN81",
+      "B0GXZCGPKT",
+      "B0GXZPD125",
+      "B0GXZ7SV71"
+    ]
   },
   {
     "name": "Sweet Fortune",
     "artist": "Ryan Beatty",
     "asin": "B0H37L3R96",
     "source": "https://music.amazon.com/albums/B0H37L3R96",
-    "trackAsins": ["B0H379LLN4", "B0H37GD49W", "B0H37DL2WP"]
+    "trackAsins": [
+      "B0H379LLN4",
+      "B0H37GD49W",
+      "B0H37DL2WP",
+      "B0H37B8RDJ",
+      "B0H37L464F",
+      "B0H37DFJY7",
+      "B0H37CSHPF",
+      "B0H37H4QV2",
+      "B0H37CQ69B",
+      "B0H37HF2FS"
+    ]
   },
   {
     "name": "Daughter from Hell",
     "artist": "Gracie Abrams",
     "asin": "B0GZLVTY55",
     "source": "https://music.amazon.com/albums/B0GZLVTY55",
-    "trackAsins": ["B0GZLQR42W", "B0GZM4ZBMK"]
+    "trackAsins": [
+      "B0GZLQR42W",
+      "B0GZM4ZBMK",
+      "B0GZLR374B",
+      "B0GZLST24D",
+      "B0GZLWBL4F",
+      "B0GZLS5HQC",
+      "B0GZLS2L5P",
+      "B0GZLRJWH2",
+      "B0GZLKWW5Q",
+      "B0GZM1T7J6",
+      "B0GZM1V57F",
+      "B0GZLRDWKT",
+      "B0GZLRS3H4",
+      "B0GZLSN9QY",
+      "B0GZLQD7GL",
+      "B0GZLXNCJZ"
+    ]
   },
   {
     "name": "Mud",
@@ -60,6 +123,262 @@
       "B0HDWVT1RF",
       "B0HDWBY4WQ",
       "B0HDWJBL71"
+    ]
+  },
+  {
+    "name": "Kiss All The Time. Disco, Occasionally.",
+    "artist": "Harry Styles",
+    "asin": "B0GJ799VN4",
+    "source": "https://music.amazon.com/albums/B0GJ799VN4",
+    "trackAsins": [
+      "B0GJ6XNGY3",
+      "B0GJ6Z2Z4R",
+      "B0GJ6XL864",
+      "B0GJ6SYRRJ",
+      "B0GJ717JT8",
+      "B0GJ6TFHDT",
+      "B0GJ6V442H",
+      "B0GJ6QYR9L",
+      "B0GJ725R2T",
+      "B0GJ6Z8YWR",
+      "B0GJ73ND9W",
+      "B0GJ6WX2XP"
+    ]
+  },
+  {
+    "name": "Cruel World",
+    "artist": "Holly Humberstone",
+    "asin": "B0G5QG36FC",
+    "source": "https://music.amazon.com/albums/B0G5QG36FC",
+    "trackAsins": [
+      "B0G5PYLQ96",
+      "B0G5PYMH2H",
+      "B0G5Q6KZ1L"
+    ]
+  },
+  {
+    "name": "Homewrecker",
+    "artist": "sombr",
+    "asin": "B0GJJ2ZWV9",
+    "source": "https://music.amazon.com/albums/B0GJJ2ZWV9",
+    "trackAsins": [
+      "B0GJG662L9"
+    ]
+  },
+  {
+    "name": "Wishbone Deluxe",
+    "artist": "Conan Gray",
+    "asin": "B0GT67VF36",
+    "source": "https://music.amazon.com/albums/B0GT67VF36",
+    "trackAsins": [
+      "B0GT61J6SN",
+      "B0GT5W26PF",
+      "B0GT5SVYCG",
+      "B0GT5TRBSQ",
+      "B0GT5T9FP1",
+      "B0GT5QGMQN",
+      "B0GT63RSFK",
+      "B0GT5YQRHD",
+      "B0GT5VZ4SX",
+      "B0GT5W1DNQ",
+      "B0GT5Q22T3",
+      "B0GT61KFD7",
+      "B0GT5QBX49",
+      "B0GT5SZPF2",
+      "B0GT64WM6B",
+      "B0GT5XDVP9",
+      "B0GT5YMD4G"
+    ]
+  },
+  {
+    "name": "The Art of Loving",
+    "artist": "Olivia Dean",
+    "asin": "B0FBGQ9M9C",
+    "source": "https://music.amazon.com/albums/B0FBGQ9M9C",
+    "trackAsins": [
+      "B0FBGQGPVP",
+      "B0FBGSCCC6",
+      "B0FBGR4RC4",
+      "B0FBGPW5TC",
+      "B0FBGPJ4CQ",
+      "B0FBGQ7LDW",
+      "B0FBGNXX6R",
+      "B0FBGSC2V4",
+      "B0FBGS4RQD",
+      "B0FBGRKT3G",
+      "B0FBGQ9PH3",
+      "B0FBGRZTGN"
+    ]
+  },
+  {
+    "name": "Who's the Clown?",
+    "artist": "Audrey Hobert",
+    "asin": "B0FHHYM8QK",
+    "source": "https://music.amazon.com/albums/B0FHHYM8QK",
+    "trackAsins": [
+      "B0FHJ17MPW",
+      "B0FHHYJFSK",
+      "B0FHHZZX2Z",
+      "B0FHJ2KWMD",
+      "B0FHHZYRHV",
+      "B0FHJ5C7T6",
+      "B0FHHZQ6BP",
+      "B0FHHZ9TBK",
+      "B0FHJ2X6ZG",
+      "B0FHJ1DG1M",
+      "B0FHHZGTCR",
+      "B0FHHY8FVR"
+    ]
+  },
+  {
+    "name": "Mount Pleasant",
+    "artist": "Kelsea Ballerini",
+    "asin": "B0FYSG5SZV",
+    "source": "https://music.amazon.com/albums/B0FYSG5SZV",
+    "trackAsins": [
+      "B0FYSKPNN4",
+      "B0FYSKGJ14",
+      "B0FYSJ79N1",
+      "B0FYSDW2L1",
+      "B0FYSP3Q83",
+      "B0FYSGF887"
+    ]
+  },
+  {
+    "name": "Death in the Business of Whaling",
+    "artist": "Searows",
+    "asin": "B0FQWDXPNW",
+    "source": "https://music.amazon.com/albums/B0FQWDXPNW",
+    "trackAsins": [
+      "B0FQWW2GN2",
+      "B0FQWQLY9N",
+      "B0FQWCL6ZZ",
+      "B0FQW9F2DW",
+      "B0FQW4JTD7",
+      "B0FQWG3QD1",
+      "B0FQWHWR12",
+      "B0FQWVS6D8",
+      "B0FQWKR797"
+    ]
+  },
+  {
+    "name": "Guard Dog",
+    "artist": "Searows",
+    "asin": "B0DK7V99HD",
+    "source": "https://music.amazon.com/albums/B0DK7V99HD",
+    "trackAsins": [
+      "B0DK7YKVXJ",
+      "B0DK7WDWT7",
+      "B0DK7VVP45",
+      "B0DK7VV744",
+      "B0DK7VG59V",
+      "B0DK7TR6RK",
+      "B0DK7W9MDV",
+      "B0DK7WRW2L",
+      "B0DK7WD4Q3",
+      "B0DK7X9S42",
+      "B0DK7S9VKS",
+      "B0DK7X34GV",
+      "B0DK7W9JVC"
+    ]
+  },
+  {
+    "name": "Sleeping Lion",
+    "artist": "Lennon Stella",
+    "asin": "B0H9NMRJT3",
+    "source": "https://music.amazon.com/albums/B0H9NMRJT3",
+    "trackAsins": [
+      "B0H9NV1SF7",
+      "B0H9P8FCZX"
+    ]
+  },
+  {
+    "name": "locket",
+    "artist": "Madison Beer",
+    "asin": "B0FWVVQYQC",
+    "source": "https://music.amazon.com/albums/B0FWVVQYQC",
+    "trackAsins": [
+      "B0FWW2H6B1",
+      "B0FWVN4FKP",
+      "B0FWVXF1LQ",
+      "B0FWW3JKMG",
+      "B0FWVLB6F7",
+      "B0FWV8D6X6",
+      "B0FWVTN4YN",
+      "B0FWVM4JHR",
+      "B0FWW3GHHK",
+      "B0FWVQKCXK",
+      "B0FWVM5KLC"
+    ]
+  },
+  {
+    "name": "Angel",
+    "artist": "Lizzy McAlpine",
+    "asin": "B0H95F8L9Q",
+    "source": "https://music.amazon.com/albums/B0H95F8L9Q",
+    "trackAsins": [
+      "B0H95NSSC9",
+      "B0H959F7S5"
+    ]
+  },
+  {
+    "name": "Popstar",
+    "artist": "Tinashe",
+    "asin": "B0H8FMWC68",
+    "source": "https://music.amazon.com/albums/B0H8FMWC68",
+    "trackAsins": [
+      "B0H8FFQFDH",
+      "B0H8FDFR1Y",
+      "B0H8F748G7",
+      "B0H8FDW526",
+      "B0H8FHRR1F",
+      "B0H8FSGVMF",
+      "B0H8FNGR73",
+      "B0H8FFHLS2",
+      "B0H8F754ZL",
+      "B0H8FLRSDP",
+      "B0H8FD2RS2",
+      "B0H8FDXXMF",
+      "B0H8FKBF4G",
+      "B0H8FCLGF3",
+      "B0H8FC5H7Y",
+      "B0H8FDXXMD"
+    ]
+  },
+  {
+    "name": "End Of The World",
+    "artist": "Searows",
+    "asin": "B0CJH6BB39",
+    "source": "https://music.amazon.com/albums/B0CJH6BB39",
+    "trackAsins": [
+      "B0CJH2J8QK",
+      "B0CJH8H164",
+      "B0CJHC3FHL",
+      "B0CJH6C674",
+      "B0CJHGK3NZ",
+      "B0CJH3RFVR"
+    ]
+  },
+  {
+    "name": "It’s Not That Deep (Little Bit Extra Version)",
+    "artist": "Demi Lovato",
+    "asin": "B0G32WG492",
+    "source": "https://music.amazon.com/albums/B0G32WG492",
+    "trackAsins": [
+      "B0G32T67PD",
+      "B0G32WLFQP",
+      "B0G32T559Y",
+      "B0G32T6LNG",
+      "B0G32T6HMG",
+      "B0G331KSJP",
+      "B0G32WQ6C1",
+      "B0G32F7CNM",
+      "B0G32T8HC1",
+      "B0G32HJTH6",
+      "B0G32LHV13",
+      "B0G32HGDNN",
+      "B0G32LRQ2Z",
+      "B0G32WLJQR"
     ]
   }
 ]

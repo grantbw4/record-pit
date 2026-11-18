@@ -4,11 +4,11 @@ export const snapshot = {
   "endDate": "2026-11-16",
   "totalEvents": 91024,
   "coverage": {
-    "album": 0.60063,
-    "song": 0.88605,
+    "album": 0.64497,
+    "song": 0.63809,
     "artist": 0.8862
   },
-  "inferredAlbumShare": 0.05109,
+  "inferredAlbumShare": 0.04627,
   "views": {
     "album": [
       {
@@ -24,8 +24,8 @@ export const snapshot = {
         "id": "album-f48973061a572f9332",
         "title": "Sweet Fortune",
         "artist": "Ryan Beatty",
-        "seconds": 180432.0,
-        "events": 1483,
+        "seconds": 196023.0,
+        "events": 1599,
         "catalogId": "B0H37L3R96",
         "topTrack": "Secret Language"
       },
@@ -39,13 +39,40 @@ export const snapshot = {
         "topTrack": "Ugly things"
       },
       {
+        "id": "album-28d94843260f6b2ee5",
+        "title": "The Great Divide: The Last Of The Bugs",
+        "artist": "Noah Kahan",
+        "seconds": 140129.0,
+        "events": 857,
+        "catalogId": "B0GXZFGCYK",
+        "topTrack": "Orbiter"
+      },
+      {
+        "id": "album-d7a19355030bbce8d1",
+        "title": "Daughter from Hell",
+        "artist": "Gracie Abrams",
+        "seconds": 137609.0,
+        "events": 1300,
+        "catalogId": "B0GZLVTY55",
+        "topTrack": "Daughter from Hell"
+      },
+      {
         "id": "album-cbb558a2404cfb0075",
         "title": "The Great Divide",
         "artist": "Noah Kahan",
-        "seconds": 125379.0,
-        "events": 707,
+        "seconds": 118076.0,
+        "events": 653,
         "catalogId": "B0GJTSV9HS",
         "topTrack": "The Great Divide"
+      },
+      {
+        "id": "album-3d93c79196cabfaa15",
+        "title": "The Art of Loving",
+        "artist": "Olivia Dean",
+        "seconds": 114100.0,
+        "events": 937,
+        "catalogId": "B0FBGQ9M9C",
+        "topTrack": "Let Alone The One You Love"
       },
       {
         "id": "album-a5cf679d3e7ae147ee",
@@ -57,13 +84,13 @@ export const snapshot = {
         "topTrack": "Champagne"
       },
       {
-        "id": "album-d7a19355030bbce8d1",
-        "title": "Daughter from Hell",
-        "artist": "Gracie Abrams",
-        "seconds": 110843.0,
-        "events": 1027,
-        "catalogId": "B0GZLVTY55",
-        "topTrack": "Daughter from Hell"
+        "id": "album-4fd97aa016c4ef0197",
+        "title": "petal",
+        "artist": "Ariana Grande",
+        "seconds": 108708.0,
+        "events": 996,
+        "catalogId": "B0GYG8J4BF",
+        "topTrack": "kiss me"
       },
       {
         "id": "album-cb39c4ef3721ab8b34",
@@ -75,13 +102,13 @@ export const snapshot = {
         "topTrack": "White Teeth"
       },
       {
-        "id": "album-3d93c79196cabfaa15",
-        "title": "The Art of Loving",
-        "artist": "Olivia Dean",
-        "seconds": 93327.0,
-        "events": 736,
-        "catalogId": "B0FBGQ9M9C",
-        "topTrack": "Let Alone The One You Love"
+        "id": "album-6a1e3fa040471c5bc8",
+        "title": "Wishbone Deluxe",
+        "artist": "Conan Gray",
+        "seconds": 94858.0,
+        "events": 712,
+        "catalogId": "B0GT67VF36",
+        "topTrack": "My World"
       },
       {
         "id": "album-7a9eb198a3706eac4a",
@@ -93,15 +120,6 @@ export const snapshot = {
         "topTrack": "Loneliest Girl"
       },
       {
-        "id": "album-28d94843260f6b2ee5",
-        "title": "The Great Divide: The Last Of The Bugs",
-        "artist": "Noah Kahan",
-        "seconds": 77909.0,
-        "events": 439,
-        "catalogId": "B0GXZFGCYK",
-        "topTrack": "Orbiter"
-      },
-      {
         "id": "album-c30f9f053d20793327",
         "title": "Older (and Wiser)",
         "artist": "Lizzy McAlpine",
@@ -111,13 +129,31 @@ export const snapshot = {
         "topTrack": "Pushing It Down and Praying (Live from AFAS, Amsterdam)"
       },
       {
-        "id": "album-4fd97aa016c4ef0197",
-        "title": "petal",
-        "artist": "Ariana Grande",
-        "seconds": 64982.0,
-        "events": 564,
-        "catalogId": "B0GYG8J4BF",
-        "topTrack": "kiss me"
+        "id": "album-7b3c87989a5ebffc53",
+        "title": "Kiss All The Time. Disco, Occasionally.",
+        "artist": "Harry Styles",
+        "seconds": 71257.0,
+        "events": 535,
+        "catalogId": "B0GJ799VN4",
+        "topTrack": "Season 2 Weight Loss"
+      },
+      {
+        "id": "album-83942fcee8aa8eab16",
+        "title": "Popstar",
+        "artist": "Tinashe",
+        "seconds": 65615.0,
+        "events": 752,
+        "catalogId": "B0H8FMWC68",
+        "topTrack": "Crash Out"
+      },
+      {
+        "id": "album-fb87ce11a8482fc0d6",
+        "title": "It’s Not That Deep (Little Bit Extra Version)",
+        "artist": "Demi Lovato",
+        "seconds": 56963.0,
+        "events": 431,
+        "catalogId": "B0G32WG492",
+        "topTrack": "Joshua Tree"
       },
       {
         "id": "album-92a00313138bdbee15",
@@ -129,13 +165,31 @@ export const snapshot = {
         "topTrack": "Kill Me"
       },
       {
-        "id": "album-6a1e3fa040471c5bc8",
-        "title": "Wishbone Deluxe",
-        "artist": "Conan Gray",
-        "seconds": 56303.0,
-        "events": 428,
-        "catalogId": "B0GT67VF36",
-        "topTrack": "My World"
+        "id": "album-ede2586e810c3e95fc",
+        "title": "locket",
+        "artist": "Madison Beer",
+        "seconds": 55836.0,
+        "events": 442,
+        "catalogId": "B0FWVVQYQC",
+        "topTrack": "you're still everything"
+      },
+      {
+        "id": "album-2d3eaf4efebdc6b604",
+        "title": "Cruel World",
+        "artist": "Holly Humberstone",
+        "seconds": 55351.0,
+        "events": 398,
+        "catalogId": "B0G5QG36FC",
+        "topTrack": "Red Chevy"
+      },
+      {
+        "id": "album-9cade6a10a31693191",
+        "title": "Death in the Business of Whaling",
+        "artist": "Searows",
+        "seconds": 54627.0,
+        "events": 314,
+        "catalogId": "B0FQWDXPNW",
+        "topTrack": "Dirt"
       },
       {
         "id": "album-c91312a28c7d46bccb",
@@ -156,13 +210,13 @@ export const snapshot = {
         "topTrack": "peace"
       },
       {
-        "id": "album-d3324b508eff7505e3",
-        "title": "The Great Divide (Amazon Music Track by Track)",
-        "artist": "Noah Kahan",
-        "seconds": 51695.0,
-        "events": 331,
-        "catalogId": "B0GY9DSVVC",
-        "topTrack": "Dan"
+        "id": "album-ce749900271f313de7",
+        "title": "End Of The World",
+        "artist": "Searows",
+        "seconds": 50005.0,
+        "events": 239,
+        "catalogId": "B0CJH6BB39",
+        "topTrack": "End Of The World"
       },
       {
         "id": "album-2f0d46ea073bf67fed",
@@ -192,6 +246,42 @@ export const snapshot = {
         "topTrack": "Your Place At My Place"
       },
       {
+        "id": "album-5d66ade348a1c3484b",
+        "title": "Mount Pleasant",
+        "artist": "Kelsea Ballerini",
+        "seconds": 46920.0,
+        "events": 406,
+        "catalogId": "B0FYSG5SZV",
+        "topTrack": "Check On Your Friends"
+      },
+      {
+        "id": "album-180cc542231a28c10e",
+        "title": "Who's the Clown?",
+        "artist": "Audrey Hobert",
+        "seconds": 43599.0,
+        "events": 433,
+        "catalogId": "B0FHHYM8QK",
+        "topTrack": "Drive"
+      },
+      {
+        "id": "album-d3324b508eff7505e3",
+        "title": "The Great Divide (Amazon Music Track by Track)",
+        "artist": "Noah Kahan",
+        "seconds": 41861.0,
+        "events": 264,
+        "catalogId": "B0GY9DSVVC",
+        "topTrack": "Dan"
+      },
+      {
+        "id": "album-6f5f7cced3ddf9adf1",
+        "title": "Sleeping Lion",
+        "artist": "Lennon Stella",
+        "seconds": 41258.0,
+        "events": 345,
+        "catalogId": "B0H9NMRJT3",
+        "topTrack": "Comedy Show"
+      },
+      {
         "id": "album-207ee0a406813c6aae",
         "title": "Punisher",
         "artist": "Phoebe Bridgers",
@@ -201,24 +291,6 @@ export const snapshot = {
         "topTrack": "Moon Song"
       },
       {
-        "id": "album-2d3eaf4efebdc6b604",
-        "title": "Cruel World",
-        "artist": "Holly Humberstone",
-        "seconds": 32964.0,
-        "events": 256,
-        "catalogId": "B0G5QG36FC",
-        "topTrack": "Red Chevy"
-      },
-      {
-        "id": "album-6f5f7cced3ddf9adf1",
-        "title": "Sleeping Lion",
-        "artist": "Lennon Stella",
-        "seconds": 32407.0,
-        "events": 266,
-        "catalogId": "B0H9NMRJT3",
-        "topTrack": "Comedy Show"
-      },
-      {
         "id": "album-2593da702a6645418d",
         "title": "Boy in Jeans",
         "artist": "Ryan Beatty",
@@ -226,15 +298,6 @@ export const snapshot = {
         "events": 257,
         "catalogId": "B07FY14KNC",
         "topTrack": "Camo"
-      },
-      {
-        "id": "album-7b3c87989a5ebffc53",
-        "title": "Kiss All The Time. Disco, Occasionally.",
-        "artist": "Harry Styles",
-        "seconds": 32211.0,
-        "events": 232,
-        "catalogId": "B0GJ799VN4",
-        "topTrack": "Season 2 Weight Loss"
       },
       {
         "id": "album-bd11787efb96e920e5",
@@ -253,6 +316,15 @@ export const snapshot = {
         "events": 186,
         "catalogId": "B0C6WT8Z62",
         "topTrack": "Orange Juice"
+      },
+      {
+        "id": "album-2c7949b5da73554cd0",
+        "title": "Guard Dog",
+        "artist": "Searows",
+        "seconds": 29322.0,
+        "events": 147,
+        "catalogId": "B0DK7V99HD",
+        "topTrack": "Used To Be Friends"
       },
       {
         "id": "album-eb99b81199673fdff4",
@@ -298,24 +370,6 @@ export const snapshot = {
         "events": 260,
         "catalogId": "B0HJ1QDYL6",
         "topTrack": "Delusional optimism"
-      },
-      {
-        "id": "album-ce749900271f313de7",
-        "title": "End Of The World",
-        "artist": "Searows",
-        "seconds": 26615.0,
-        "events": 150,
-        "catalogId": "B0CJH6BB39",
-        "topTrack": "End Of The World"
-      },
-      {
-        "id": "album-9cade6a10a31693191",
-        "title": "Death in the Business of Whaling",
-        "artist": "Searows",
-        "seconds": 25843.0,
-        "events": 140,
-        "catalogId": "B0FQWDXPNW",
-        "topTrack": "Dirt"
       },
       {
         "id": "album-b90ad954062498bc4e",
@@ -408,15 +462,6 @@ export const snapshot = {
         "topTrack": "Self Control"
       },
       {
-        "id": "album-5d66ade348a1c3484b",
-        "title": "Mount Pleasant",
-        "artist": "Kelsea Ballerini",
-        "seconds": 23939.0,
-        "events": 212,
-        "catalogId": "B0FYSG5SZV",
-        "topTrack": "Check On Your Friends"
-      },
-      {
         "id": "album-37ee637003da477174",
         "title": "KISS ME",
         "artist": "Eddie Benjamin",
@@ -480,15 +525,6 @@ export const snapshot = {
         "topTrack": "No Sleep"
       },
       {
-        "id": "album-ede2586e810c3e95fc",
-        "title": "locket",
-        "artist": "Madison Beer",
-        "seconds": 21686.0,
-        "events": 158,
-        "catalogId": "B0FWVVQYQC",
-        "topTrack": "you're still everything"
-      },
-      {
         "id": "album-46b686b9d560f5d062",
         "title": "Mr. Peaked In High School",
         "artist": "Bea Miller",
@@ -514,15 +550,6 @@ export const snapshot = {
         "events": 150,
         "catalogId": "B0FDWZ52CH",
         "topTrack": "Crash Cart"
-      },
-      {
-        "id": "album-83942fcee8aa8eab16",
-        "title": "Popstar",
-        "artist": "Tinashe",
-        "seconds": 20769.0,
-        "events": 227,
-        "catalogId": "B0H8FMWC68",
-        "topTrack": "Crash Out"
       },
       {
         "id": "album-2268b23731bc102cf2",
@@ -651,15 +678,6 @@ export const snapshot = {
         "topTrack": "Good Ol' Days"
       },
       {
-        "id": "album-4b35077e5dab95ec45",
-        "title": "Older",
-        "artist": "Searows",
-        "seconds": 17573.0,
-        "events": 88,
-        "catalogId": "B0C9N29J56",
-        "topTrack": "Older"
-      },
-      {
         "id": "album-2d1a13d5d625184ebe",
         "title": "Weird Faith (Deluxe)",
         "artist": "Madi Diaz",
@@ -784,24 +802,6 @@ export const snapshot = {
         "events": 110,
         "catalogId": "B0B655F5BL",
         "topTrack": "MUSCLE MEMORY"
-      },
-      {
-        "id": "album-fb87ce11a8482fc0d6",
-        "title": "It’s Not That Deep (Little Bit Extra Version)",
-        "artist": "Demi Lovato",
-        "seconds": 15293.0,
-        "events": 116,
-        "catalogId": "B0G32WG492",
-        "topTrack": "Joshua Tree"
-      },
-      {
-        "id": "album-6945e2e5efff992596",
-        "title": "Die Happy",
-        "artist": "Holly Humberstone",
-        "seconds": 15239.0,
-        "events": 100,
-        "catalogId": "B0FXLVQWJK",
-        "topTrack": "Die Happy"
       },
       {
         "id": "album-bed168400c661f41d7",
@@ -958,17 +958,6 @@ export const snapshot = {
         "albumCatalogId": "B0H95F8L9Q"
       },
       {
-        "id": "song-b824555e11e8e58980",
-        "title": "End of August",
-        "artist": "Noah Kahan",
-        "seconds": 45384.0,
-        "events": 231,
-        "catalogId": "B0GJV22R9D",
-        "album": "The Great Divide",
-        "albumArtist": "Noah Kahan",
-        "albumCatalogId": "B0GJTSV9HS"
-      },
-      {
         "id": "song-bd6a3eec7ef30c6430",
         "title": "Orbiter",
         "artist": "Noah Kahan",
@@ -989,6 +978,17 @@ export const snapshot = {
         "album": "you seem pretty sad for a girl so in love",
         "albumArtist": "Olivia Rodrigo",
         "albumCatalogId": "B0GVN6XSJC"
+      },
+      {
+        "id": "song-b824555e11e8e58980",
+        "title": "End of August",
+        "artist": "Noah Kahan",
+        "seconds": 44418.0,
+        "events": 225,
+        "catalogId": "B0GJV22R9D",
+        "album": "The Great Divide",
+        "albumArtist": "Noah Kahan",
+        "albumCatalogId": "B0GJTSV9HS"
       },
       {
         "id": "song-570a95f93d7fa1e3a9",
@@ -1060,8 +1060,8 @@ export const snapshot = {
         "id": "song-87c758d5b356567d27",
         "title": "Orange Juice",
         "artist": "Noah Kahan",
-        "seconds": 36004.0,
-        "events": 210,
+        "seconds": 32380.0,
+        "events": 192,
         "catalogId": "B0C6X233T9",
         "album": "Stick Season (We'll All Be Here Forever)",
         "albumArtist": "Noah Kahan",
@@ -1071,8 +1071,8 @@ export const snapshot = {
         "id": "song-55ad08d0e998947ad9",
         "title": "All Them Horses",
         "artist": "Noah Kahan",
-        "seconds": 31430.0,
-        "events": 148,
+        "seconds": 31116.0,
+        "events": 146,
         "catalogId": "B0GJTMQVL6",
         "album": "The Great Divide",
         "albumArtist": "Noah Kahan",
@@ -1101,17 +1101,6 @@ export const snapshot = {
         "albumCatalogId": "B0HDWLHLL9"
       },
       {
-        "id": "song-34d538677aed61a8dc",
-        "title": "maggots for brains",
-        "artist": "Olivia Rodrigo",
-        "seconds": 29262.0,
-        "events": 266,
-        "catalogId": "B0GVN4X6H2",
-        "album": "you seem pretty sad for a girl so in love",
-        "albumArtist": "Olivia Rodrigo",
-        "albumCatalogId": "B0GVN6XSJC"
-      },
-      {
         "id": "song-e998de51bb781daa23",
         "title": "kiss me",
         "artist": "Ariana Grande",
@@ -1121,6 +1110,17 @@ export const snapshot = {
         "album": "petal",
         "albumArtist": "Ariana Grande",
         "albumCatalogId": "B0GYG8J4BF"
+      },
+      {
+        "id": "song-34d538677aed61a8dc",
+        "title": "maggots for brains",
+        "artist": "Olivia Rodrigo",
+        "seconds": 27141.0,
+        "events": 231,
+        "catalogId": "B0GVN4X6H2",
+        "album": "you seem pretty sad for a girl so in love",
+        "albumArtist": "Olivia Rodrigo",
+        "albumCatalogId": "B0GVN6XSJC"
       },
       {
         "id": "song-27607c58a640d57f5a",
@@ -1211,17 +1211,6 @@ export const snapshot = {
         "albumCatalogId": "B0FBGQ9M9C"
       },
       {
-        "id": "song-2f0114905fd7172f4c",
-        "title": "cigarette smoke",
-        "artist": "Olivia Rodrigo",
-        "seconds": 20996.0,
-        "events": 149,
-        "catalogId": "B0GVMQ69CT",
-        "album": "you seem pretty sad for a girl so in love",
-        "albumArtist": "Olivia Rodrigo",
-        "albumCatalogId": "B0GVN6XSJC"
-      },
-      {
         "id": "song-fdb8707f8ec2e5e1e7",
         "title": "Handsome",
         "artist": "Rex Orange County",
@@ -1247,8 +1236,8 @@ export const snapshot = {
         "id": "song-c4952ce8c4837c33cf",
         "title": "u + me = <3",
         "artist": "Olivia Rodrigo",
-        "seconds": 20727.0,
-        "events": 167,
+        "seconds": 20329.0,
+        "events": 158,
         "catalogId": "B0GVMQD5YH",
         "album": "you seem pretty sad for a girl so in love",
         "albumArtist": "Olivia Rodrigo",
@@ -1266,12 +1255,12 @@ export const snapshot = {
         "albumCatalogId": "B0CHMM179H"
       },
       {
-        "id": "song-fb4c980d749aff472e",
-        "title": "honeybee",
+        "id": "song-2f0114905fd7172f4c",
+        "title": "cigarette smoke",
         "artist": "Olivia Rodrigo",
-        "seconds": 19803.0,
-        "events": 184,
-        "catalogId": "B0GVMRVNNN",
+        "seconds": 19671.0,
+        "events": 135,
+        "catalogId": "B0GVMQ69CT",
         "album": "you seem pretty sad for a girl so in love",
         "albumArtist": "Olivia Rodrigo",
         "albumCatalogId": "B0GVN6XSJC"
@@ -1297,6 +1286,17 @@ export const snapshot = {
         "album": "The Great Divide (Amazon Music Track by Track)",
         "albumArtist": "Noah Kahan",
         "albumCatalogId": "B0GY9DSVVC"
+      },
+      {
+        "id": "song-fb4c980d749aff472e",
+        "title": "honeybee",
+        "artist": "Olivia Rodrigo",
+        "seconds": 18760.0,
+        "events": 161,
+        "catalogId": "B0GVMRVNNN",
+        "album": "you seem pretty sad for a girl so in love",
+        "albumArtist": "Olivia Rodrigo",
+        "albumCatalogId": "B0GVN6XSJC"
       },
       {
         "id": "song-8cb919667f53bbee18",
@@ -1354,17 +1354,6 @@ export const snapshot = {
         "albumCatalogId": "B0C9N29J56"
       },
       {
-        "id": "song-f80dbd8ff5c82b6c8f",
-        "title": "hate that i made you love me",
-        "artist": "Ariana Grande",
-        "seconds": 17252.0,
-        "events": 162,
-        "catalogId": "B0GYG2C5LN",
-        "album": "petal",
-        "albumArtist": "Ariana Grande",
-        "albumCatalogId": "B0GYG8J4BF"
-      },
-      {
         "id": "song-061d55c98dc60801bf",
         "title": "born to lose",
         "artist": "Bea Miller",
@@ -1407,17 +1396,6 @@ export const snapshot = {
         "album": "Haunt Me",
         "albumArtist": "Yana",
         "albumCatalogId": "B0DHX8PDB1"
-      },
-      {
-        "id": "song-0a9cc04a5de07cb3ba",
-        "title": "peace",
-        "artist": "Taylor Swift",
-        "seconds": 16483.0,
-        "events": 105,
-        "catalogId": "B08G4DL7XY",
-        "album": "folklore (deluxe version)",
-        "albumArtist": "Taylor Swift",
-        "albumCatalogId": "B08G4D3HW8"
       },
       {
         "id": "song-5add6cbd053206f81b",
@@ -1772,6 +1750,17 @@ export const snapshot = {
         "albumCatalogId": "B0H37L3R96"
       },
       {
+        "id": "song-f80dbd8ff5c82b6c8f",
+        "title": "hate that i made you love me",
+        "artist": "Ariana Grande",
+        "seconds": 13762.0,
+        "events": 129,
+        "catalogId": "B0GYG2C5LN",
+        "album": "petal",
+        "albumArtist": "Ariana Grande",
+        "albumCatalogId": "B0GYG8J4BF"
+      },
+      {
         "id": "song-29380a44c3b8b64929",
         "title": "Check On Your Friends",
         "artist": "Kelsea Ballerini",
@@ -1792,6 +1781,17 @@ export const snapshot = {
         "album": "It’s Not That Deep",
         "albumArtist": "Demi Lovato",
         "albumCatalogId": "B0FQWJ5G3T"
+      },
+      {
+        "id": "song-0a9cc04a5de07cb3ba",
+        "title": "peace",
+        "artist": "Taylor Swift",
+        "seconds": 13679.0,
+        "events": 92,
+        "catalogId": "B08G4DL7XY",
+        "album": "folklore (deluxe version)",
+        "albumArtist": "Taylor Swift",
+        "albumCatalogId": "B08G4D3HW8"
       },
       {
         "id": "song-cdca0a972e98ef1619",
@@ -1959,17 +1959,6 @@ export const snapshot = {
         "albumCatalogId": "B0FBGQ9M9C"
       },
       {
-        "id": "song-3851bbbebfdcea03f3",
-        "title": "expectations",
-        "artist": "Olivia Rodrigo",
-        "seconds": 12594.0,
-        "events": 106,
-        "catalogId": "B0GVMSWZ9H",
-        "album": "you seem pretty sad for a girl so in love",
-        "albumArtist": "Olivia Rodrigo",
-        "albumCatalogId": "B0GVN6XSJC"
-      },
-      {
         "id": "song-2e5abbaa23bc1fd5f8",
         "title": "Christmas Lights",
         "artist": "Coldplay",
@@ -2012,6 +2001,17 @@ export const snapshot = {
         "album": "Calico",
         "albumArtist": "Ryan Beatty",
         "albumCatalogId": "B0BXZDPKK7"
+      },
+      {
+        "id": "song-86bb3afc091c2801bb",
+        "title": "Hit the Wall",
+        "artist": "Gracie Abrams",
+        "seconds": 12321.0,
+        "events": 127,
+        "catalogId": "B0GZLQR42W",
+        "album": "Daughter from Hell",
+        "albumArtist": "Gracie Abrams",
+        "albumCatalogId": "B0GZLVTY55"
       }
     ],
     "artist": [
@@ -2022,7 +2022,10 @@ export const snapshot = {
         "seconds": 479150.0,
         "events": 3977,
         "catalogId": "B06WP75FR9",
-        "topTrack": "the cure"
+        "topTrack": "the cure",
+        "album": "you seem pretty sad for a girl so in love",
+        "albumArtist": "Olivia Rodrigo",
+        "albumCatalogId": "B0GVN6XSJC"
       },
       {
         "id": "artist-c9643f4a87a9033be2",
@@ -2031,7 +2034,10 @@ export const snapshot = {
         "seconds": 415049.0,
         "events": 2527,
         "catalogId": "B002MN0QS4",
-        "topTrack": "The Great Divide"
+        "topTrack": "The Great Divide",
+        "album": "The Great Divide: The Last Of The Bugs",
+        "albumArtist": "Noah Kahan",
+        "albumCatalogId": "B0GXZFGCYK"
       },
       {
         "id": "artist-76a4aab7930646efc6",
@@ -2040,7 +2046,10 @@ export const snapshot = {
         "seconds": 396025.0,
         "events": 3003,
         "catalogId": "B006E65HPC",
-        "topTrack": "Secret Language"
+        "topTrack": "Secret Language",
+        "album": "Sweet Fortune",
+        "albumArtist": "Ryan Beatty",
+        "albumCatalogId": "B0H37L3R96"
       },
       {
         "id": "artist-815dcd73136aaa726d",
@@ -2049,7 +2058,10 @@ export const snapshot = {
         "seconds": 370573.0,
         "events": 2590,
         "catalogId": "B079WQGXTD",
-        "topTrack": "Ugly things"
+        "topTrack": "Ugly things",
+        "album": "Angel",
+        "albumArtist": "Lizzy McAlpine",
+        "albumCatalogId": "B0H95F8L9Q"
       },
       {
         "id": "artist-af6e8344f12be14dea",
@@ -2058,7 +2070,10 @@ export const snapshot = {
         "seconds": 245198.0,
         "events": 2212,
         "catalogId": "B004IUAQ9S",
-        "topTrack": "kiss me"
+        "topTrack": "kiss me",
+        "album": "petal",
+        "albumArtist": "Ariana Grande",
+        "albumCatalogId": "B0GYG8J4BF"
       },
       {
         "id": "artist-70f1376646818488f0",
@@ -2067,7 +2082,9 @@ export const snapshot = {
         "seconds": 242703.0,
         "events": 1737,
         "catalogId": "B00157GJ20",
-        "topTrack": "peace"
+        "topTrack": "peace",
+        "album": "folklore (deluxe version)",
+        "albumArtist": "Taylor Swift"
       },
       {
         "id": "artist-a6de5aef77a3e95e04",
@@ -2076,7 +2093,10 @@ export const snapshot = {
         "seconds": 192340.0,
         "events": 1758,
         "catalogId": "B07Z7CFHDP",
-        "topTrack": "Daughter from Hell"
+        "topTrack": "Daughter from Hell",
+        "album": "Daughter from Hell",
+        "albumArtist": "Gracie Abrams",
+        "albumCatalogId": "B0GZLVTY55"
       },
       {
         "id": "artist-0100ca8c75d57395dd",
@@ -2085,7 +2105,10 @@ export const snapshot = {
         "seconds": 185145.0,
         "events": 1005,
         "catalogId": "B09R857LX8",
-        "topTrack": "End Of The World"
+        "topTrack": "End Of The World",
+        "album": "Death in the Business of Whaling",
+        "albumArtist": "Searows",
+        "albumCatalogId": "B0FQWDXPNW"
       },
       {
         "id": "artist-07a5ffb5e467d082ea",
@@ -2094,7 +2117,10 @@ export const snapshot = {
         "seconds": 174680.0,
         "events": 1365,
         "catalogId": "B07YZGKRYF",
-        "topTrack": "Let Alone The One You Love"
+        "topTrack": "Let Alone The One You Love",
+        "album": "The Art of Loving",
+        "albumArtist": "Olivia Dean",
+        "albumCatalogId": "B0FBGQ9M9C"
       },
       {
         "id": "artist-37dee663b16584b3b0",
@@ -2103,7 +2129,10 @@ export const snapshot = {
         "seconds": 147633.0,
         "events": 1044,
         "catalogId": "B083ZNTTVG",
-        "topTrack": "Die Happy"
+        "topTrack": "Die Happy",
+        "album": "Cruel World",
+        "albumArtist": "Holly Humberstone",
+        "albumCatalogId": "B0G5QG36FC"
       },
       {
         "id": "artist-7c698971b609bac1f5",
@@ -2112,7 +2141,10 @@ export const snapshot = {
         "seconds": 140290.0,
         "events": 941,
         "catalogId": "B00F0VVKAS",
-        "topTrack": "Kill Me"
+        "topTrack": "Kill Me",
+        "album": "Lost Weekend",
+        "albumArtist": "Phoebe Bridgers",
+        "albumCatalogId": "B0HDQ4VQJZ"
       },
       {
         "id": "artist-7caf2368b2b70b5d24",
@@ -2121,7 +2153,10 @@ export const snapshot = {
         "seconds": 137252.0,
         "events": 1054,
         "catalogId": "B0751R28N8",
-        "topTrack": "My World"
+        "topTrack": "My World",
+        "album": "Wishbone Deluxe",
+        "albumArtist": "Conan Gray",
+        "albumCatalogId": "B0GT67VF36"
       },
       {
         "id": "artist-bfbdcdc62e694876c5",
@@ -2130,7 +2165,10 @@ export const snapshot = {
         "seconds": 130514.0,
         "events": 965,
         "catalogId": "B07BKSTWX5",
-        "topTrack": "Champagne"
+        "topTrack": "Champagne",
+        "album": "Mud",
+        "albumArtist": "Remi Wolf",
+        "albumCatalogId": "B0HDWLHLL9"
       },
       {
         "id": "artist-bc29132985a6d363b3",
@@ -2139,7 +2177,10 @@ export const snapshot = {
         "seconds": 129602.0,
         "events": 947,
         "catalogId": "B00129IAEQ",
-        "topTrack": "Loneliest Girl"
+        "topTrack": "Loneliest Girl",
+        "album": "Middle of Nowhere",
+        "albumArtist": "Kacey Musgraves",
+        "albumCatalogId": "B0GS5HJYL1"
       },
       {
         "id": "artist-d9c34f61db34cb6f97",
@@ -2148,7 +2189,10 @@ export const snapshot = {
         "seconds": 125942.0,
         "events": 868,
         "catalogId": "B0CWKVMPJJ",
-        "topTrack": "Haunt Me"
+        "topTrack": "Haunt Me",
+        "album": "Feelings Are Forever",
+        "albumArtist": "Yana",
+        "albumCatalogId": "B0H8C6T63Q"
       },
       {
         "id": "artist-a41486f19a219c3230",
@@ -2157,7 +2201,10 @@ export const snapshot = {
         "seconds": 115886.0,
         "events": 967,
         "catalogId": "B013SZLEDK",
-        "topTrack": "Dancing With Your Ghost"
+        "topTrack": "Dancing With Your Ghost",
+        "album": "Self Portrait",
+        "albumArtist": "Sasha Alex Sloan",
+        "albumCatalogId": "B07YZQL1TD"
       },
       {
         "id": "artist-cabca7d74af6c9a6b1",
@@ -2166,7 +2213,10 @@ export const snapshot = {
         "seconds": 114305.0,
         "events": 839,
         "catalogId": "B006021BK0",
-        "topTrack": "Little Freak"
+        "topTrack": "Little Freak",
+        "album": "Kiss All The Time. Disco, Occasionally.",
+        "albumArtist": "Harry Styles",
+        "albumCatalogId": "B0GJ799VN4"
       },
       {
         "id": "artist-90ee0df94e04b20b50",
@@ -2175,7 +2225,10 @@ export const snapshot = {
         "seconds": 106340.0,
         "events": 761,
         "catalogId": "B0013EROEM",
-        "topTrack": "holy smoke"
+        "topTrack": "holy smoke",
+        "album": "D R E A M S I C L E",
+        "albumArtist": "Maren Morris",
+        "albumCatalogId": "B0F1GY9DC2"
       },
       {
         "id": "artist-94cd28f3edc04e8c44",
@@ -2184,7 +2237,10 @@ export const snapshot = {
         "seconds": 97613.0,
         "events": 758,
         "catalogId": "B0749NHVD8",
-        "topTrack": "Questions"
+        "topTrack": "Questions",
+        "album": "The Good Witch (Deluxe)",
+        "albumArtist": "Maisie Peters",
+        "albumCatalogId": "B0CKTVY32P"
       },
       {
         "id": "artist-32f206df9341cbb806",
@@ -2193,7 +2249,10 @@ export const snapshot = {
         "seconds": 90527.0,
         "events": 749,
         "catalogId": "B001940DS0",
-        "topTrack": "Joshua Tree"
+        "topTrack": "Joshua Tree",
+        "album": "It’s Not That Deep (Little Bit Extra Version)",
+        "albumArtist": "Demi Lovato",
+        "albumCatalogId": "B0G32WG492"
       },
       {
         "id": "artist-664e5e1635438ae613",
@@ -2202,7 +2261,10 @@ export const snapshot = {
         "seconds": 89269.0,
         "events": 737,
         "catalogId": "B0044BKDUI",
-        "topTrack": "Check On Your Friends"
+        "topTrack": "Check On Your Friends",
+        "album": "Mount Pleasant",
+        "albumArtist": "Kelsea Ballerini",
+        "albumCatalogId": "B0FYSG5SZV"
       },
       {
         "id": "artist-1fa5a0294bd08fe107",
@@ -2211,7 +2273,10 @@ export const snapshot = {
         "seconds": 84445.0,
         "events": 677,
         "catalogId": "B00A29TWDU",
-        "topTrack": "Rain"
+        "topTrack": "Rain",
+        "album": "Sleeping Lion",
+        "albumArtist": "Lennon Stella",
+        "albumCatalogId": "B0H9NMRJT3"
       },
       {
         "id": "artist-6fa8fb00c1084bcdf5",
@@ -2220,7 +2285,10 @@ export const snapshot = {
         "seconds": 83020.0,
         "events": 638,
         "catalogId": "B00AI3K3K6",
-        "topTrack": "Year of the Dragon"
+        "topTrack": "Year of the Dragon",
+        "album": "MotherDaughterSisterWife",
+        "albumArtist": "Jillian Jacqueline",
+        "albumCatalogId": "B0FMDMF3CQ"
       },
       {
         "id": "artist-5c5703235bf356b0e6",
@@ -2229,7 +2297,10 @@ export const snapshot = {
         "seconds": 79737.0,
         "events": 589,
         "catalogId": "B01CHYV3FW",
-        "topTrack": "No Sleep"
+        "topTrack": "No Sleep",
+        "album": "Revolver, 2026",
+        "albumArtist": "The WLDLFE",
+        "albumCatalogId": "B0H8QFXV6C"
       },
       {
         "id": "artist-5be25e89e3f45b4425",
@@ -2238,7 +2309,10 @@ export const snapshot = {
         "seconds": 77661.0,
         "events": 636,
         "catalogId": "B002F0BWIM",
-        "topTrack": "DAISIES"
+        "topTrack": "DAISIES",
+        "album": "SWAG II",
+        "albumArtist": "Justin Bieber",
+        "albumCatalogId": "B0FPWXT7Y6"
       },
       {
         "id": "artist-92559d341eb2910e8c",
@@ -2247,7 +2321,10 @@ export const snapshot = {
         "seconds": 74020.0,
         "events": 364,
         "catalogId": "B07VR8VD88",
-        "topTrack": "Sun Bleached Flies"
+        "topTrack": "Sun Bleached Flies",
+        "album": "Preacher’s Daughter",
+        "albumArtist": "Ethel Cain",
+        "albumCatalogId": "B09XZQ694N"
       },
       {
         "id": "artist-85ef0b229292173c43",
@@ -2256,7 +2333,10 @@ export const snapshot = {
         "seconds": 73293.0,
         "events": 606,
         "catalogId": "B00IDHG5JW",
-        "topTrack": "Special"
+        "topTrack": "Special",
+        "album": "SOS Deluxe: LANA",
+        "albumArtist": "SZA",
+        "albumCatalogId": "B0DR3DLGXL"
       },
       {
         "id": "artist-bd6b1f186aa8422acd",
@@ -2265,7 +2345,10 @@ export const snapshot = {
         "seconds": 71903.0,
         "events": 567,
         "catalogId": "B000QJNOMG",
-        "topTrack": "All I Want"
+        "topTrack": "All I Want",
+        "album": "Blue",
+        "albumArtist": "Joni Mitchell",
+        "albumCatalogId": "B001L2EE9Y"
       },
       {
         "id": "artist-b875178eef58e27aba",
@@ -2274,7 +2357,10 @@ export const snapshot = {
         "seconds": 71872.0,
         "events": 533,
         "catalogId": "B01H2R7SP8",
-        "topTrack": "Are You Looking Up"
+        "topTrack": "Are You Looking Up",
+        "album": "Two Star & The Dream Police",
+        "albumArtist": "Mk.gee",
+        "albumCatalogId": "B0GR8Y4T4G"
       },
       {
         "id": "artist-ec5bbf86eb28da4d24",
@@ -2283,7 +2369,10 @@ export const snapshot = {
         "seconds": 70839.0,
         "events": 629,
         "catalogId": "B001C3C3VI",
-        "topTrack": "Chains of Love"
+        "topTrack": "Chains of Love",
+        "album": "Wuthering Heights",
+        "albumArtist": "Charli xcx",
+        "albumCatalogId": "B0G25YVB8K"
       },
       {
         "id": "artist-72f8b07933bb5be50c",
@@ -2292,7 +2381,10 @@ export const snapshot = {
         "seconds": 70783.0,
         "events": 575,
         "catalogId": "B0BDGMQH8V",
-        "topTrack": "Love Ruins Everything"
+        "topTrack": "Love Ruins Everything",
+        "album": "Love Ruins Everything",
+        "albumArtist": "Tiny Habits",
+        "albumCatalogId": "B0HGKC8CW4"
       },
       {
         "id": "artist-a3e7a59de4651842f8",
@@ -2301,7 +2393,10 @@ export const snapshot = {
         "seconds": 70035.0,
         "events": 492,
         "catalogId": "B01A7VBHJ4",
-        "topTrack": "The 30th"
+        "topTrack": "The 30th",
+        "album": "HIT ME HARD AND SOFT",
+        "albumArtist": "Billie Eilish",
+        "albumCatalogId": "B0CZVW38Y1"
       },
       {
         "id": "artist-ff80eb23352e457cac",
@@ -2310,7 +2405,10 @@ export const snapshot = {
         "seconds": 69548.0,
         "events": 788,
         "catalogId": "B0033CIR84",
-        "topTrack": "Crash Out"
+        "topTrack": "Crash Out",
+        "album": "Popstar",
+        "albumArtist": "Tinashe",
+        "albumCatalogId": "B0H8FMWC68"
       },
       {
         "id": "artist-94b08027c2d9628f05",
@@ -2319,7 +2417,10 @@ export const snapshot = {
         "seconds": 68251.0,
         "events": 546,
         "catalogId": "B00EVQUUNG",
-        "topTrack": "you're still everything"
+        "topTrack": "you're still everything",
+        "album": "locket",
+        "albumArtist": "Madison Beer",
+        "albumCatalogId": "B0FWVVQYQC"
       },
       {
         "id": "artist-4de3cb2ba3fecc9fad",
@@ -2328,7 +2429,10 @@ export const snapshot = {
         "seconds": 67778.0,
         "events": 656,
         "catalogId": "B014QCWIU2",
-        "topTrack": "Quarter Century Blues"
+        "topTrack": "Quarter Century Blues",
+        "album": "PIXIE",
+        "albumArtist": "Olivia O'Brien",
+        "albumCatalogId": "B0GZW9VNTW"
       },
       {
         "id": "artist-53bce4688ce020e626",
@@ -2337,7 +2441,10 @@ export const snapshot = {
         "seconds": 67001.0,
         "events": 505,
         "catalogId": "B0D3VDVZWJ",
-        "topTrack": "Die On This Hill"
+        "topTrack": "Die On This Hill",
+        "album": "Die On This Hill",
+        "albumArtist": "SIENNA SPIRO",
+        "albumCatalogId": "B0FSQMQ3L8"
       },
       {
         "id": "artist-f0fe0a9ca968906df2",
@@ -2346,7 +2453,10 @@ export const snapshot = {
         "seconds": 65826.0,
         "events": 416,
         "catalogId": "B000QJJQJQ",
-        "topTrack": "Tom and Jerry"
+        "topTrack": "Tom and Jerry",
+        "album": "Tom and Jerry",
+        "albumArtist": "John Mayer",
+        "albumCatalogId": "B0HNJY7WL7"
       },
       {
         "id": "artist-ead5569e798cccd7ad",
@@ -2355,7 +2465,10 @@ export const snapshot = {
         "seconds": 64872.0,
         "events": 433,
         "catalogId": "B0B65T3ZRB",
-        "topTrack": "Your Place At My Place"
+        "topTrack": "Your Place At My Place",
+        "album": "Thinking Too Much",
+        "albumArtist": "Joshua Slone",
+        "albumCatalogId": "B0FXQGYL3C"
       },
       {
         "id": "artist-d423d0c1eb8c18a49f",
@@ -2364,7 +2477,10 @@ export const snapshot = {
         "seconds": 64853.0,
         "events": 580,
         "catalogId": "B0041P77O2",
-        "topTrack": "Never Getting Laid"
+        "topTrack": "Never Getting Laid",
+        "album": "Short n' Sweet",
+        "albumArtist": "Sabrina Carpenter",
+        "albumCatalogId": "B0D642VB14"
       },
       {
         "id": "artist-68c054e2b619d74ca4",
@@ -2373,7 +2489,10 @@ export const snapshot = {
         "seconds": 63410.0,
         "events": 457,
         "catalogId": "B0051RE4I6",
-        "topTrack": "Self Control"
+        "topTrack": "Self Control",
+        "album": "Blonde",
+        "albumArtist": "Frank Ocean",
+        "albumCatalogId": "B01LYRBECE"
       },
       {
         "id": "artist-da8e5cca242819bd9d",
@@ -2382,7 +2501,10 @@ export const snapshot = {
         "seconds": 62957.0,
         "events": 517,
         "catalogId": "B01N8YFAIF",
-        "topTrack": "Handsome"
+        "topTrack": "Handsome",
+        "album": "Dream Fatigue",
+        "albumArtist": "Rex Orange County",
+        "albumCatalogId": "B0HGYWZD4K"
       },
       {
         "id": "artist-4f87bdac06ec701493",
@@ -2391,7 +2513,10 @@ export const snapshot = {
         "seconds": 62895.0,
         "events": 612,
         "catalogId": "B0DTG6QGWT",
-        "topTrack": "a minute, a mile"
+        "topTrack": "a minute, a mile",
+        "album": "Lovesweet",
+        "albumArtist": "girlsweetvoiced",
+        "albumCatalogId": "B0H5G35XDR"
       },
       {
         "id": "artist-f5e7868b75b96897e8",
@@ -2400,7 +2525,10 @@ export const snapshot = {
         "seconds": 60416.0,
         "events": 493,
         "catalogId": "B01NBLA4YP",
-        "topTrack": "Sexy to Someone"
+        "topTrack": "Sexy to Someone",
+        "album": "Charm",
+        "albumArtist": "Clairo",
+        "albumCatalogId": "B0D28PZFLD"
       },
       {
         "id": "artist-add0e4e5e2f85243db",
@@ -2409,7 +2537,10 @@ export const snapshot = {
         "seconds": 60312.0,
         "events": 434,
         "catalogId": "B09B3FJPJX",
-        "topTrack": "Jukebox"
+        "topTrack": "Jukebox",
+        "album": "Jukebox",
+        "albumArtist": "Sabrina Sterling",
+        "albumCatalogId": "B0G5WR9CFY"
       },
       {
         "id": "artist-68089ef00f6a7d5f57",
@@ -2418,7 +2549,10 @@ export const snapshot = {
         "seconds": 58526.0,
         "events": 424,
         "catalogId": "B07L62DFXZ",
-        "topTrack": "Useless"
+        "topTrack": "Useless",
+        "album": "Back To My Roots & These Roots Run Deep",
+        "albumArtist": "Ashley Kutcher",
+        "albumCatalogId": "B0G6L6SJHC"
       },
       {
         "id": "artist-9dadecb3d11a6ef79c",
@@ -2427,7 +2561,10 @@ export const snapshot = {
         "seconds": 56249.0,
         "events": 464,
         "catalogId": "B001VWBJG0",
-        "topTrack": "YOU AGAINST YOURSELF"
+        "topTrack": "YOU AGAINST YOURSELF",
+        "album": "Kicking My Feet",
+        "albumArtist": "Ruel",
+        "albumCatalogId": "B0FJKPFSKG"
       },
       {
         "id": "artist-1d7991a3868ce85b88",
@@ -2436,7 +2573,10 @@ export const snapshot = {
         "seconds": 55982.0,
         "events": 458,
         "catalogId": "B000T19WEU",
-        "topTrack": "Harmony"
+        "topTrack": "Harmony",
+        "album": "Chuck Timely & The Hourglass",
+        "albumArtist": "ROLE MODEL",
+        "albumCatalogId": "B0H2N8845Z"
       },
       {
         "id": "artist-3b881645f70127fabc",
@@ -2445,7 +2585,10 @@ export const snapshot = {
         "seconds": 55956.0,
         "events": 382,
         "catalogId": "B00BLWJZRA",
-        "topTrack": "Supercut"
+        "topTrack": "Supercut",
+        "album": "Virgin",
+        "albumArtist": "Lorde",
+        "albumCatalogId": "B0F6KZ93CP"
       },
       {
         "id": "artist-d3a10146ccfd0f228e",
@@ -2454,7 +2597,10 @@ export const snapshot = {
         "seconds": 55743.0,
         "events": 489,
         "catalogId": "B00JN9NAPG",
-        "topTrack": "born to lose"
+        "topTrack": "born to lose",
+        "album": "Mr. Peaked In High School",
+        "albumArtist": "Bea Miller",
+        "albumCatalogId": "B0HB7P61R8"
       },
       {
         "id": "artist-c828ab370835832d92",
@@ -2463,7 +2609,10 @@ export const snapshot = {
         "seconds": 55148.0,
         "events": 453,
         "catalogId": "B09MJVZMDT",
-        "topTrack": "Somebody's Everything"
+        "topTrack": "Somebody's Everything",
+        "album": "Early Twenties Torture",
+        "albumArtist": "Sadie Jean",
+        "albumCatalogId": "B0FTT9LD8G"
       },
       {
         "id": "artist-dad4ef5e713fcde494",
@@ -2472,7 +2621,10 @@ export const snapshot = {
         "seconds": 55039.0,
         "events": 446,
         "catalogId": "B004557L08",
-        "topTrack": "honey"
+        "topTrack": "honey",
+        "album": "If I Can’t Have Love, I Want Power (Deluxe)",
+        "albumArtist": "Halsey",
+        "albumCatalogId": "B0BCBR2TYW"
       },
       {
         "id": "artist-de80b144ac9e782cbe",
@@ -2481,7 +2633,10 @@ export const snapshot = {
         "seconds": 53509.0,
         "events": 383,
         "catalogId": "B0014OTVYW",
-        "topTrack": "Get To Know Me"
+        "topTrack": "Get To Know Me",
+        "album": "Weird Faith (Deluxe)",
+        "albumArtist": "Madi Diaz",
+        "albumCatalogId": "B0DG3WVC4K"
       },
       {
         "id": "artist-f18a768db8cb385f71",
@@ -2490,7 +2645,10 @@ export const snapshot = {
         "seconds": 52781.0,
         "events": 413,
         "catalogId": "B001D7JS3Y",
-        "topTrack": "HIGHER!"
+        "topTrack": "HIGHER!",
+        "album": "Baby",
+        "albumArtist": "Dijon",
+        "albumCatalogId": "B0FLSX9418"
       },
       {
         "id": "artist-013a9fde7f6950b473",
@@ -2499,7 +2657,10 @@ export const snapshot = {
         "seconds": 51964.0,
         "events": 356,
         "catalogId": "B000YMY0TG",
-        "topTrack": "(One of Those) Crazy Girls"
+        "topTrack": "(One of Those) Crazy Girls",
+        "album": "Paramore",
+        "albumArtist": "Paramore",
+        "albumCatalogId": "B00C0NFMKI"
       },
       {
         "id": "artist-48c2d7a6d2816571a7",
@@ -2508,7 +2669,9 @@ export const snapshot = {
         "seconds": 50878.0,
         "events": 427,
         "catalogId": "B0011Z51PM",
-        "topTrack": "Good Ol' Days"
+        "topTrack": "Good Ol' Days",
+        "album": "Ego Death At A Bachelorette Party",
+        "albumArtist": "Hayley Williams"
       },
       {
         "id": "artist-1d1830007c4d054509",
@@ -2517,7 +2680,10 @@ export const snapshot = {
         "seconds": 50485.0,
         "events": 458,
         "catalogId": "B00AYLC33W",
-        "topTrack": "How You Get 'Em (Is How You Lose 'Em)"
+        "topTrack": "How You Get 'Em (Is How You Lose 'Em)",
+        "album": "I Don't Know How But They Found Me...Again!",
+        "albumArtist": "Jensen McRae",
+        "albumCatalogId": "B0H3QNBM62"
       },
       {
         "id": "artist-2df5fb0bb1dd1808e4",
@@ -2526,7 +2692,10 @@ export const snapshot = {
         "seconds": 47885.0,
         "events": 417,
         "catalogId": "B072BNDQPZ",
-        "topTrack": "Girls Girl"
+        "topTrack": "Girls Girl",
+        "album": "When Saturn Returns",
+        "albumArtist": "Grace Carter",
+        "albumCatalogId": "B0HFPWLFN3"
       },
       {
         "id": "artist-9915ca8203408e0aac",
@@ -2535,7 +2704,10 @@ export const snapshot = {
         "seconds": 47536.0,
         "events": 420,
         "catalogId": "B00BE054OW",
-        "topTrack": "The Ambition"
+        "topTrack": "The Ambition",
+        "album": "Midnight Sun",
+        "albumArtist": "Zara Larsson",
+        "albumCatalogId": "B0FBCNPR4M"
       },
       {
         "id": "artist-9bfe3da235b0241a52",
@@ -2544,7 +2716,10 @@ export const snapshot = {
         "seconds": 45427.0,
         "events": 344,
         "catalogId": "B08127KMQ4",
-        "topTrack": "Shadow"
+        "topTrack": "Shadow",
+        "album": "Shadow",
+        "albumArtist": "Stevie Bill",
+        "albumCatalogId": "B0GK2KNLGM"
       },
       {
         "id": "artist-238623e354d89021d4",
@@ -2553,7 +2728,10 @@ export const snapshot = {
         "seconds": 44572.0,
         "events": 353,
         "catalogId": "B000SZKW64",
-        "topTrack": "Just Enough"
+        "topTrack": "Just Enough",
+        "album": "West End Girl",
+        "albumArtist": "Lily Allen",
+        "albumCatalogId": "B0FVYK73NK"
       },
       {
         "id": "artist-1009376b8b6711c553",
@@ -2562,7 +2740,10 @@ export const snapshot = {
         "seconds": 43599.0,
         "events": 433,
         "catalogId": "B09H1XGG2G",
-        "topTrack": "Drive"
+        "topTrack": "Drive",
+        "album": "Who's the Clown?",
+        "albumArtist": "Audrey Hobert",
+        "albumCatalogId": "B0FHHYM8QK"
       },
       {
         "id": "artist-876035a781f3177cda",
@@ -2571,7 +2752,9 @@ export const snapshot = {
         "seconds": 43402.0,
         "events": 274,
         "catalogId": "B06XHTXNT9",
-        "topTrack": "Rein Me In"
+        "topTrack": "Rein Me In",
+        "album": "Seventeen Going Under (Deluxe)",
+        "albumArtist": "Sam Fender"
       },
       {
         "id": "artist-d612d23a16694e0d00",
@@ -2580,7 +2763,10 @@ export const snapshot = {
         "seconds": 39634.0,
         "events": 364,
         "catalogId": "B078NJRK9P",
-        "topTrack": "ANYTHING BUT LOVE"
+        "topTrack": "ANYTHING BUT LOVE",
+        "album": "SO CLOSE TO WHAT??? (deluxe)",
+        "albumArtist": "Tate McRae",
+        "albumCatalogId": "B0G2F9PK8F"
       },
       {
         "id": "artist-26ba426e92e239c93b",
@@ -2589,7 +2775,10 @@ export const snapshot = {
         "seconds": 36893.0,
         "events": 304,
         "catalogId": "B07TDD1Z3F",
-        "topTrack": "KISS ME"
+        "topTrack": "KISS ME",
+        "album": "KISS ME",
+        "albumArtist": "Eddie Benjamin",
+        "albumCatalogId": "B0G625PY2R"
       },
       {
         "id": "artist-661fc7c54ffea8b5a3",
@@ -2598,7 +2787,10 @@ export const snapshot = {
         "seconds": 36276.0,
         "events": 283,
         "catalogId": "B007BY1R4G",
-        "topTrack": "On Wires"
+        "topTrack": "On Wires",
+        "album": "Day and Night",
+        "albumArtist": "Carly Rae Jepsen",
+        "albumCatalogId": "B0H5T512RP"
       },
       {
         "id": "artist-5ed56f295845cb92e3",
@@ -2607,7 +2799,10 @@ export const snapshot = {
         "seconds": 35975.0,
         "events": 318,
         "catalogId": "B0B2KYQ988",
-        "topTrack": "I Can’t Have You Around Me Anymore"
+        "topTrack": "I Can’t Have You Around Me Anymore",
+        "album": "BITE ME",
+        "albumArtist": "Reneé Rapp",
+        "albumCatalogId": "B0F8PH1R6S"
       },
       {
         "id": "artist-be644c2f615b3357ac",
@@ -2616,7 +2811,10 @@ export const snapshot = {
         "seconds": 35388.0,
         "events": 267,
         "catalogId": "B0013IKLT8",
-        "topTrack": "33 “GOD”"
+        "topTrack": "33 “GOD”",
+        "album": "22, A Million",
+        "albumArtist": "Bon Iver",
+        "albumCatalogId": "B01KEMSMZS"
       },
       {
         "id": "artist-9934ebc8d3bed16910",
@@ -2625,7 +2823,10 @@ export const snapshot = {
         "seconds": 34044.0,
         "events": 244,
         "catalogId": "B00GAVCAE2",
-        "topTrack": "Sex"
+        "topTrack": "Sex",
+        "album": "The 1975 (Deluxe Version)",
+        "albumArtist": "The 1975",
+        "albumCatalogId": "B00JX384VW"
       },
       {
         "id": "artist-27ddc2192c14284cfa",
@@ -2634,7 +2835,10 @@ export const snapshot = {
         "seconds": 33727.0,
         "events": 235,
         "catalogId": "B005IY3XLQ",
-        "topTrack": "Call On Me"
+        "topTrack": "Call On Me",
+        "album": "Son Of Spergy",
+        "albumArtist": "Daniel Caesar",
+        "albumCatalogId": "B0FQTLFHS8"
       },
       {
         "id": "artist-ef422ec174e7acda68",
@@ -2643,7 +2847,10 @@ export const snapshot = {
         "seconds": 33610.0,
         "events": 312,
         "catalogId": "B0051BM3CQ",
-        "topTrack": "Pray For You"
+        "topTrack": "Pray For You",
+        "album": "God Must Really Love Me",
+        "albumArtist": "Tori Kelly",
+        "albumCatalogId": "B0GZ5KWKV3"
       },
       {
         "id": "artist-bc72a148cf01f98c5c",
@@ -2652,7 +2859,10 @@ export const snapshot = {
         "seconds": 33346.0,
         "events": 279,
         "catalogId": "B09K4H165X",
-        "topTrack": "trees for the woods"
+        "topTrack": "trees for the woods",
+        "album": "trees for the woods",
+        "albumArtist": "Amie Blu",
+        "albumCatalogId": "B0H1LW472V"
       },
       {
         "id": "artist-593ff5df99673753f7",
@@ -2661,7 +2871,10 @@ export const snapshot = {
         "seconds": 33037.0,
         "events": 319,
         "catalogId": "B07GBCLDQ1",
-        "topTrack": "BEAT UP CHANEL$"
+        "topTrack": "BEAT UP CHANEL$",
+        "album": "BEAT UP CHANEL$",
+        "albumArtist": "Slayyyter",
+        "albumCatalogId": "B0FK6YGPBZ"
       },
       {
         "id": "artist-8fbd2adddb780ea0af",
@@ -2670,7 +2883,10 @@ export const snapshot = {
         "seconds": 31956.0,
         "events": 223,
         "catalogId": "B08D8PCJ7D",
-        "topTrack": "Drawing a Tattoo"
+        "topTrack": "Drawing a Tattoo",
+        "album": "George",
+        "albumArtist": "Jake Minch",
+        "albumCatalogId": "B0FYKGR55N"
       },
       {
         "id": "artist-a90d4956e4f09df671",
@@ -2679,7 +2895,10 @@ export const snapshot = {
         "seconds": 31280.0,
         "events": 221,
         "catalogId": "B000QKW4G2",
-        "topTrack": "Mad At Me"
+        "topTrack": "Mad At Me",
+        "album": "Honey",
+        "albumArtist": "Samia",
+        "albumCatalogId": "B0BDF99JTV"
       },
       {
         "id": "artist-1ddce55e806a29d40c",
@@ -2688,7 +2907,10 @@ export const snapshot = {
         "seconds": 30927.0,
         "events": 260,
         "catalogId": "B00X0FGN26",
-        "topTrack": "Outlaws"
+        "topTrack": "Outlaws",
+        "album": "Know-It-All (Deluxe)",
+        "albumArtist": "Alessia Cara",
+        "albumCatalogId": "B073JD8FXF"
       },
       {
         "id": "artist-899e85ee55fa9be163",
@@ -2697,7 +2919,10 @@ export const snapshot = {
         "seconds": 30675.0,
         "events": 257,
         "catalogId": "B0CHMMT457",
-        "topTrack": "iloveitiloveitiloveit"
+        "topTrack": "iloveitiloveitiloveit",
+        "album": "iloveitiloveitiloveit",
+        "albumArtist": "Bella Kay",
+        "albumCatalogId": "B0GFC6ZKT8"
       },
       {
         "id": "artist-56608745ae24ff402f",
@@ -2706,7 +2931,10 @@ export const snapshot = {
         "seconds": 30647.0,
         "events": 180,
         "catalogId": "B008D8DZZ8",
-        "topTrack": "Don't Forget Me"
+        "topTrack": "Don't Forget Me",
+        "album": "Heard It In A Past Life",
+        "albumArtist": "Maggie Rogers",
+        "albumCatalogId": "B07HPDFYQ6"
       },
       {
         "id": "artist-94a0c0195a05eb7683",
@@ -2715,7 +2943,10 @@ export const snapshot = {
         "seconds": 30489.0,
         "events": 321,
         "catalogId": "B0DGZ11ZJK",
-        "topTrack": "Ain't In LA"
+        "topTrack": "Ain't In LA",
+        "album": "PRIMA",
+        "albumArtist": "ADÉLA",
+        "albumCatalogId": "B0H9NQRML3"
       },
       {
         "id": "artist-9c587badb0514439cd",
@@ -2724,7 +2955,10 @@ export const snapshot = {
         "seconds": 29590.0,
         "events": 216,
         "catalogId": "B001GUTLT4",
-        "topTrack": "23"
+        "topTrack": "23",
+        "album": "23",
+        "albumArtist": "Sam Hunt",
+        "albumCatalogId": "B09F9PS59H"
       },
       {
         "id": "artist-8bd63670c77110dd6b",
@@ -2733,7 +2967,10 @@ export const snapshot = {
         "seconds": 27433.0,
         "events": 201,
         "catalogId": "B07JKH46XH",
-        "topTrack": "Really Ready"
+        "topTrack": "Really Ready",
+        "album": "Tale Of Two Towns",
+        "albumArtist": "Brandon Ratcliff",
+        "albumCatalogId": "B0D9R5F4Y1"
       },
       {
         "id": "artist-fda0508fc86b662a70",
@@ -2742,7 +2979,10 @@ export const snapshot = {
         "seconds": 27165.0,
         "events": 206,
         "catalogId": "B00PY0CBGW",
-        "topTrack": "When A Good Man Cries"
+        "topTrack": "When A Good Man Cries",
+        "album": "EURO-COUNTRY",
+        "albumArtist": "CMAT",
+        "albumCatalogId": "B0F1R7BSK5"
       },
       {
         "id": "artist-bdfb4db11344111d0e",
@@ -2751,7 +2991,10 @@ export const snapshot = {
         "seconds": 27120.0,
         "events": 219,
         "catalogId": "B09GT9KKB6",
-        "topTrack": "Homewrecker"
+        "topTrack": "Homewrecker",
+        "album": "Homewrecker",
+        "albumArtist": "sombr",
+        "albumCatalogId": "B0GJJ2ZWV9"
       },
       {
         "id": "artist-6e5cdeca38578a26c2",
@@ -2760,7 +3003,10 @@ export const snapshot = {
         "seconds": 26993.0,
         "events": 182,
         "catalogId": "B000QJWB2U",
-        "topTrack": "Home"
+        "topTrack": "Home",
+        "album": "Good Grief",
+        "albumArtist": "Sara Bareilles",
+        "albumCatalogId": "B0H3CFQN48"
       },
       {
         "id": "artist-5bc21486ca4f53f3f7",
@@ -2769,7 +3015,10 @@ export const snapshot = {
         "seconds": 26945.0,
         "events": 218,
         "catalogId": "B004E4J24S",
-        "topTrack": "New Jersey"
+        "topTrack": "New Jersey",
+        "album": "Voicenotes",
+        "albumArtist": "Charlie Puth",
+        "albumCatalogId": "B076667JCG"
       },
       {
         "id": "artist-fcea869bc1dddc9b4f",
@@ -2778,7 +3027,10 @@ export const snapshot = {
         "seconds": 26623.0,
         "events": 151,
         "catalogId": "B0014DEFTE",
-        "topTrack": "All I Ask"
+        "topTrack": "All I Ask",
+        "album": "25",
+        "albumArtist": "Adele",
+        "albumCatalogId": "B08QDQN6M6"
       },
       {
         "id": "artist-9633375a589bf6971f",
@@ -2787,7 +3039,10 @@ export const snapshot = {
         "seconds": 26401.0,
         "events": 224,
         "catalogId": "B000RHPCHW",
-        "topTrack": "Just How You Are"
+        "topTrack": "Just How You Are",
+        "album": "PHOLKS",
+        "albumArtist": "Leon Thomas",
+        "albumCatalogId": "B0FSPNMH2Z"
       },
       {
         "id": "artist-5abab11d5b3f862d88",
@@ -2796,7 +3051,10 @@ export const snapshot = {
         "seconds": 25243.0,
         "events": 209,
         "catalogId": "B07765GM8M",
-        "topTrack": "Memories"
+        "topTrack": "Memories",
+        "album": "Pylon",
+        "albumArtist": "beabadoobee",
+        "albumCatalogId": "B0H5WVG2GQ"
       },
       {
         "id": "artist-f769a6592c621f9f8d",
@@ -2805,7 +3063,10 @@ export const snapshot = {
         "seconds": 25005.0,
         "events": 228,
         "catalogId": "B000YBCXDC",
-        "topTrack": "Thinking Of You"
+        "topTrack": "Thinking Of You",
+        "album": "Thinking Of You",
+        "albumArtist": "Katy Perry",
+        "albumCatalogId": "B073H92L9Q"
       },
       {
         "id": "artist-9b5f77b7c7866490f9",
@@ -2814,7 +3075,10 @@ export const snapshot = {
         "seconds": 24931.0,
         "events": 176,
         "catalogId": "B001NLWWUG",
-        "topTrack": "Sympathy Magic"
+        "topTrack": "Sympathy Magic",
+        "album": "Everybody Scream",
+        "albumArtist": "Florence + The Machine",
+        "albumCatalogId": "B0FMMSV99G"
       },
       {
         "id": "artist-cebcc8a6c468a53584",
@@ -2823,7 +3087,10 @@ export const snapshot = {
         "seconds": 23736.0,
         "events": 242,
         "catalogId": "B0BBXJTWQ7",
-        "topTrack": "Thinking 'bout You"
+        "topTrack": "Thinking 'bout You",
+        "album": "Thinking 'bout You",
+        "albumArtist": "Stella lefty",
+        "albumCatalogId": "B0GFBYHXC4"
       },
       {
         "id": "artist-56265e15cb684d5058",
@@ -2832,7 +3099,10 @@ export const snapshot = {
         "seconds": 23437.0,
         "events": 148,
         "catalogId": "B000QKGN8W",
-        "topTrack": "Christmas Lights"
+        "topTrack": "Christmas Lights",
+        "album": "Christmas Lights",
+        "albumArtist": "Coldplay",
+        "albumCatalogId": "B004EKJTCW"
       },
       {
         "id": "artist-ad0550cdf589c87842",
@@ -2841,7 +3111,10 @@ export const snapshot = {
         "seconds": 23435.0,
         "events": 196,
         "catalogId": "B079T47Y6T",
-        "topTrack": "see through it"
+        "topTrack": "see through it",
+        "album": "he's still just not that into you!",
+        "albumArtist": "Amelia Moore",
+        "albumCatalogId": "B0F7957GFX"
       },
       {
         "id": "artist-47facae8dc55eab6e0",
@@ -2850,7 +3123,10 @@ export const snapshot = {
         "seconds": 23261.0,
         "events": 157,
         "catalogId": "B001J9TI8G",
-        "topTrack": "Dancing On The Wall"
+        "topTrack": "Dancing On The Wall",
+        "album": "Dancing On The Wall",
+        "albumArtist": "MUNA",
+        "albumCatalogId": "B0GHSZZN6K"
       },
       {
         "id": "artist-70dcebb4eb6f9368d8",
@@ -2859,7 +3135,10 @@ export const snapshot = {
         "seconds": 23260.0,
         "events": 171,
         "catalogId": "B07CTF28PX",
-        "topTrack": "Point of View"
+        "topTrack": "Point of View",
+        "album": "I Can See The Future",
+        "albumArtist": "Leith Ross",
+        "albumCatalogId": "B0FH7LJQSK"
       },
       {
         "id": "artist-d53f166b5ef2b3bc9f",
@@ -2868,7 +3147,10 @@ export const snapshot = {
         "seconds": 23162.0,
         "events": 191,
         "catalogId": "B014LQQITA",
-        "topTrack": "Armor"
+        "topTrack": "Armor",
+        "album": "King of Having Fun",
+        "albumArtist": "Medium Build",
+        "albumCatalogId": "B0H5ZKF7GV"
       },
       {
         "id": "artist-a9a2b96763491dc9d8",
@@ -2877,7 +3159,10 @@ export const snapshot = {
         "seconds": 22870.0,
         "events": 181,
         "catalogId": "B079QJ7K25",
-        "topTrack": "The Aftermath"
+        "topTrack": "The Aftermath",
+        "album": "Fools for the Fleeting",
+        "albumArtist": "Katie Pruitt",
+        "albumCatalogId": "B0H271QR6H"
       },
       {
         "id": "artist-7d3929841cfaea91e4",
@@ -2886,7 +3171,10 @@ export const snapshot = {
         "seconds": 22848.0,
         "events": 182,
         "catalogId": "B08WWS9RB2",
-        "topTrack": "Finish Line"
+        "topTrack": "Finish Line",
+        "album": "Finish Line",
+        "albumArtist": "Ally Salort",
+        "albumCatalogId": "B0GTN8W8XB"
       },
       {
         "id": "artist-0ce876d0ea9f3e38e7",
@@ -2895,7 +3183,10 @@ export const snapshot = {
         "seconds": 22563.0,
         "events": 205,
         "catalogId": "B08T18G3YD",
-        "topTrack": "I Stay I Leave I Love I Lose"
+        "topTrack": "I Stay I Leave I Love I Lose",
+        "album": "Sex Hysteria (Deluxe)",
+        "albumArtist": "Jessie Murph",
+        "albumCatalogId": "B0G1PVTSXT"
       },
       {
         "id": "artist-b8907523e60d33caa3",
@@ -2904,7 +3195,10 @@ export const snapshot = {
         "seconds": 22560.0,
         "events": 217,
         "catalogId": "B01BD33EVY",
-        "topTrack": "THE CINEMA"
+        "topTrack": "THE CINEMA",
+        "album": "PAREIDOLIA",
+        "albumArtist": "Erin LeCount",
+        "albumCatalogId": "B0H4MJJFVM"
       },
       {
         "id": "artist-8906d72534fc3c9de9",
@@ -2913,7 +3207,10 @@ export const snapshot = {
         "seconds": 22115.0,
         "events": 211,
         "catalogId": "B00L4MFKAI",
-        "topTrack": "Aphid (feat. Dijon)"
+        "topTrack": "Aphid (feat. Dijon)",
+        "album": "Mika's Laundry",
+        "albumArtist": "Matt Champion",
+        "albumCatalogId": "B0CX6RLPHF"
       }
     ]
   }
