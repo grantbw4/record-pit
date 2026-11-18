@@ -7,8 +7,8 @@
   <meta name="description" content="Explore Grant Williams’s Amazon Music listening history in a ball pit of albums, songs, and artists.">
   <title>Record Pit · Grant Brady Williams</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css">
-  <script type="module" src="./app.js"></script>
+  <link rel="stylesheet" href="./styles.css?v=playground-2">
+  <script type="module" src="./app.js?v=playground-2"></script>
 </head>
 <body>
   <main class="page">
@@ -32,7 +32,6 @@
       </div>
       <div class="actions">
         <button id="drop">Drop again <span aria-hidden="true">↓</span></button>
-        <button id="pause" aria-pressed="false">Pause</button>
       </div>
     </div>
 
@@ -61,6 +60,7 @@
     <details class="methods">
       <summary>About the data</summary>
       <p id="coverage"></p>
+      <p>Amazon’s history supplies listening durations and catalog IDs. Some IDs lack a confirmed match to an album or artist name. Those events count toward total listening time, and coverage measures how much time could be assigned before limiting each view to its top 100.</p>
       <p>The song rankings include tracks with a resolved artist and album. Listening time includes partial plays and is capped at the listed track length when available. Album totals add up time spent on their tracks.</p>
     </details>
   </main>

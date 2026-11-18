@@ -1,7 +1,7 @@
-import { snapshot } from './data.js';
-import { artwork } from './art.js';
-import { Pit } from './physics.js';
-import { makeSticker } from './stickers.js';
+import { snapshot } from './data.js?v=playground-2';
+import { artwork } from './art.js?v=playground-2';
+import { Pit } from './physics.js?v=playground-2';
+import { makeSticker } from './stickers.js?v=playground-2';
 
 const byId = id => document.getElementById(id);
 const colors = ['#bba2f4', '#f4b5a4', '#f9ce90', '#a9cdae', '#9ec9f3', '#e4a9d0'];
@@ -14,7 +14,6 @@ const detail = byId('detail');
 const rankings = byId('rankings');
 const search = byId('search');
 const drop = byId('drop');
-const pause = byId('pause');
 const motion = matchMedia('(prefers-reduced-motion: reduce)');
 const pit = new Pit(arena, { select: id => select(id, true), reducedMotion: motion.matches });
 
@@ -27,7 +26,7 @@ byId('date-range').textContent = dateFormat.formatRange(
   new Date(snapshot.startDate + 'T00:00:00Z'),
   new Date(snapshot.endDate + 'T00:00:00Z'),
 );
-byId('coverage').textContent = 'Matched share of recorded listening time: ' +
+byId('coverage').textContent = 'Share of recorded listening time assigned to named music: ' +
   Object.entries(snapshot.coverage).map(([category, fraction]) =>
     Math.round(fraction * 100) + '% ' + category
   ).join(', ') + '. About ' + Math.round(snapshot.inferredAlbumShare * 100) +
@@ -186,9 +185,7 @@ function switchMode(nextMode) {
   select(selections.get(mode) ?? records[0]?.id);
 }
 
-function renderMotionControls() {
-  pause.textContent = pit.paused ? 'Resume' : 'Pause';
-  pause.setAttribute('aria-pressed', String(pit.paused));
+function renderDropLabel() {
   drop.firstChild.textContent = pit.reducedMotion ? 'Rearrange ' : 'Drop again ';
 }
 
@@ -198,22 +195,12 @@ document.querySelectorAll('[data-mode]').forEach(button => {
   });
 });
 search.addEventListener('input', renderRankings);
-drop.addEventListener('click', () => {
-  pit.drop();
-  renderMotionControls();
-});
-pause.addEventListener('click', () => {
-  pit.setPaused(!pit.paused);
-  renderMotionControls();
-});
+drop.addEventListener('click', () => pit.drop());
 motion.addEventListener('change', event => {
   pit.reducedMotion = event.matches;
-  if (event.matches) {
-    pit.setPaused(true);
-    pit.layout(false);
-  }
-  renderMotionControls();
+  if (event.matches) pit.layout(false);
+  renderDropLabel();
 });
 
 switchMode('album');
-renderMotionControls();
+renderDropLabel();

@@ -7,7 +7,6 @@ export class Pit {
     this.arena = arena;
     this.select = select;
     this.reducedMotion = reducedMotion;
-    this.paused = reducedMotion;
     this.balls = [];
     this.frame = null;
     this.lastTime = null;
@@ -35,7 +34,7 @@ export class Pit {
       vy: 0,
     }));
     this.balls.forEach(ball => this.bindPointer(ball));
-    this.layout(!this.paused);
+    this.drop();
   }
 
   layout(fall) {
@@ -71,26 +70,16 @@ export class Pit {
       for (let i = 0; i < 165; i++) this.integrate(STEP);
     }
     this.draw();
-    if (!this.paused && (fall || this.hasMovingBalls())) this.wake();
+    if (!this.reducedMotion && (fall || this.hasMovingBalls())) this.wake();
   }
 
   drop() {
-    if (this.reducedMotion) {
-      this.layout(false);
-      return;
-    }
-    this.paused = false;
-    this.layout(true);
-  }
-
-  setPaused(paused) {
-    this.paused = paused;
-    if (!paused) this.wake();
+    this.layout(!this.reducedMotion);
   }
 
   wake() {
     this.quietFor = 0;
-    if (this.paused || this.frame !== null) return;
+    if (this.reducedMotion || this.frame !== null) return;
     this.lastTime = null;
     this.accumulator = 0;
     this.frame = requestAnimationFrame(this.stepFrame);
@@ -98,7 +87,7 @@ export class Pit {
 
   stepFrame(time) {
     this.frame = null;
-    if (this.paused) return;
+    if (this.reducedMotion) return;
 
     const elapsed = this.lastTime === null ? STEP : Math.min(.034, (time - this.lastTime) / 1000);
     this.lastTime = time;
@@ -198,7 +187,7 @@ export class Pit {
     const node = ball.node;
     let suppressClick = false;
     node.addEventListener('pointerdown', event => {
-      if (event.button !== 0 || this.drag || this.paused) return;
+      if (event.button !== 0 || this.drag || this.reducedMotion) return;
       suppressClick = false;
       this.drag = {
         ball,
