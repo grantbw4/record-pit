@@ -1,5 +1,29 @@
 [
   {
+    "artist": "Ryan Beatty",
+    "title": "Sweet Fortune",
+    "catalogId": "B0H37L3R96",
+    "image": "https://m.media-amazon.com/images/I/41T7Q%2Bx4yOL.jpg"
+  },
+  {
+    "artist": "Billie Eilish",
+    "title": "HIT ME HARD AND SOFT",
+    "catalogId": "B0CZVW38Y1",
+    "image": "https://m.media-amazon.com/images/I/31y-Z%2BmtFuL.jpg"
+  },
+  {
+    "artist": "Clairo",
+    "title": "Charm",
+    "catalogId": "B0D28PZFLD",
+    "image": "https://m.media-amazon.com/images/I/41akcrTgVfL.jpg"
+  },
+  {
+    "artist": "Demi Lovato",
+    "title": "It’s Not That Deep",
+    "catalogId": "B0FQWJ5G3T",
+    "image": "https://m.media-amazon.com/images/I/51NXuaSc4aL.jpg"
+  },
+  {
     "artist": "Madi Diaz",
     "title": "Weird Faith (Deluxe)",
     "catalogId": "B0DG3WVC4K",
