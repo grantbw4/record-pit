@@ -1,0 +1,65 @@
+[
+  {
+    "name": "you seem pretty sad for a girl so in love",
+    "artist": "Olivia Rodrigo",
+    "asin": "B0GVN6XSJC",
+    "source": "https://music.amazon.com/albums/B0GVN6XSJC",
+    "trackAsins": [
+      "B0GVN4X6H2",
+      "B0GVN1F3QB",
+      "B0GVMQD5YH",
+      "B0GVMQ69CT",
+      "B0GVMRVNNN",
+      "B0GVMSWZ9H",
+      "B0GVMQCNY1",
+      "B0GVMQ4XVD"
+    ]
+  },
+  {
+    "name": "petal",
+    "artist": "Ariana Grande",
+    "asin": "B0GYG8J4BF",
+    "source": "https://music.amazon.com/tracks/B0GYG2C5LN",
+    "trackAsins": ["B0GYG2C5LN"]
+  },
+  {
+    "name": "The Great Divide: The Last Of The Bugs",
+    "artist": "Noah Kahan",
+    "asin": "B0GXZFGCYK",
+    "source": "https://music.amazon.com/albums/B0GXZFGCYK",
+    "trackAsins": ["B0GXZ23ZRJ", "B0GXZF4KFD"]
+  },
+  {
+    "name": "Sweet Fortune",
+    "artist": "Ryan Beatty",
+    "asin": "B0H37L3R96",
+    "source": "https://music.amazon.com/albums/B0H37L3R96",
+    "trackAsins": ["B0H379LLN4", "B0H37GD49W", "B0H37DL2WP"]
+  },
+  {
+    "name": "Daughter from Hell",
+    "artist": "Gracie Abrams",
+    "asin": "B0GZLVTY55",
+    "source": "https://music.amazon.com/albums/B0GZLVTY55",
+    "trackAsins": ["B0GZLQR42W", "B0GZM4ZBMK"]
+  },
+  {
+    "name": "Mud",
+    "artist": "Remi Wolf",
+    "asin": "B0HDWLHLL9",
+    "source": "https://music.amazon.com/albums/B0HDWLHLL9",
+    "trackAsins": [
+      "B0HDWLPVJ9",
+      "B0HDWBY918",
+      "B0HDWVK3G7",
+      "B0HDWFGF7Z",
+      "B0HDWJHC67",
+      "B0HDWBRWQG",
+      "B0HDWC4XY6",
+      "B0HDWBYWWZ",
+      "B0HDWVT1RF",
+      "B0HDWBY4WQ",
+      "B0HDWJBL71"
+    ]
+  }
+]

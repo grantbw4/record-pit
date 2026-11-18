@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#161422">
+  <meta name="description" content="Explore Grant Williams’s Amazon Music listening history in a ball pit of albums, songs, and artists.">
+  <title>Record Pit · Grant Brady Williams</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <main class="page">
+    <nav class="masthead" aria-label="Project links">
+      <a href="https://grantbradywilliams.com/projects"><span aria-hidden="true">←</span> Portfolio</a>
+      <a href="https://github.com/grantbw4/record-pit">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+    <header class="hero">
+      <div>
+        <h1>Record <em>Pit</em></h1>
+        <p>My most listened to albums, songs, and artists. Give them a toss.</p>
+      </div>
+      <p class="snapshot"><span>Amazon Music</span><time id="date-range"></time></p>
+    </header>
+
+    <div class="controls">
+      <div class="mode-switch" role="group" aria-label="Rank by">
+        <button data-mode="album" aria-pressed="true">Albums</button>
+        <button data-mode="song" aria-pressed="false">Songs</button>
+        <button data-mode="artist" aria-pressed="false">Artists</button>
+      </div>
+      <div class="actions">
+        <button id="drop">Drop again <span aria-hidden="true">↓</span></button>
+        <button id="pause" aria-pressed="false">Pause</button>
+      </div>
+    </div>
+
+    <div class="workspace">
+      <section class="pit" aria-label="Record Pit">
+        <div class="pit-caption">
+          <span>TOP <strong id="item-count">100</strong></span>
+          <span>Circle area = time listened</span>
+        </div>
+        <div class="arena" id="arena" role="group" aria-label="Draggable records. Select an item to see details." aria-describedby="pit-help"></div>
+        <p class="pit-help" id="pit-help">Drag to throw · Tap to inspect</p>
+        <noscript>Turn on JavaScript to explore the rankings.</noscript>
+      </section>
+
+      <section class="rail" aria-label="Record details and rankings">
+        <div class="record-detail" id="detail" aria-live="polite" aria-atomic="true"></div>
+        <div class="crate">
+          <label class="crate-label" for="search">Rankings</label>
+          <input type="search" id="search" autocomplete="off" placeholder="Find a title or artist" aria-controls="rankings">
+          <ol id="rankings" class="rankings" aria-label="Ranked records"></ol>
+          <p id="no-results" hidden>No matches.</p>
+        </div>
+      </section>
+    </div>
+
+    <details class="methods">
+      <summary>About the data</summary>
+      <p id="coverage"></p>
+      <p>Listening time includes partial plays and is capped at the listed track length when available. Album totals add up time spent on their tracks. The rankings reflect an export snapshot.</p>
+    </details>
+  </main>
+</body>
+</html>
