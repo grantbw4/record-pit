@@ -49,9 +49,9 @@ export const artwork = {
     "source": "https://musicbrainz.org/release/53fbe310-1e3a-4cd9-b425-706d4e7959df",
     "sourceName": "Cover Art Archive"
   },
-  "album-6a1e3fa040471c5bc8": {
-    "url": "https://m.media-amazon.com/images/I/411nTo6WLiL.jpg",
-    "source": "https://music.amazon.com/albums/B0GT67VF36",
+  "album-32bb6051d78a04d963": {
+    "url": "https://m.media-amazon.com/images/I/41GhDMUWf8L._SY240_.jpg",
+    "source": "https://music.amazon.com/embed/B0F9NJ1THC/",
     "sourceName": "Amazon Music"
   },
   "album-0236845c35dd3622c4": {
@@ -144,6 +144,11 @@ export const artwork = {
     "source": "https://music.amazon.com/albums/B0H9NMRJT3",
     "sourceName": "Amazon Music"
   },
+  "album-63faf77076b0da2312": {
+    "url": "https://m.media-amazon.com/images/I/51yY7TQOKAL.jpg",
+    "source": "https://music.amazon.com/albums/B0DR3DLGXL",
+    "sourceName": "Amazon Music"
+  },
   "album-d7f320ffa35cf5c9c4": {
     "url": "https://coverartarchive.org/release/f762854d-ed6c-4224-9998-56cf1d345634/46265155321-250.jpg",
     "source": "https://musicbrainz.org/release/f762854d-ed6c-4224-9998-56cf1d345634",
@@ -154,20 +159,15 @@ export const artwork = {
     "source": "https://musicbrainz.org/release/eafde970-7b8a-4a6f-a8d3-e8ec5871e577",
     "sourceName": "Cover Art Archive"
   },
-  "album-63faf77076b0da2312": {
-    "url": "https://m.media-amazon.com/images/I/51yY7TQOKAL.jpg",
-    "source": "https://music.amazon.com/albums/B0DR3DLGXL",
+  "album-94c99b753f04255a5c": {
+    "url": "https://m.media-amazon.com/images/I/51aMlPyHkmL.jpg",
+    "source": "https://music.amazon.com/albums/B0C6WT8Z62",
     "sourceName": "Amazon Music"
   },
   "album-5d66ade348a1c3484b": {
     "url": "https://coverartarchive.org/release/b448dfcf-5a2f-4222-9c95-e550a70631b9/43498809822-250.jpg",
     "source": "https://musicbrainz.org/release/b448dfcf-5a2f-4222-9c95-e550a70631b9",
     "sourceName": "Cover Art Archive"
-  },
-  "album-94c99b753f04255a5c": {
-    "url": "https://m.media-amazon.com/images/I/51aMlPyHkmL.jpg",
-    "source": "https://music.amazon.com/albums/B0C6WT8Z62",
-    "sourceName": "Amazon Music"
   },
   "album-6efc958be0abb97d36": {
     "url": "https://m.media-amazon.com/images/I/51QC9X75xrL.jpg",
@@ -189,15 +189,15 @@ export const artwork = {
     "source": "https://music.amazon.com/embed/B0FPWXT7Y6/",
     "sourceName": "Amazon Music"
   },
-  "album-1c37e1b347c43b37e0": {
-    "url": "https://s3.us-west-2.amazonaws.com/assets.newreleasesnow.com/artwork/_800x800_crop_center-center_82_none/jillian-jacqueline-motherdaughtersisterwife.jpg?mtime=1765217788",
-    "source": "https://www.newreleasesnow.com/album/jillian-jacqueline-motherdaughtersisterwife",
-    "sourceName": "New Releases Now"
-  },
   "album-180cc542231a28c10e": {
     "url": "https://m.media-amazon.com/images/I/41NpU6hsWEL.jpg",
     "source": "https://music.amazon.com/albums/B0FHHYM8QK",
     "sourceName": "Amazon Music"
+  },
+  "album-1c37e1b347c43b37e0": {
+    "url": "https://s3.us-west-2.amazonaws.com/assets.newreleasesnow.com/artwork/_800x800_crop_center-center_82_none/jillian-jacqueline-motherdaughtersisterwife.jpg?mtime=1765217788",
+    "source": "https://www.newreleasesnow.com/album/jillian-jacqueline-motherdaughtersisterwife",
+    "sourceName": "New Releases Now"
   },
   "album-2593da702a6645418d": {
     "url": "https://coverartarchive.org/release/985c34a4-e53e-4762-aab5-8e5c10d77c3e/42612731359-250.jpg",
@@ -229,6 +229,11 @@ export const artwork = {
     "source": "https://music.amazon.com/albums/B0HJ1QDYL6",
     "sourceName": "Amazon Music"
   },
+  "album-0fedae87ed0d4bfbd7": {
+    "url": "https://m.media-amazon.com/images/I/41bD7HF6zBL._SY240_.jpg",
+    "source": "https://music.amazon.com/embed/B0DFMY8WXK/",
+    "sourceName": "Amazon Music"
+  },
   "album-28fcf702fda9f95f11": {
     "url": "https://m.media-amazon.com/images/I/41decJQdA4L.jpg",
     "source": "https://music.amazon.com/albums/B0GJFRNF2N",
@@ -243,11 +248,6 @@ export const artwork = {
     "url": "https://coverartarchive.org/release/a6f0064f-f82d-4a7a-9bf3-44909e0a4772/46569153907-250.jpg",
     "source": "https://musicbrainz.org/release/a6f0064f-f82d-4a7a-9bf3-44909e0a4772",
     "sourceName": "Cover Art Archive"
-  },
-  "album-0fedae87ed0d4bfbd7": {
-    "url": "https://m.media-amazon.com/images/I/41bD7HF6zBL._SY240_.jpg",
-    "source": "https://music.amazon.com/embed/B0DFMY8WXK/",
-    "sourceName": "Amazon Music"
   },
   "album-457c90cb13dd2156c9": {
     "url": "https://m.media-amazon.com/images/I/31Ge4NiPUZL.jpg",
@@ -264,6 +264,11 @@ export const artwork = {
     "source": "https://music.amazon.com/embed/B0G6L6SJHC/",
     "sourceName": "Amazon Music"
   },
+  "album-f159c8a71611d0997f": {
+    "url": "https://m.media-amazon.com/images/I/411ASuAv8rL._SY240_.jpg",
+    "source": "https://music.amazon.com/embed/B0DMGDSG4J/",
+    "sourceName": "Amazon Music"
+  },
   "album-06e3f54c9fadfa98f3": {
     "url": "https://m.media-amazon.com/images/I/41HcZGZK-yL._SY240_.jpg",
     "source": "https://music.amazon.com/embed/B0H3QNBM62/",
@@ -273,11 +278,6 @@ export const artwork = {
     "url": "https://coverartarchive.org/release/92f78019-e5e6-4ce2-86ab-6057a8396f4a/42820295447-250.jpg",
     "source": "https://musicbrainz.org/release/92f78019-e5e6-4ce2-86ab-6057a8396f4a",
     "sourceName": "Cover Art Archive"
-  },
-  "album-f159c8a71611d0997f": {
-    "url": "https://m.media-amazon.com/images/I/411ASuAv8rL._SY240_.jpg",
-    "source": "https://music.amazon.com/embed/B0DMGDSG4J/",
-    "sourceName": "Amazon Music"
   },
   "album-d91ee44e401ffab433": {
     "url": "https://m.media-amazon.com/images/I/314FKy6J2uL.jpg",
@@ -324,6 +324,11 @@ export const artwork = {
     "source": "https://musicbrainz.org/release/f05f556a-ad19-4832-9078-d9a072df4afb",
     "sourceName": "Cover Art Archive"
   },
+  "album-1f9af54df3dfeb3b14": {
+    "url": "https://coverartarchive.org/release/906b7b1c-b990-4d57-9837-1ae6cb459682/34099898965-250.jpg",
+    "source": "https://musicbrainz.org/release/906b7b1c-b990-4d57-9837-1ae6cb459682",
+    "sourceName": "Cover Art Archive"
+  },
   "album-a0256fb7c6671b4bf7": {
     "url": "https://coverartarchive.org/release/028a3021-12e9-4b6f-8571-0a2c6fbf9c04/42633080139-250.jpg",
     "source": "https://musicbrainz.org/release/028a3021-12e9-4b6f-8571-0a2c6fbf9c04",
@@ -339,25 +344,20 @@ export const artwork = {
     "source": "https://musicbrainz.org/release/b01ec8e9-95d8-4131-a529-07213b8248c8",
     "sourceName": "Cover Art Archive"
   },
-  "album-bce1c75d3655372955": {
-    "url": "https://coverartarchive.org/release/af2ac6ac-258d-47a8-a42d-d5dad86e8a09/41850241983-250.jpg",
-    "source": "https://musicbrainz.org/release/af2ac6ac-258d-47a8-a42d-d5dad86e8a09",
-    "sourceName": "Cover Art Archive"
-  },
   "album-260ed63523343ba716": {
     "url": "https://m.media-amazon.com/images/I/31Q+ici-0PL._SY240_.jpg",
     "source": "https://music.amazon.com/embed/B0FJKPFSKG/",
     "sourceName": "Amazon Music"
   },
+  "album-bce1c75d3655372955": {
+    "url": "https://coverartarchive.org/release/af2ac6ac-258d-47a8-a42d-d5dad86e8a09/41850241983-250.jpg",
+    "source": "https://musicbrainz.org/release/af2ac6ac-258d-47a8-a42d-d5dad86e8a09",
+    "sourceName": "Cover Art Archive"
+  },
   "album-82c7334df98296a3b8": {
     "url": "https://m.media-amazon.com/images/I/41QNENA-vVL.jpg",
     "source": "https://music.amazon.com/albums/B0D9R5F4Y1",
     "sourceName": "Amazon Music"
-  },
-  "album-1f9af54df3dfeb3b14": {
-    "url": "https://coverartarchive.org/release/906b7b1c-b990-4d57-9837-1ae6cb459682/34099898965-250.jpg",
-    "source": "https://musicbrainz.org/release/906b7b1c-b990-4d57-9837-1ae6cb459682",
-    "sourceName": "Cover Art Archive"
   },
   "album-bdaaec31ae69ad0b78": {
     "url": "https://m.media-amazon.com/images/I/41nPr8vkXeL.jpg",
@@ -409,6 +409,11 @@ export const artwork = {
     "source": "https://music.amazon.com/embed/B0FQTLFHS8/",
     "sourceName": "Amazon Music"
   },
+  "album-af5bccb2690ec9dd2a": {
+    "url": "https://m.media-amazon.com/images/I/41iFQA7VctL._SY240_.jpg",
+    "source": "https://music.amazon.com/embed/B08Q8KSKFP/",
+    "sourceName": "Amazon Music"
+  },
   "album-b023e9041d26168237": {
     "url": "https://m.media-amazon.com/images/I/41izYlCAG3L._SY240_.jpg",
     "source": "https://music.amazon.com/embed/B0FFTRHT1Z/",
@@ -439,6 +444,11 @@ export const artwork = {
     "source": "https://music.amazon.com/embed/B0D3GRSTSH/",
     "sourceName": "Amazon Music"
   },
+  "album-2fa209de6413529857": {
+    "url": "https://m.media-amazon.com/images/I/318lRAuuSrL._SY240_.jpg",
+    "source": "https://music.amazon.com/embed/B0D24LBK4N/",
+    "sourceName": "Amazon Music"
+  },
   "album-e6565b2175aa6c76a0": {
     "url": "https://m.media-amazon.com/images/I/51rXbDBRSIL.jpg",
     "source": "https://music.amazon.com/albums/B0FDWZ52CH",
@@ -449,9 +459,19 @@ export const artwork = {
     "source": "https://music.amazon.com/embed/B0BDF99JTV/",
     "sourceName": "Amazon Music"
   },
+  "album-de77382aa61e92e6cb": {
+    "url": "https://m.media-amazon.com/images/I/511KLLzRSLL._SY240_.jpg",
+    "source": "https://music.amazon.com/embed/B0D2LWVRDD/",
+    "sourceName": "Amazon Music"
+  },
   "album-ffccd44b298987cc35": {
     "url": "https://m.media-amazon.com/images/I/41azneRGEhL._SY240_.jpg",
     "source": "https://music.amazon.com/embed/B0H5T512RP/",
+    "sourceName": "Amazon Music"
+  },
+  "album-8389b9ae565650d6a7": {
+    "url": "https://m.media-amazon.com/images/I/51-NdZJxclL._SY240_.jpg",
+    "source": "https://music.amazon.com/embed/B0F7RYP3XS/",
     "sourceName": "Amazon Music"
   },
   "album-1b334ac3aa2ea0eef3": {
@@ -474,29 +494,9 @@ export const artwork = {
     "source": "https://musicbrainz.org/release/5941d6cc-c3ee-4321-b640-629dba39b01b",
     "sourceName": "Cover Art Archive"
   },
-  "album-af5bccb2690ec9dd2a": {
-    "url": "https://m.media-amazon.com/images/I/41iFQA7VctL._SY240_.jpg",
-    "source": "https://music.amazon.com/embed/B08Q8KSKFP/",
-    "sourceName": "Amazon Music"
-  },
-  "album-8389b9ae565650d6a7": {
-    "url": "https://m.media-amazon.com/images/I/51-NdZJxclL._SY240_.jpg",
-    "source": "https://music.amazon.com/embed/B0F7RYP3XS/",
-    "sourceName": "Amazon Music"
-  },
-  "album-2268b23731bc102cf2": {
-    "url": "https://m.media-amazon.com/images/I/411mlQGd8rL.jpg",
-    "source": "https://music.amazon.com/albums/B0DHX8PDB1",
-    "sourceName": "Amazon Music"
-  },
-  "album-7874b5caf33b542921": {
-    "url": "https://coverartarchive.org/release/e3519ad5-311a-482a-8ee7-15c8a53aef52/44270335463-250.jpg",
-    "source": "https://musicbrainz.org/release/e3519ad5-311a-482a-8ee7-15c8a53aef52",
-    "sourceName": "Cover Art Archive"
-  },
-  "album-de77382aa61e92e6cb": {
-    "url": "https://m.media-amazon.com/images/I/511KLLzRSLL._SY240_.jpg",
-    "source": "https://music.amazon.com/embed/B0D2LWVRDD/",
+  "album-4d6e33fb7bc2f7365e": {
+    "url": "https://m.media-amazon.com/images/I/51j95oOjJiL._SY240_.jpg",
+    "source": "https://music.amazon.com/embed/B01HI9BW6Q/",
     "sourceName": "Amazon Music"
   },
   "song-8220daa377f5908928": {
@@ -524,6 +524,11 @@ export const artwork = {
     "source": "https://musicbrainz.org/release/4921deb3-7dbc-4662-940d-7b82191ef784",
     "sourceName": "Cover Art Archive"
   },
+  "song-b824555e11e8e58980": {
+    "url": "https://coverartarchive.org/release/759ac3b3-c058-4873-8bec-edef4f20183d/44256261702-250.jpg",
+    "source": "https://musicbrainz.org/release/759ac3b3-c058-4873-8bec-edef4f20183d",
+    "sourceName": "Cover Art Archive"
+  },
   "song-bd6a3eec7ef30c6430": {
     "url": "https://m.media-amazon.com/images/I/41maKoRnAmL.jpg",
     "source": "https://music.amazon.com/albums/B0GXZFGCYK",
@@ -533,11 +538,6 @@ export const artwork = {
     "url": "https://m.media-amazon.com/images/I/41Lg1DEYHAL.jpg",
     "source": "https://music.amazon.com/albums/B0GVN6XSJC",
     "sourceName": "Amazon Music"
-  },
-  "song-b824555e11e8e58980": {
-    "url": "https://coverartarchive.org/release/759ac3b3-c058-4873-8bec-edef4f20183d/44256261702-250.jpg",
-    "source": "https://musicbrainz.org/release/759ac3b3-c058-4873-8bec-edef4f20183d",
-    "sourceName": "Cover Art Archive"
   },
   "song-570a95f93d7fa1e3a9": {
     "url": "https://m.media-amazon.com/images/I/41Lg1DEYHAL.jpg",

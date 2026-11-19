@@ -1,11 +1,12 @@
-import { snapshot } from './data.js?v=playground-4';
-import { artwork } from './art.js?v=playground-4';
-import { Pit } from './physics.js?v=playground-4';
-import { makeSticker } from './stickers.js?v=playground-4';
+import { snapshot } from './data.js?v=playground-5';
+import { artwork } from './art.js?v=playground-5';
+import { Pit } from './physics.js?v=playground-5';
+import { makeSticker } from './stickers.js?v=playground-5';
 
 const byId = id => document.getElementById(id);
 const colors = ['#bba2f4', '#f4b5a4', '#f9ce90', '#a9cdae', '#9ec9f3', '#e4a9d0'];
 const countFormat = new Intl.NumberFormat();
+const coverageFormat = new Intl.NumberFormat('en-US', { style: 'percent', maximumFractionDigits: 1 });
 const dateFormat = new Intl.DateTimeFormat('en-US', {
   month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC',
 });
@@ -28,7 +29,7 @@ byId('date-range').textContent = dateFormat.formatRange(
 );
 byId('coverage').textContent = 'Share of recorded listening time assigned to named music: ' +
   Object.entries(snapshot.coverage).map(([category, fraction]) =>
-    Math.round(fraction * 100) + '% ' + category
+    coverageFormat.format(fraction) + ' ' + category
   ).join(', ') + '. About ' + Math.round(snapshot.inferredAlbumShare * 100) +
   '% of total listening time was assigned to albums through unique artist and song matches in playlists.';
 

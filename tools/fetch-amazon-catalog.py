@@ -2,9 +2,11 @@
 """Resolve track IDs from a private audit to public Amazon Music release tracklists."""
 
 import argparse
-from concurrent.futures import ThreadPoolExecutor
+from collections import Counter
+from concurrent.futures import Future, ThreadPoolExecutor
 from html import unescape
 import json
+import os
 from pathlib import Path
 import re
 import threading
@@ -79,35 +81,81 @@ def album_tracklist(asin):
     }
 
 
+def resolve(ids, output, cached_releases=()):
+    releases = {release["asin"]: release for release in cached_releases}
+    confirmed = {track for release in releases.values() for track in release["trackAsins"]}
+    pending = {}
+    gate = threading.Lock()
+    published = set(releases)
+
+    def resolve_track(asin):
+        with gate:
+            if STOP.is_set():
+                return "stopped"
+            if asin in confirmed:
+                return "cached"
+        _, album = track_album(asin)
+        if not album:
+            return "unavailable"
+        with gate:
+            if album in releases:
+                return "cached" if asin in confirmed else "unconfirmed"
+            owner = album not in pending
+            result = pending.setdefault(album, Future())
+        if owner:
+            try:
+                result.set_result(album_tracklist(album))
+            except Exception as error:
+                result.set_exception(error)
+                raise
+        release = result.result()
+        if not release or asin not in release["trackAsins"]:
+            return "unconfirmed"
+        with gate:
+            releases[album] = release
+            confirmed.update(release["trackAsins"])
+        return "verified"
+
+    def checkpoint():
+        with gate:
+            additions = [releases[asin] for asin in sorted(releases.keys() - published)]
+        temporary = output.with_suffix(".tmp")
+        descriptor = os.open(temporary, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
+        with os.fdopen(descriptor, "w") as report:
+            json.dump(additions, report, indent=2)
+            report.write("\n")
+        temporary.replace(output)
+        return len(additions)
+
+    counts = Counter()
+    with ThreadPoolExecutor(max_workers=5) as workers:
+        for index, status in enumerate(workers.map(resolve_track, ids), 1):
+            counts[status] += 1
+            if index % 50 == 0 or index == len(ids):
+                print(f"{index}/{len(ids)} IDs handled; {checkpoint()} new public tracklists; "
+                      f"{counts['cached']} skipped or reused; "
+                      f"{counts['unavailable'] + counts['unconfirmed']} could not be verified", flush=True)
+    checkpoint()
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("audit", type=Path)
     parser.add_argument("output", type=Path, help="Write public release tracklists here")
-    parser.add_argument("--limit", type=int, default=400, choices=range(1, 1001), metavar="1–1000")
+    parser.add_argument("--limit", type=int, default=400)
     parser.add_argument("--start", type=int, default=0)
+    parser.add_argument("--cached-catalog", type=Path, action="append", default=[])
     args = parser.parse_args()
-    if args.audit.resolve() == args.output.resolve():
-        parser.error("Use separate paths for the private audit and the public output")
+    if args.start < 0 or args.limit < 1:
+        parser.error("Use a non-negative start and a positive limit")
+    if args.output.resolve() in {p.resolve() for p in [args.audit, *args.cached_catalog]}:
+        parser.error("Use separate paths for the private inputs and catalog output")
     ids = [
         row["catalogId"] for row in json.loads(args.audit.read_text())["unmatchedAlbumTracks"]
         if ID.fullmatch(row["catalogId"])
     ][args.start:args.start + args.limit]
-    pairs = {}
-    with ThreadPoolExecutor(max_workers=5) as workers:
-        for i, (track, album) in enumerate(workers.map(track_album, ids), 1):
-            if album:
-                pairs.setdefault(album, set()).add(track)
-            if i % 50 == 0 or i == len(ids):
-                print(f"Tracks checked: {i}; distinct release candidates: {len(pairs)}", flush=True)
-        releases = []
-        for i, release in enumerate(workers.map(album_tracklist, sorted(pairs)), 1):
-            if release and pairs[release["asin"]].intersection(release["trackAsins"]):
-                releases.append(release)
-            if i % 25 == 0 or i == len(pairs):
-                args.output.write_text(json.dumps(releases, indent=2) + "\n")
-                print(f"Releases checked: {i}; verified: {len(releases)}", flush=True)
-        if not pairs:
-            args.output.write_text("[]\n")
+    cache = [release for path in args.cached_catalog for release in json.loads(path.read_text())]
+    resolve(ids, args.output, cache)
     if STOP.is_set():
         print("Amazon refused or rate limited requests; the remaining lookups were stopped.")
 
