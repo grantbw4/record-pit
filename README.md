@@ -19,6 +19,8 @@ The importer reads the archive locally and writes aggregate rankings to `data.js
 
 Album rankings combine recognized deluxe editions with the standard release. Song details keep the resolved release name. Use `--audit /tmp/record-pit-audit.json` to rank unresolved IDs by listening time for the next import. The audit contains private listening information and belongs outside the repository.
 
+With permission to look up unresolved track IDs at Amazon Music, run `python3 tools/fetch-amazon-catalog.py /tmp/record-pit-audit.json /tmp/record-pit-releases.json`. This sends only catalog IDs and confirms the album matches against Amazon’s tracklists. Keep the results local and pass `--catalog /tmp/record-pit-releases.json` to the importer and artwork resolver. The public snapshot contains the resulting rankings.
+
 The song rankings include tracks with a resolved artist and album. The cover resolver uses public catalog metadata, with artwork from the Cover Art Archive and Amazon Music. It keeps its lookup cache outside the project. The ball pit shows cover art or artist images without visible labels. Original sticker illustrations appear while images load or if an image can’t be reached.
 
 The public snapshot includes ranked item names, catalog IDs, totals, and the overall coverage dates. Raw listening events, individual timestamps, searches, and account or device information are excluded.

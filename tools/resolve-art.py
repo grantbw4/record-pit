@@ -175,6 +175,8 @@ def main():
     parser.add_argument("--out", type=Path, default=ROOT / "art.js")
     parser.add_argument("--cache", type=Path, help="Optional local lookup cache. Keep it outside the repository.")
     parser.add_argument("--limit", type=int, help="Optional limit on new catalog lookups.")
+    parser.add_argument("--catalog", action="append", type=Path, default=[],
+                        help="Use cover links from locally verified Amazon Music tracklists")
     args = parser.parse_args()
 
     requests, cards = collect_pairs(load_snapshot(args.snapshot))
@@ -185,6 +187,12 @@ def main():
             "source": entry.get("source") or f"https://music.amazon.com/albums/{entry['catalogId']}",
             "sourceName": entry.get("sourceName", "Amazon Music"),
         }
+    for catalog in args.catalog:
+        for entry in json.loads(catalog.read_text(encoding="utf-8")):
+            if entry.get("cover"):
+                cache.setdefault(pair_key(entry["artist"], entry["name"]), {
+                    "url": entry["cover"], "source": entry["source"], "sourceName": "Amazon Music",
+                })
     if ARTIST_COVERS.exists():
         for entry in json.loads(ARTIST_COVERS.read_text(encoding="utf-8")):
             cache[f"artist:{entry['catalogId']}"] = {

@@ -163,22 +163,44 @@ def top_cards(mode, group, limit):
     return cards
 
 
-def load_verified_albums():
+def load_verified_albums(local_catalogs=()):
     path = Path(__file__).with_name("verified-albums.json")
     mapping = {}
+    artist_names = defaultdict(set)
     for release in json.loads(path.read_text(encoding="utf-8")):
         album = (title(release["name"]), value(release["artist"]), catalog_id(release["asin"]))
         if not all(album):
             raise ValueError(f"Incomplete verified album metadata in {path.name}")
+        artist_id = catalog_id(release.get("artistAsin"))
+        if artist_id:
+            artist_names[artist_id].add(album[1])
         for asin in release["trackAsins"]:
             if not catalog_id(asin) or (asin in mapping and mapping[asin] != album):
                 raise ValueError(f"Invalid or conflicting verified track ID in {path.name}: {asin}")
             mapping[asin] = album
-    return mapping
+    candidates = defaultdict(set)
+    for catalog in local_catalogs:
+        for release in json.loads(catalog.read_text(encoding="utf-8")):
+            album = (title(release["name"]), value(release["artist"]), catalog_id(release["asin"]))
+            if not all(album):
+                raise ValueError(f"Incomplete verified album metadata in {catalog.name}")
+            artist_id = catalog_id(release.get("artistAsin"))
+            if artist_id:
+                artist_names[artist_id].add(album[1])
+            for raw_track_id in release["trackAsins"]:
+                track_id = catalog_id(raw_track_id)
+                if not track_id:
+                    raise ValueError(f"Invalid track ID in {catalog.name}: {raw_track_id}")
+                candidates[track_id].add(album)
+    for track_id, releases in candidates.items():
+        album = one(releases)
+        if album:
+            mapping.setdefault(track_id, album)
+    return mapping, artist_names
 
 
-def build(archive, limit, timezone, audit=None):
-    verified_albums = load_verified_albums()
+def build(archive, limit, timezone, audit=None, local_catalogs=()):
+    verified_albums, catalog_artist_names = load_verified_albums(local_catalogs)
     catalog = defaultdict(set)
     artist_aliases = defaultdict(Counter)
     named_artists = defaultdict(set)
@@ -263,6 +285,9 @@ def build(archive, limit, timezone, audit=None):
                 key(other).startswith(base + separator) for separator in (" & ", ",", " and ", " x ")
             ) for other in aliases):
                 return candidate
+        catalog_names = catalog_artist_names.get(asin, ())
+        if len({key(name) for name in catalog_names}) == 1:
+            return min(catalog_names)
         return ""
 
     events = {}
@@ -278,7 +303,10 @@ def build(archive, limit, timezone, audit=None):
         if asin and family_id:
             track_families[asin].add(family_id)
 
-    names = {asin: artist_name(asin) for asin in named_artists.keys() | artist_aliases.keys()}
+    names = {
+        asin: artist_name(asin)
+        for asin in named_artists.keys() | artist_aliases.keys() | catalog_artist_names.keys()
+    }
 
     def event_metadata(row):
         asin = catalog_id(row["ASIN"])
@@ -386,6 +414,8 @@ def main():
     parser.add_argument("--out", type=Path, default=Path(__file__).resolve().parents[1] / "data.js")
     parser.add_argument("--timezone", default="America/Los_Angeles", help="Timezone for coverage dates")
     parser.add_argument("--audit", type=Path, help="Write a private report of unresolved catalog IDs and listening totals")
+    parser.add_argument("--catalog", action="append", type=Path, default=[],
+                        help="Use an additional locally stored verified release catalog (repeatable)")
     args = parser.parse_args()
 
     if args.audit and (
@@ -395,7 +425,7 @@ def main():
         parser.error("Write the private audit outside the public project and use a separate path for the snapshot")
     audit = {} if args.audit else None
     with zipfile.ZipFile(args.archive) as archive:
-        snapshot = build(archive, 100, ZoneInfo(args.timezone), audit)
+        snapshot = build(archive, 100, ZoneInfo(args.timezone), audit, args.catalog)
     if args.audit:
         # Refuse to overwrite an existing private audit.
         with os.fdopen(os.open(args.audit, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600), "w", encoding="utf-8") as report:
