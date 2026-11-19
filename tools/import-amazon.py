@@ -18,6 +18,17 @@ from zoneinfo import ZoneInfo
 
 
 MOJIBAKE = re.compile(r"[ÃÂâðï][\u0080-\u00bf€™‘’“”]|[\u0080-\u009f]")
+EDITION_SUFFIX = re.compile(
+    r"\s*(?:\((?:deluxe|expanded)(?:\s+(?:version|edition))?\)|"
+    r"\[(?:deluxe|expanded)(?:\s+(?:version|edition))?\]|"
+    r"\s+(?:[-–—]\s+)?(?:deluxe|expanded)(?:\s+(?:version|edition))?)$", re.I
+)
+EDITION_ALIASES = {
+    ("the great divide: the last of the bugs", "noah kahan"): "The Great Divide",
+    ("stick season (we'll all be here forever)", "noah kahan"): "Stick Season",
+    ("older (and wiser)", "lizzy mcalpine"): "Older",
+    ("sos deluxe: lana", "sza"): "SOS",
+}
 
 
 def archive_rows(archive, filename, required=False):
@@ -65,6 +76,32 @@ def one(values):
 
 def preferred(counter):
     return min(counter, key=lambda item: (-counter[item], item)) if counter else ""
+
+
+def combine_album_editions(group):
+    combined = {}
+    for (name_key, artist_key), entry in group.items():
+        display = preferred(entry["names"])
+        base = EDITION_ALIASES.get((name_key, artist_key))
+        if base is None:
+            base = EDITION_SUFFIX.sub("", display).strip()
+            if (key(base), artist_key) not in group:
+                base = display
+        identity = (key(base), artist_key)
+        album = combined.setdefault(identity, {
+            "seconds": 0, "events": 0, "names": Counter(), "credits": Counter(),
+            "tracks": Counter(), "catalogIds": Counter(),
+        })
+        album["seconds"] += entry["seconds"]
+        album["events"] += entry["events"]
+        album["names"][base] += entry["seconds"]
+        for field in ("credits", "tracks", "catalogIds"):
+            album[field].update(entry[field])
+    for identity, album in combined.items():
+        standard = group.get(identity)
+        if standard and standard["catalogIds"]:
+            album["catalogIds"] = standard["catalogIds"]
+    return combined
 
 
 def public_id(mode, group):
@@ -140,7 +177,7 @@ def load_verified_albums():
     return mapping
 
 
-def build(archive, limit, timezone):
+def build(archive, limit, timezone, audit=None):
     verified_albums = load_verified_albums()
     catalog = defaultdict(set)
     artist_aliases = defaultdict(Counter)
@@ -252,6 +289,8 @@ def build(archive, limit, timezone):
 
     matched = Counter()
     match_methods = Counter()
+    missing = {mode: Counter() for mode in ("album", "song", "artist")}
+    unmatched_tracks = {}
     snapshots = {mode: {} for mode in ("album", "song", "artist")}
     first_date = last_date = None
     total_milliseconds = 0
@@ -280,18 +319,52 @@ def build(archive, limit, timezone):
             method = "Playlist match"
         if album:
             match_methods[method] += milliseconds
-            add(snapshots["album"], album_key(album), *album[:2], milliseconds, track, album[2])
+            ranked_album = album
+            if album[2] == "B0GY9DSVVC" and track and key(track) != "intro" and not key(track).endswith("(commentary)"):
+                # Amazon's track-by-track release interleaves the songs and spoken commentary.
+                ranked_album = ("The Great Divide", "Noah Kahan", "B0GJTSV9HS")
+            add(snapshots["album"], album_key(ranked_album), *ranked_album[:2], milliseconds, track, ranked_album[2])
             matched["album"] += milliseconds
+        elif audit is not None:
+            reason = "conflicting saved releases" if direct else "no unique local release"
+            missing["album"][reason] += milliseconds
+            if asin:
+                candidate = unmatched_tracks.setdefault(asin, {"milliseconds": 0, "artist": artist, "title": track})
+                candidate["milliseconds"] += milliseconds
         if artist:
             add(snapshots["artist"], (artist_id,), artist, "", milliseconds, track, artist_id, album)
             matched["artist"] += milliseconds
+        elif audit is not None:
+            reason = "artist ID has no resolved name" if artist_id else "no artist ID"
+            missing["artist"][reason] += milliseconds
         if track and artist and asin and album:
             add(snapshots["song"], (family_id or asin, key(track), artist_id),
                 track, artist, milliseconds, track, asin, album)
             matched["song"] += milliseconds
+        elif audit is not None:
+            absent = [name for name, found in (
+                ("album", album), ("artist", artist), ("track ID", asin), ("title", track)
+            ) if not found]
+            missing["song"][", ".join(absent)] += milliseconds
 
     if total_milliseconds == 0 or first_date is None or last_date is None:
         raise ValueError("No listening time found in the history")
+    if audit is not None:
+        ranked = sorted(unmatched_tracks.items(), key=lambda item: (-item[1]["milliseconds"], item[0]))
+        audit.update({
+            "totalHours": total_milliseconds / 3_600_000,
+            "unassignedHours": {
+                mode: {reason: hours / 3_600_000 for reason, hours in counts.most_common()}
+                for mode, counts in missing.items()
+            },
+            "unmatchedAlbumTrackCount": len(ranked),
+            "unmatchedAlbumTracks": [
+                {"catalogId": asin, "artist": item["artist"], "title": item["title"],
+                 "hours": round(item["milliseconds"] / 3_600_000, 4)}
+                for asin, item in ranked
+            ],
+        })
+    snapshots["album"] = combine_album_editions(snapshots["album"])
     summary = {
         "startDate": first_date.astimezone(timezone).date().isoformat(),
         "endDate": last_date.astimezone(timezone).date().isoformat(),
@@ -312,10 +385,22 @@ def main():
     parser.add_argument("archive", type=Path, help="Amazon Music export ZIP (kept outside the repository)")
     parser.add_argument("--out", type=Path, default=Path(__file__).resolve().parents[1] / "data.js")
     parser.add_argument("--timezone", default="America/Los_Angeles", help="Timezone for coverage dates")
+    parser.add_argument("--audit", type=Path, help="Write a private report of unresolved catalog IDs and listening totals")
     args = parser.parse_args()
 
+    if args.audit and (
+        args.audit.resolve() == args.out.resolve() or
+        args.audit.resolve().is_relative_to(Path(__file__).resolve().parents[1])
+    ):
+        parser.error("Write the private audit outside the public project and use a separate path for the snapshot")
+    audit = {} if args.audit else None
     with zipfile.ZipFile(args.archive) as archive:
-        snapshot = build(archive, 100, ZoneInfo(args.timezone))
+        snapshot = build(archive, 100, ZoneInfo(args.timezone), audit)
+    if args.audit:
+        # Refuse to overwrite an existing private audit.
+        with os.fdopen(os.open(args.audit, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600), "w", encoding="utf-8") as report:
+            json.dump(audit, report, ensure_ascii=False, indent=2)
+            report.write("\n")
     content = json.dumps(snapshot, ensure_ascii=False, indent=2)
     with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=args.out.parent, delete=False) as file:
         file.write(f"// Generated by tools/import-amazon.py. Aggregate metrics and catalog metadata only.\nexport const snapshot = {content};\n")

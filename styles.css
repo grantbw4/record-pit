@@ -42,10 +42,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 
 .workspace { display: grid; grid-template-columns: minmax(0,1fr) minmax(255px,300px); gap: 15px; align-items: stretch }
 .pit { position: relative; display: flex; flex-direction: column; height: clamp(480px,63vh,720px); min-width: 0; overflow: hidden; border: 4px solid #2346a9; border-radius: 25px; background: var(--pool); box-shadow: 0 4px #2346a9 }
-.pit-caption, .pit-help { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 0; padding: 8px 14px; color: #263a71; font-size: .76rem; line-height: 1.4; background: #d7f4ff }
+.pit-caption { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 0; padding: 8px 14px; color: #263a71; font-size: .76rem; line-height: 1.4; background: #d7f4ff }
 .pit-caption { border-bottom: 3px solid #74bce5 }
 .pit-caption span:first-child { color: #1e449e; font: 950 .78rem var(--round); letter-spacing: .07em }
-.pit-help { justify-content: center; align-self: stretch; color: white; background: #2449be; font-weight: 720; border-top: 4px solid #fcbd42 }
 .arena { flex: 1; min-height: 0; position: relative; overflow: hidden; touch-action: pan-y; background: radial-gradient(ellipse at 50% -15%, #e0faff 0, transparent 67%), repeating-linear-gradient(135deg, transparent 0 26px,#53a0d321 27px 54px), var(--pool) }
 .arena::before { content: ""; position: absolute; inset: 0; pointer-events: none; box-shadow: inset 7px 0 #2352a91a, inset -7px 0 #2352a91a, inset 0 -15px #2352a926 }
 .ball { position: absolute; top: 0; left: 0; width: var(--diameter); height: var(--diameter); padding: 0; overflow: hidden; border: 1px solid #243a6973; border-radius: 50%; background: var(--disc, #fcc546); box-shadow: 0 2px 3px #26416657; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none }

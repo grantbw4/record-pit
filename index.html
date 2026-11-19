@@ -7,8 +7,8 @@
   <meta name="description" content="Explore Grant Williams’s Amazon Music listening history in a ball pit of albums, songs, and artists.">
   <title>Record Pit · Grant Brady Williams</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=playground-2">
-  <script type="module" src="./app.js?v=playground-2"></script>
+  <link rel="stylesheet" href="./styles.css?v=playground-3">
+  <script type="module" src="./app.js?v=playground-3"></script>
 </head>
 <body>
   <main class="page">
@@ -19,7 +19,7 @@
     <header class="hero">
       <div>
         <h1>Record <em>Pit</em></h1>
-        <p>What I’ve been listening to. Take a dip.</p>
+        <p>What I’ve been listening to. Jump in.</p>
       </div>
       <p class="snapshot"><span>Amazon Music</span><time id="date-range"></time></p>
     </header>
@@ -41,8 +41,7 @@
           <span>TOP <strong id="item-count">100</strong></span>
           <span>Bigger ball = more time listened</span>
         </div>
-        <div class="arena" id="arena" role="group" aria-label="Draggable records. Select an item to see details." aria-describedby="pit-help"></div>
-        <p class="pit-help" id="pit-help">Drag to throw · Tap to inspect</p>
+        <div class="arena" id="arena" role="group" aria-label="Record balls"></div>
         <noscript>Turn on JavaScript to explore the rankings.</noscript>
       </section>
 
@@ -61,7 +60,7 @@
       <summary>About the data</summary>
       <p id="coverage"></p>
       <p>Amazon’s history supplies listening durations and catalog IDs. Some IDs lack a confirmed match to an album or artist name. Those events count toward total listening time, and coverage measures how much time could be assigned before limiting each view to its top 100.</p>
-      <p>The song rankings include tracks with a resolved artist and album. Listening time includes partial plays and is capped at the listed track length when available. Album totals add up time spent on their tracks.</p>
+      <p>The song rankings include tracks with a resolved artist and album. Listening time includes partial plays and is capped at the listed track length when available. Album totals combine standard and deluxe editions where they can be linked.</p>
     </details>
   </main>
 </body>

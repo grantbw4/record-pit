@@ -5,14 +5,19 @@
     "asin": "B0GVN6XSJC",
     "source": "https://music.amazon.com/albums/B0GVN6XSJC",
     "trackAsins": [
-      "B0GVN4X6H2",
-      "B0GVN1F3QB",
-      "B0GVMQD5YH",
+      "B0GVMQ4XVD",
       "B0GVMQ69CT",
+      "B0GVMQCNY1",
+      "B0GVMQD5YH",
+      "B0GVMRQZFH",
       "B0GVMRVNNN",
       "B0GVMSWZ9H",
-      "B0GVMQCNY1",
-      "B0GVMQ4XVD"
+      "B0GVMTV3C8",
+      "B0GVMV9C5R",
+      "B0GVMWW82H",
+      "B0GVMYL82Z",
+      "B0GVN1F3QB",
+      "B0GVN4X6H2"
     ]
   },
   {
@@ -153,7 +158,16 @@
     "trackAsins": [
       "B0G5PYLQ96",
       "B0G5PYMH2H",
-      "B0G5Q6KZ1L"
+      "B0G5Q14CDG",
+      "B0G5Q6DTVY",
+      "B0G5Q6HWPP",
+      "B0G5Q6KZ1L",
+      "B0G5Q826PG",
+      "B0G5Q8B7WP",
+      "B0G5QCKJTW",
+      "B0G5QFYVBF",
+      "B0G5QG4D9J",
+      "B0G5QKKCVW"
     ]
   },
   {
@@ -288,7 +302,17 @@
     "asin": "B0H9NMRJT3",
     "source": "https://music.amazon.com/albums/B0H9NMRJT3",
     "trackAsins": [
+      "B0H9NLZF11",
+      "B0H9NT784P",
       "B0H9NV1SF7",
+      "B0H9NZCR6Y",
+      "B0H9P1278L",
+      "B0H9P1WPH6",
+      "B0H9P1X15F",
+      "B0H9P3D5XD",
+      "B0H9P41PWX",
+      "B0H9P5RR5B",
+      "B0H9P69YZY",
       "B0H9P8FCZX"
     ]
   },
@@ -317,8 +341,20 @@
     "asin": "B0H95F8L9Q",
     "source": "https://music.amazon.com/albums/B0H95F8L9Q",
     "trackAsins": [
+      "B0H956DRLT",
+      "B0H959F7S5",
+      "B0H95DDVY4",
+      "B0H95J8L3D",
+      "B0H95K7ZZX",
+      "B0H95KRDLN",
+      "B0H95M2WDY",
+      "B0H95M7WLZ",
+      "B0H95MK39F",
+      "B0H95MLPYH",
+      "B0H95MVWB7",
       "B0H95NSSC9",
-      "B0H959F7S5"
+      "B0H95R4R33",
+      "B0H95VL31G"
     ]
   },
   {
@@ -379,6 +415,2455 @@
       "B0G32HGDNN",
       "B0G32LRQ2Z",
       "B0G32WLJQR"
+    ]
+  },
+  {
+    "asin": "B001L2EE9Y",
+    "name": "Blue",
+    "artist": "Joni Mitchell",
+    "source": "https://music.amazon.com/embed/B001L2EE9Y/",
+    "trackAsins": [
+      "B001L26VZE",
+      "B001L26W3A",
+      "B001L28N78",
+      "B001L28N82",
+      "B001L28NAA",
+      "B001L28NAK",
+      "B001L2AP7E",
+      "B001L2CMIO",
+      "B001L2CMK2",
+      "B001L2EEDK"
+    ]
+  },
+  {
+    "asin": "B004EKJTCW",
+    "name": "Christmas Lights",
+    "artist": "Coldplay",
+    "source": "https://music.amazon.com/embed/B004EKJTCW/",
+    "trackAsins": [
+      "B004EKNC7K"
+    ]
+  },
+  {
+    "asin": "B00C0NFMKI",
+    "name": "Paramore",
+    "artist": "Paramore",
+    "source": "https://music.amazon.com/embed/B00C0NFMKI/",
+    "trackAsins": [
+      "B00C0NFMWG",
+      "B00C0NFN98",
+      "B00C0NFNMA",
+      "B00C0NFO60",
+      "B00C0NFOGU",
+      "B00C0NFOSI",
+      "B00C0NFP8C",
+      "B00C0NFPIW",
+      "B00C0NFPTQ",
+      "B00C0NFQ40",
+      "B00C0NFQG8",
+      "B00C0NFQWW",
+      "B00C0NFRA8",
+      "B00C0NFRNK",
+      "B00C0NFS16",
+      "B00C0NFSEI",
+      "B00C0NFSXE"
+    ]
+  },
+  {
+    "asin": "B00JX384VW",
+    "name": "The 1975 (Deluxe Version) [Explicit]",
+    "artist": "The 1975",
+    "source": "https://music.amazon.com/embed/B00JX384VW/",
+    "trackAsins": [
+      "B00JX38692",
+      "B00JX387LE",
+      "B00JX38926",
+      "B00JX389RG",
+      "B00JX38ACA",
+      "B00JX38BQU",
+      "B00JX38CBY",
+      "B00JX38CXC",
+      "B00JX38DGS",
+      "B00JX38EKS",
+      "B00JX38FJI",
+      "B00JX38GLA",
+      "B00JX38I2W",
+      "B00JX38J9E",
+      "B00JX38KFW",
+      "B00JX38KY8",
+      "B00JX38MEQ",
+      "B00JX38N4K",
+      "B00JX38OBC",
+      "B00JX38OXA",
+      "B00JX38Q4M",
+      "B00JX38QSI",
+      "B00JX38S4K",
+      "B00JX38TZ8",
+      "B00JX38VAQ",
+      "B00JX38WWI",
+      "B00JX38XRW",
+      "B00JX38Z8E",
+      "B00JX38ZWK",
+      "B00JX391FU",
+      "B00JX3922M",
+      "B00JX3933K",
+      "B00JX393PI",
+      "B00JX39588",
+      "B00JX397J0",
+      "B00JX399CK",
+      "B00JX39AN8",
+      "B00JX39BEQ",
+      "B00JX39C2C"
+    ]
+  },
+  {
+    "asin": "B01HI9BW6Q",
+    "name": "It Doesn't Have to Make Sense",
+    "artist": "Ingrid Michaelson",
+    "source": "https://music.amazon.com/embed/B01HI9BW6Q/",
+    "trackAsins": [
+      "B01HI9B03Q",
+      "B01HI9B1Q2",
+      "B01HI9B388",
+      "B01HI9B6CQ",
+      "B01HI9B7W0",
+      "B01HI9B9G4",
+      "B01HI9BB4Y",
+      "B01HI9BCO8",
+      "B01HI9BE28",
+      "B01HI9BXGK"
+    ]
+  },
+  {
+    "asin": "B01KEMSMZS",
+    "name": "22, A Million",
+    "artist": "Bon Iver",
+    "source": "https://music.amazon.com/embed/B01KEMSMZS/",
+    "trackAsins": [
+      "B01KEMS9JW",
+      "B01KEMSA8M",
+      "B01KEMSAVO",
+      "B01KEMSBF4",
+      "B01KEMSC26",
+      "B01KEMSCQC",
+      "B01KEMSDFW",
+      "B01KEMSE2E",
+      "B01KEMSEYW",
+      "B01KEMSFM8"
+    ]
+  },
+  {
+    "asin": "B01LYRBECE",
+    "name": "Blonde [Explicit]",
+    "artist": "Frank Ocean",
+    "source": "https://music.amazon.com/embed/B01LYRBECE/",
+    "trackAsins": [
+      "B01LWT19ZM",
+      "B01LX4O4O5",
+      "B01LXGHD53",
+      "B01LXGHNR4",
+      "B01LY3WY2N",
+      "B01LY3XAEK",
+      "B01LY3XC65",
+      "B01LYRB9G8",
+      "B01LZQFDP6",
+      "B01LZQFHJ1",
+      "B01LZQFJHD",
+      "B01LZQFJJL",
+      "B01M0PJRAF",
+      "B01M11CCOR",
+      "B01M11CMDQ",
+      "B01M11CQ9O",
+      "B01M1OR5IG"
+    ]
+  },
+  {
+    "asin": "B06ZXXYJ7L",
+    "name": "After Laughter",
+    "artist": "Paramore",
+    "source": "https://music.amazon.com/embed/B06ZXXYJ7L/",
+    "trackAsins": [
+      "B06ZXXY8F9",
+      "B06ZYHX6G2",
+      "B06ZYHX728",
+      "B06ZZ3GMTK",
+      "B06ZZNGGRN",
+      "B06ZZNGKGR",
+      "B06ZZXWXXH",
+      "B071CLHK8N",
+      "B071CLHT63",
+      "B071D5JCFF",
+      "B071DG1W96",
+      "B071Y4R9B3"
+    ]
+  },
+  {
+    "asin": "B073H92L9Q",
+    "name": "Thinking Of You",
+    "artist": "Katy Perry",
+    "source": "https://music.amazon.com/embed/B073H92L9Q/",
+    "trackAsins": [
+      "B073H8BPBH",
+      "B073H9F9GH"
+    ]
+  },
+  {
+    "asin": "B073JD8FXF",
+    "name": "Know-It-All (Deluxe)",
+    "artist": "Alessia Cara",
+    "source": "https://music.amazon.com/embed/B073JD8FXF/",
+    "trackAsins": [
+      "B073RW9K9R",
+      "B073RWHCJR",
+      "B073RWXTV8",
+      "B073RX9G7W",
+      "B073RYR6ZL",
+      "B073RZJGVR",
+      "B073S1PZFN",
+      "B073S2CLDK",
+      "B073S6FQHZ",
+      "B073S6MRPQ",
+      "B073S8BXPY",
+      "B073S8LDSG",
+      "B073SCSR91",
+      "B073SCYGJW",
+      "B073SD298J"
+    ]
+  },
+  {
+    "asin": "B076667JCG",
+    "name": "Voicenotes",
+    "artist": "Charlie Puth",
+    "source": "https://music.amazon.com/embed/B076667JCG/",
+    "trackAsins": [
+      "B0766677KQ",
+      "B076667M52",
+      "B076669DL1",
+      "B07666D71X",
+      "B07666DG87",
+      "B07666F9XH",
+      "B07666G8ZQ",
+      "B07666G995",
+      "B07666K59B",
+      "B07666RP79",
+      "B076673SMN",
+      "B07667B5MK",
+      "B07667DGC7"
+    ]
+  },
+  {
+    "asin": "B07FY14KNC",
+    "name": "Boy in Jeans [Explicit]",
+    "artist": "Ryan Beatty",
+    "source": "https://music.amazon.com/embed/B07FY14KNC/",
+    "trackAsins": [
+      "B07FXR2G2F",
+      "B07FXT4W4K",
+      "B07FXVWT5V",
+      "B07FXX6CQM",
+      "B07FXXDWXS",
+      "B07FXXPSZM",
+      "B07FXXRXVQ",
+      "B07FXXS371",
+      "B07FXXXF7K",
+      "B07FXY9VXP",
+      "B07FXYN259",
+      "B07FXYQQFH",
+      "B07FXZSQ77",
+      "B07FY12WQ8"
+    ]
+  },
+  {
+    "asin": "B07HPDFYQ6",
+    "name": "Heard It In A Past Life [Clean]",
+    "artist": "Maggie Rogers",
+    "source": "https://music.amazon.com/embed/B07HPDFYQ6/",
+    "trackAsins": [
+      "B07HPC5M3D",
+      "B07HPC6M5P",
+      "B07HPCSQN7",
+      "B07HPDLHYR",
+      "B07HPDPGLT",
+      "B07HPDW2GZ",
+      "B07HPF2ZFK",
+      "B07HPF6KHF",
+      "B07HPF78FJ",
+      "B07HPFBYYR",
+      "B07HPFCDLR",
+      "B07HPGDP2K"
+    ]
+  },
+  {
+    "asin": "B07VVGNT18",
+    "name": "Blue",
+    "artist": "Joni Mitchell",
+    "source": "https://music.amazon.com/embed/B07VVGNT18/",
+    "trackAsins": [
+      "B07VVG9RPC",
+      "B07VVGCKQX",
+      "B07VWM9HQR",
+      "B07VWMDXFY",
+      "B07VWMJJ5R",
+      "B07VZTPP4L",
+      "B07VZTTBSM",
+      "B07W1WPS2X",
+      "B07W1X9JND",
+      "B07W2VSDB8"
+    ]
+  },
+  {
+    "asin": "B07YZQL1TD",
+    "name": "Self Portrait [Explicit]",
+    "artist": "Sasha Alex Sloan",
+    "source": "https://music.amazon.com/embed/B07YZQL1TD/",
+    "trackAsins": [
+      "B07YZNMK6T",
+      "B07YZQHPCQ",
+      "B07YZR4D9H",
+      "B07YZR72QG",
+      "B07YZRDRSG",
+      "B07YZRG2PR",
+      "B07YZRQKXH"
+    ]
+  },
+  {
+    "asin": "B0845YBDLP",
+    "name": "Dreaming of David",
+    "artist": "Ryan Beatty",
+    "source": "https://music.amazon.com/embed/B0845YBDLP/",
+    "trackAsins": [
+      "B0845PTDST",
+      "B0845QLB2F",
+      "B0845R198G",
+      "B0845R3HMC",
+      "B0845TJT6X",
+      "B0845X3LH5",
+      "B0845XQQ1W",
+      "B0845YMSKK",
+      "B0846343ZV",
+      "B08463HWX2",
+      "B08463Y6DH",
+      "B08464465B"
+    ]
+  },
+  {
+    "asin": "B0851498D6",
+    "name": "Crosswords",
+    "artist": "Olivia Dean",
+    "source": "https://music.amazon.com/embed/B0851498D6/",
+    "trackAsins": [
+      "B08514J3DY"
+    ]
+  },
+  {
+    "asin": "B086GYSB6B",
+    "name": "Punisher [Explicit]",
+    "artist": "Phoebe Bridgers",
+    "source": "https://music.amazon.com/embed/B086GYSB6B/",
+    "trackAsins": [
+      "B086GXRK52",
+      "B086GXSPMB",
+      "B086GXY3Q5",
+      "B086GYKF46",
+      "B086GYMX5N",
+      "B086GYX78L",
+      "B086GYX87D",
+      "B086GZ6Z3Q",
+      "B086GZRGHY",
+      "B086GZYHNX",
+      "B086H11KM2"
+    ]
+  },
+  {
+    "asin": "B08G4D3HW8",
+    "name": "folklore (deluxe version) [Explicit]",
+    "artist": "Taylor Swift",
+    "source": "https://music.amazon.com/embed/B08G4D3HW8/",
+    "trackAsins": [
+      "B08G47G5BD",
+      "B08G486S7F",
+      "B08G49W2SX",
+      "B08G4DL7XY",
+      "B08G4FBMXP",
+      "B08G4G45W4",
+      "B08G4HBP22",
+      "B08G4HRKGF",
+      "B08G4HSJ1M",
+      "B08G4JX7B7",
+      "B08G4K3239",
+      "B08G4LPHP2",
+      "B08G4MFJ8M",
+      "B08G4QMTC8",
+      "B08G4QMTCF",
+      "B08G4R88VD",
+      "B08G4TNC6L"
+    ]
+  },
+  {
+    "asin": "B08GL4P96S",
+    "name": "Only Child [Explicit]",
+    "artist": "Sasha Alex Sloan",
+    "source": "https://music.amazon.com/embed/B08GL4P96S/",
+    "trackAsins": [
+      "B08GKHRXRH",
+      "B08GL46ZXP",
+      "B08GL4N8FW",
+      "B08GL4SL7S",
+      "B08GL4YWX6",
+      "B08GL54H64",
+      "B08GL5YT28",
+      "B08GL6314W",
+      "B08GL691XV",
+      "B08GL7MDZJ"
+    ]
+  },
+  {
+    "asin": "B08QDQN6M6",
+    "name": "25",
+    "artist": "Adele",
+    "source": "https://music.amazon.com/embed/B08QDQN6M6/",
+    "trackAsins": [
+      "B08QDNC4YQ",
+      "B08QDNHC7J",
+      "B08QDP9JV6",
+      "B08QDPSDV4",
+      "B08QDPV4S8",
+      "B08QDQ24FG",
+      "B08QDQF8CL",
+      "B08QDQFQ6V",
+      "B08QDRBZH8",
+      "B08QDTHDGV",
+      "B08QDTWQ3Q"
+    ]
+  },
+  {
+    "asin": "B08W8KS777",
+    "name": "Fearless (Taylor's Version)",
+    "artist": "Taylor Swift",
+    "source": "https://music.amazon.com/embed/B08W8KS777/",
+    "trackAsins": [
+      "B08W7XJRMM",
+      "B08W7ZNBK9",
+      "B08W81DFGC",
+      "B08W83N1X6",
+      "B08W83VRVF",
+      "B08W856SVN",
+      "B08W88P6QL",
+      "B08W8BCRVX",
+      "B08W8DXXXD",
+      "B08W8F28XR",
+      "B08W8F7YZ9",
+      "B08W8F8F5P",
+      "B08W8GCDVT",
+      "B08W8HPY9Q",
+      "B08W8JCM2B",
+      "B08W8KTTFV",
+      "B08W8L7YNS",
+      "B08W8LP122",
+      "B08W8SX2G5",
+      "B08W8VP861",
+      "B08W8X3F1F",
+      "B08W8ZFD22",
+      "B08W8ZFTZM",
+      "B08W92DXXM",
+      "B08W947VV7",
+      "B08W96R3KV"
+    ]
+  },
+  {
+    "asin": "B08WRS1QL8",
+    "name": "Positions (Deluxe) [Explicit]",
+    "artist": "Ariana Grande",
+    "source": "https://music.amazon.com/embed/B08WRS1QL8/",
+    "trackAsins": [
+      "B08WRJLW4T",
+      "B08WRJR65K",
+      "B08WRL1SD7",
+      "B08WRQ651X",
+      "B08WRQLYNJ",
+      "B08WRT5WJG",
+      "B08WRTK1FM",
+      "B08WRTT8JR",
+      "B08WRWMQTG",
+      "B08WRXTLT6",
+      "B08WRZK4M2",
+      "B08WS1NKJP",
+      "B08WT2NCYD",
+      "B08WT2NJ4P",
+      "B08WT2PVXJ",
+      "B08WT6V78F",
+      "B08WT6WJ7F",
+      "B08WT894PN",
+      "B08WTBNKBB"
+    ]
+  },
+  {
+    "asin": "B091BL4G7V",
+    "name": "SOUR [Clean]",
+    "artist": "Olivia Rodrigo",
+    "source": "https://music.amazon.com/embed/B091BL4G7V/",
+    "trackAsins": [
+      "B091BHTL36",
+      "B091BJB8JL",
+      "B091BK1XXZ",
+      "B091BK7LGV",
+      "B091BKC3GX",
+      "B091BKHBJ7",
+      "B091BKJW6R",
+      "B091BKP8RZ",
+      "B091BL5Y42",
+      "B091BLV4LN",
+      "B091BNWZPH"
+    ]
+  },
+  {
+    "asin": "B09F9PS59H",
+    "name": "23",
+    "artist": "Sam Hunt",
+    "source": "https://music.amazon.com/embed/B09F9PS59H/",
+    "trackAsins": [
+      "B09F9Q3X54"
+    ]
+  },
+  {
+    "asin": "B09QC16VHZ",
+    "name": "five seconds flat [Explicit]",
+    "artist": "Lizzy McAlpine",
+    "source": "https://music.amazon.com/embed/B09QC16VHZ/",
+    "trackAsins": [
+      "B09QB8SXMQ",
+      "B09QBGZDX9",
+      "B09QBH5DCD",
+      "B09QBL8M4F",
+      "B09QBLDTG4",
+      "B09QBLM5NM",
+      "B09QBP4QK5",
+      "B09QBP9J7W",
+      "B09QBPZLCH",
+      "B09QBQVXTC",
+      "B09QBRWCT6",
+      "B09QBS9RGS",
+      "B09QBSF7V7",
+      "B09QC3DZDC"
+    ]
+  },
+  {
+    "asin": "B09V738DKL",
+    "name": "I Blame The World [Explicit]",
+    "artist": "Sasha Alex Sloan",
+    "source": "https://music.amazon.com/embed/B09V738DKL/",
+    "trackAsins": [
+      "B09V6GQLQ2",
+      "B09V6PRVDG",
+      "B09V6R156K",
+      "B09V6T3BP1",
+      "B09V6VF9HN",
+      "B09V6X7CSD",
+      "B09V72315V",
+      "B09V754M5M",
+      "B09V76BZYG",
+      "B09V7BFHQB",
+      "B09V7CSYH2"
+    ]
+  },
+  {
+    "asin": "B09WTVK4TR",
+    "name": "Harry's House",
+    "artist": "Harry Styles",
+    "source": "https://music.amazon.com/embed/B09WTVK4TR/",
+    "trackAsins": [
+      "B09WT8YM25",
+      "B09WTG4ZS3",
+      "B09WTHQVG8",
+      "B09WTJJCNL",
+      "B09WTKCCJV",
+      "B09WTL9B95",
+      "B09WTLVVJD",
+      "B09WTMMYTS",
+      "B09WTP6SQV",
+      "B09WTQCXDK",
+      "B09WTQDB73",
+      "B09WTSRHD3",
+      "B09WTYVBRV"
+    ]
+  },
+  {
+    "asin": "B09XZQ694N",
+    "name": "Preacher’s Daughter [Explicit]",
+    "artist": "Ethel Cain",
+    "source": "https://music.amazon.com/embed/B09XZQ694N/",
+    "trackAsins": [
+      "B09XZFQ2YX",
+      "B09XZMLCB5",
+      "B09XZP888N",
+      "B09XZP9G45",
+      "B09XZQWGHM",
+      "B09XZTV7QW",
+      "B09XZZDD7X",
+      "B09Y11KLY7",
+      "B09Y125G56",
+      "B09Y14RYRH",
+      "B09Y18VBMJ",
+      "B09Y18WY83",
+      "B09Y1GLM9N"
+    ]
+  },
+  {
+    "asin": "B09ZNKVQ5S",
+    "name": "Superache [Explicit]",
+    "artist": "Conan Gray",
+    "source": "https://music.amazon.com/embed/B09ZNKVQ5S/",
+    "trackAsins": [
+      "B09ZNG3L15",
+      "B09ZNKH1VR",
+      "B09ZNKSJMN",
+      "B09ZNP87SR",
+      "B09ZNQWQG3",
+      "B09ZNQWRL2",
+      "B09ZNST2XP",
+      "B09ZNYMCV9",
+      "B09ZNYSK81",
+      "B09ZNZFLNR",
+      "B09ZP22LY1",
+      "B09ZP7MB5S"
+    ]
+  },
+  {
+    "asin": "B0B655F5BL",
+    "name": "SUBJECT TO CHANGE",
+    "artist": "Kelsea Ballerini",
+    "source": "https://music.amazon.com/embed/B0B655F5BL/",
+    "trackAsins": [
+      "B0B6555YWT",
+      "B0B655FLBL",
+      "B0B655PYP7",
+      "B0B6563LQ8",
+      "B0B6563WLY",
+      "B0B6566CGK",
+      "B0B6567HVX",
+      "B0B65695C2",
+      "B0B6569B39",
+      "B0B656B2FK",
+      "B0B656H57W",
+      "B0B656NPW6",
+      "B0B656R6Y4",
+      "B0B656YLLF",
+      "B0B657H9KC"
+    ]
+  },
+  {
+    "asin": "B0BCBR2TYW",
+    "name": "If I Can’t Have Love, I Want Power (Deluxe) [Explicit]",
+    "artist": "Halsey",
+    "source": "https://music.amazon.com/embed/B0BCBR2TYW/",
+    "trackAsins": [
+      "B0BCBH2C87",
+      "B0BCBY9676",
+      "B0BCC21K79",
+      "B0BCC23ZZL",
+      "B0BCC3ZV76",
+      "B0BCC5S4QB",
+      "B0BCC634YG",
+      "B0BCC764MP",
+      "B0BCCFWP38",
+      "B0BCCHG9SC",
+      "B0BCCHXM2L",
+      "B0BCCJKC4Y",
+      "B0BCCLLZ2C",
+      "B0BCCNKWHR",
+      "B0BCCNNYLZ",
+      "B0BCCP6SJC",
+      "B0BCCR3ML1",
+      "B0BCCRPQ39",
+      "B0BCCRPQ3C"
+    ]
+  },
+  {
+    "asin": "B0BDF99JTV",
+    "name": "Honey [Explicit]",
+    "artist": "Samia",
+    "source": "https://music.amazon.com/embed/B0BDF99JTV/",
+    "trackAsins": [
+      "B0BDF33CTY",
+      "B0BDF51S74",
+      "B0BDF5KXZ7",
+      "B0BDF6MPB1",
+      "B0BDF6YX9X",
+      "B0BDF7H4QM",
+      "B0BDF7KS2X",
+      "B0BDF831BH",
+      "B0BDF8PS2V",
+      "B0BDFBGZZL",
+      "B0BDFDGJ3G"
+    ]
+  },
+  {
+    "asin": "B0BXT899ZG",
+    "name": "Messy",
+    "artist": "Olivia Dean",
+    "source": "https://music.amazon.com/embed/B0BXT899ZG/",
+    "trackAsins": [
+      "B0BXT88G2Y",
+      "B0BXT8BK7G",
+      "B0BXT8GBB9",
+      "B0BXT8WCMV",
+      "B0BXT8WVD1",
+      "B0BXT91NN3",
+      "B0BXT92F77",
+      "B0BXTBMKL7",
+      "B0BXTBSLTR",
+      "B0BXTC4P4K",
+      "B0BXTCDHY6",
+      "B0BXTFQ31M"
+    ]
+  },
+  {
+    "asin": "B0BXZDPKK7",
+    "name": "Calico",
+    "artist": "Ryan Beatty",
+    "source": "https://music.amazon.com/embed/B0BXZDPKK7/",
+    "trackAsins": [
+      "B0BXYZ6K88",
+      "B0BXZ3BSBP",
+      "B0BXZ7274Y",
+      "B0BXZ83DJQ",
+      "B0BXZ8BPJG",
+      "B0BXZG9DP6",
+      "B0BXZGFM2X",
+      "B0BXZLF99S",
+      "B0BXZNW31X"
+    ]
+  },
+  {
+    "asin": "B0C6WT8Z62",
+    "name": "Stick Season (We'll All Be Here Forever) [Explicit]",
+    "artist": "Noah Kahan",
+    "source": "https://music.amazon.com/embed/B0C6WT8Z62/",
+    "trackAsins": [
+      "B0C6WNVSTH",
+      "B0C6WSV479",
+      "B0C6WTB5DG",
+      "B0C6WTVG6W",
+      "B0C6WXSP6X",
+      "B0C6WYH3BK",
+      "B0C6WYNNQ3",
+      "B0C6WZ3GQJ",
+      "B0C6WZG439",
+      "B0C6WZGSQS",
+      "B0C6WZT3DP",
+      "B0C6X1GYL4",
+      "B0C6X233T9",
+      "B0C6X2BJ1C",
+      "B0C6X33MJ2",
+      "B0C6X3TKF1",
+      "B0C6X3V6SL",
+      "B0C6X3YHYB",
+      "B0C6X3YTRQ",
+      "B0C6X46J9P",
+      "B0C6X68TSM"
+    ]
+  },
+  {
+    "asin": "B0C9FZF5K6",
+    "name": "GUTS [Explicit]",
+    "artist": "Olivia Rodrigo",
+    "source": "https://music.amazon.com/embed/B0C9FZF5K6/",
+    "trackAsins": [
+      "B0C9FKD4NS",
+      "B0C9FQCBNX",
+      "B0C9FQW3YS",
+      "B0C9FW284Q",
+      "B0C9FZ6JQH",
+      "B0C9G1W4WF",
+      "B0C9G1WHVM",
+      "B0C9G51829",
+      "B0C9G5DJV2",
+      "B0C9G8RSR2",
+      "B0C9GCSGXF",
+      "B0C9H1BPWB"
+    ]
+  },
+  {
+    "asin": "B0C9N29J56",
+    "name": "Older",
+    "artist": "Searows",
+    "source": "https://music.amazon.com/embed/B0C9N29J56/",
+    "trackAsins": [
+      "B0C9N1PK8K"
+    ]
+  },
+  {
+    "asin": "B0CBDL3J4D",
+    "name": "Silvia",
+    "artist": "Sofía Valdés",
+    "source": "https://music.amazon.com/embed/B0CBDL3J4D/",
+    "trackAsins": [
+      "B0CBDGRBCT",
+      "B0CBDHQQYY",
+      "B0CBDJ8R4Y",
+      "B0CBDJTZM4",
+      "B0CBDK9P87"
+    ]
+  },
+  {
+    "asin": "B0CHMM179H",
+    "name": "Bruises Off The Peach (Live Performance)",
+    "artist": "Ryan Beatty",
+    "source": "https://music.amazon.com/embed/B0CHMM179H/",
+    "trackAsins": [
+      "B0CHMMM1C5"
+    ]
+  },
+  {
+    "asin": "B0CKTVY32P",
+    "name": "The Good Witch (Deluxe) [Explicit]",
+    "artist": "Maisie Peters",
+    "source": "https://music.amazon.com/embed/B0CKTVY32P/",
+    "trackAsins": [
+      "B0CKTQQV67",
+      "B0CKTQXQVH",
+      "B0CKTRSBM1",
+      "B0CKTRV69H",
+      "B0CKTRX5KN",
+      "B0CKTRYG3R",
+      "B0CKTS6HMH",
+      "B0CKTS89P5",
+      "B0CKTSF22L",
+      "B0CKTSNPYD",
+      "B0CKTSNV7X",
+      "B0CKTSYLZX",
+      "B0CKTSZ5VK",
+      "B0CKTT371C",
+      "B0CKTT6CG5",
+      "B0CKTT8ZMH",
+      "B0CKTTLRSQ",
+      "B0CKTTNZBL",
+      "B0CKTTWK6H",
+      "B0CKTV8LL2",
+      "B0CKTVVKZD"
+    ]
+  },
+  {
+    "asin": "B0CV63Z6RC",
+    "name": "Older",
+    "artist": "Lizzy McAlpine",
+    "source": "https://music.amazon.com/embed/B0CV63Z6RC/",
+    "trackAsins": [
+      "B0CV61KV3V",
+      "B0CV62Z6GJ",
+      "B0CV63RQQY",
+      "B0CV64366H",
+      "B0CV647BCK",
+      "B0CV64JM59",
+      "B0CV64LD5B",
+      "B0CV64LM3N",
+      "B0CV64M951",
+      "B0CV64W39T",
+      "B0CV64YZGY",
+      "B0CV65133G",
+      "B0CV65NPVL",
+      "B0CV6S8XQT"
+    ]
+  },
+  {
+    "asin": "B0CX6RLPHF",
+    "name": "Mika's Laundry [Explicit]",
+    "artist": "Matt Champion",
+    "source": "https://music.amazon.com/embed/B0CX6RLPHF/",
+    "trackAsins": [
+      "B0CX62FDG4",
+      "B0CX68DHDX",
+      "B0CX6B6736",
+      "B0CX6H17XF",
+      "B0CX6HM7RW",
+      "B0CX6K8WW2",
+      "B0CX6LNX59",
+      "B0CX6LSDDZ",
+      "B0CX6LT6G7",
+      "B0CX6M73BX",
+      "B0CX6MTZ66",
+      "B0CX6MW97D",
+      "B0CX6PM1B7"
+    ]
+  },
+  {
+    "asin": "B0CY3S8J57",
+    "name": "Big Ideas [Explicit]",
+    "artist": "Remi Wolf",
+    "source": "https://music.amazon.com/embed/B0CY3S8J57/",
+    "trackAsins": [
+      "B0CY39KK18",
+      "B0CY39L65J",
+      "B0CY3CFPCC",
+      "B0CY3DQCZP",
+      "B0CY3DY6CL",
+      "B0CY3F1JHN",
+      "B0CY3LLXW8",
+      "B0CY3MY72H",
+      "B0CY3PLJ1R",
+      "B0CY3PTHVB",
+      "B0CY3SJRWP",
+      "B0CY49569K",
+      "B0CY4DN1XG"
+    ]
+  },
+  {
+    "asin": "B0CZVW38Y1",
+    "name": "HIT ME HARD AND SOFT",
+    "artist": "Billie Eilish",
+    "source": "https://music.amazon.com/embed/B0CZVW38Y1/",
+    "trackAsins": [
+      "B0CZVPFT52",
+      "B0CZVSYVYV",
+      "B0CZVV137M",
+      "B0CZVV137Q",
+      "B0CZVVGS1K",
+      "B0CZVYFBBZ",
+      "B0CZVYVFXR",
+      "B0CZW15FZZ",
+      "B0CZW1FKXJ",
+      "B0CZW54BFC"
+    ]
+  },
+  {
+    "asin": "B0D28PZFLD",
+    "name": "Charm",
+    "artist": "Clairo",
+    "source": "https://music.amazon.com/embed/B0D28PZFLD/",
+    "trackAsins": [
+      "B0D28FQCMB",
+      "B0D28FSBQN",
+      "B0D28LRRBR",
+      "B0D28MZLBR",
+      "B0D28S69YT",
+      "B0D28TYVCN",
+      "B0D28WQTV8",
+      "B0D28Z2YHG",
+      "B0D293PDRG",
+      "B0D296K1MY",
+      "B0D297Z3JN"
+    ]
+  },
+  {
+    "asin": "B0D642VB14",
+    "name": "Short n' Sweet [Explicit]",
+    "artist": "Sabrina Carpenter",
+    "source": "https://music.amazon.com/embed/B0D642VB14/",
+    "trackAsins": [
+      "B0D63ZKYLH",
+      "B0D643LF23",
+      "B0D6443TSQ",
+      "B0D6445PDD",
+      "B0D644HF31",
+      "B0D645CBG6",
+      "B0D645PQLN",
+      "B0D6476B21",
+      "B0D647VRHC",
+      "B0D64845GQ",
+      "B0D648577T",
+      "B0D64DWTL9"
+    ]
+  },
+  {
+    "asin": "B0D9R5F4Y1",
+    "name": "Tale Of Two Towns",
+    "artist": "Brandon Ratcliff",
+    "source": "https://music.amazon.com/embed/B0D9R5F4Y1/",
+    "trackAsins": [
+      "B0D9R5BWHB",
+      "B0D9R5P8HR",
+      "B0D9R5Q2LW",
+      "B0D9R5W3X8",
+      "B0D9R623R6",
+      "B0D9R6BR3N",
+      "B0D9R6NPPC",
+      "B0D9R6SVMD",
+      "B0D9R7FVS2",
+      "B0D9R8C9HS"
+    ]
+  },
+  {
+    "asin": "B0DG3WVC4K",
+    "name": "Weird Faith (Deluxe) [Explicit]",
+    "artist": "Madi Diaz",
+    "source": "https://music.amazon.com/embed/B0DG3WVC4K/",
+    "trackAsins": [
+      "B0DG3HD9BK",
+      "B0DG3JMM5G",
+      "B0DG3MW1HV",
+      "B0DG3P8F39",
+      "B0DG3PV1DQ",
+      "B0DG3Q7TJD",
+      "B0DG3QWM9C",
+      "B0DG3RB19L",
+      "B0DG3RCPNL",
+      "B0DG3SDY2H",
+      "B0DG3SQ8KY",
+      "B0DG3WCKMH",
+      "B0DG3X19KP",
+      "B0DG3Y4CV3",
+      "B0DG3ZQRFX",
+      "B0DG41H3TF",
+      "B0DG42N5L3",
+      "B0DG43HHV5",
+      "B0DG458Z81",
+      "B0DG478DYH"
+    ]
+  },
+  {
+    "asin": "B0DG966M8Z",
+    "name": "i don't mind floating",
+    "artist": "Humble the Great",
+    "source": "https://music.amazon.com/embed/B0DG966M8Z/",
+    "trackAsins": [
+      "B0DG9344LB",
+      "B0DG93NMML",
+      "B0DG94GN8L",
+      "B0DG9569V8",
+      "B0DG956RJJ",
+      "B0DG95R6XJ",
+      "B0DG95YT2P",
+      "B0DG962G71",
+      "B0DG96DBLC",
+      "B0DG97MJ9Y"
+    ]
+  },
+  {
+    "asin": "B0DH73WGCJ",
+    "name": "Older (and Wiser)",
+    "artist": "Lizzy McAlpine",
+    "source": "https://music.amazon.com/embed/B0DH73WGCJ/",
+    "trackAsins": [
+      "B0DH6K4CD1",
+      "B0DH6NQ7RF",
+      "B0DH6RKPSF",
+      "B0DH6WJ5WS",
+      "B0DH6XD13B",
+      "B0DH6XH3YH",
+      "B0DH6Z2V7J",
+      "B0DH6Z6RX5",
+      "B0DH6ZQHQ4",
+      "B0DH726YHG",
+      "B0DH72LF1Z",
+      "B0DH73HPJ3",
+      "B0DH73Y19P",
+      "B0DH751F16",
+      "B0DH75536F",
+      "B0DH78BDXV",
+      "B0DH7956N6",
+      "B0DH799MSS",
+      "B0DH7JM5NN"
+    ]
+  },
+  {
+    "asin": "B0DHX8PDB1",
+    "name": "Haunt Me",
+    "artist": "Yana",
+    "source": "https://music.amazon.com/embed/B0DHX8PDB1/",
+    "trackAsins": [
+      "B0DHX6XBF1"
+    ]
+  },
+  {
+    "asin": "B0DK7NG54K",
+    "name": "House Song",
+    "artist": "Searows",
+    "source": "https://music.amazon.com/embed/B0DK7NG54K/",
+    "trackAsins": [
+      "B0DK7P2FZG"
+    ]
+  },
+  {
+    "asin": "B0DR3DLGXL",
+    "name": "SOS Deluxe: LANA [Explicit]",
+    "artist": "SZA",
+    "source": "https://music.amazon.com/embed/B0DR3DLGXL/",
+    "trackAsins": [
+      "B0DR39ZVBT",
+      "B0DR3BLPC5",
+      "B0DR3CC1JK",
+      "B0DR3CCQGN",
+      "B0DR3CG1NY",
+      "B0DR3CL5B8",
+      "B0DR3CLYD1",
+      "B0DR3CPQXX",
+      "B0DR3CPV5Z",
+      "B0DR3CQ61Q",
+      "B0DR3CVQ7D",
+      "B0DR3D179M",
+      "B0DR3D17XS",
+      "B0DR3D1QK5",
+      "B0DR3D2YZ8",
+      "B0DR3D3CQK",
+      "B0DR3D56JN",
+      "B0DR3D5JLK",
+      "B0DR3D5V3X",
+      "B0DR3D8571",
+      "B0DR3D8Q97",
+      "B0DR3D91Z5",
+      "B0DR3D9CJF",
+      "B0DR3DCKB4",
+      "B0DR3DDYS6",
+      "B0DR3DG1MC",
+      "B0DR3DJ1ZM",
+      "B0DR3DJ81Y",
+      "B0DR3DMDGS",
+      "B0DR3DN7Z1",
+      "B0DR3DNC4M",
+      "B0DR3DPB4Q",
+      "B0DR3DQBRZ",
+      "B0DR3DSFRJ",
+      "B0DR3DZTWK",
+      "B0DR3F1YT4",
+      "B0DR3FJMGT",
+      "B0DR3GQVZ4"
+    ]
+  },
+  {
+    "asin": "B0F1GY9DC2",
+    "name": "D R E A M S I C L E [Explicit]",
+    "artist": "Maren Morris",
+    "source": "https://music.amazon.com/embed/B0F1GY9DC2/",
+    "trackAsins": [
+      "B0F1GNQ4DH",
+      "B0F1GNRRM5",
+      "B0F1GS7HFT",
+      "B0F1GWFZBX",
+      "B0F1H1SWWB",
+      "B0F1H2LBYS",
+      "B0F1H892VK",
+      "B0F1H8JYSR",
+      "B0F1HDPRH3",
+      "B0F1HDRS78",
+      "B0F1HGTZ52",
+      "B0F1HGVLVD",
+      "B0F1HHRK73",
+      "B0F1HP55YV"
+    ]
+  },
+  {
+    "asin": "B0F1R7BSK5",
+    "name": "EURO-COUNTRY [Explicit]",
+    "artist": "CMAT",
+    "source": "https://music.amazon.com/embed/B0F1R7BSK5/",
+    "trackAsins": [
+      "B0F1QLQNK2",
+      "B0F1QTT3HG",
+      "B0F1R19KSJ",
+      "B0F1R538NK",
+      "B0F1R5VC65",
+      "B0F1R63H46",
+      "B0F1R6T4PK",
+      "B0F1R6V4S3",
+      "B0F1R7KC1T",
+      "B0F1R8GLZD",
+      "B0F1RFFVLJ",
+      "B0F1RLCVBH"
+    ]
+  },
+  {
+    "asin": "B0F6KZ93CP",
+    "name": "Virgin [Explicit]",
+    "artist": "Lorde",
+    "source": "https://music.amazon.com/embed/B0F6KZ93CP/",
+    "trackAsins": [
+      "B0F6KLX2XS",
+      "B0F6KPXSZ8",
+      "B0F6KPYM6S",
+      "B0F6KSVRJQ",
+      "B0F6KSZ3F9",
+      "B0F6KV1KQJ",
+      "B0F6KWWHXW",
+      "B0F6KY8YZ8",
+      "B0F6KYC375",
+      "B0F6KYJ4QX",
+      "B0F6KZJTWR"
+    ]
+  },
+  {
+    "asin": "B0F7957GFX",
+    "name": "he's still just not that into you! [Explicit]",
+    "artist": "Amelia Moore",
+    "source": "https://music.amazon.com/embed/B0F7957GFX/",
+    "trackAsins": [
+      "B0F78DDZ34",
+      "B0F78XKVT9",
+      "B0F78YNZNW",
+      "B0F78ZCQVF",
+      "B0F795GHYS",
+      "B0F795JDQ9",
+      "B0F798CX8P"
+    ]
+  },
+  {
+    "asin": "B0F8PH1R6S",
+    "name": "BITE ME [Explicit]",
+    "artist": "Reneé Rapp",
+    "source": "https://music.amazon.com/embed/B0F8PH1R6S/",
+    "trackAsins": [
+      "B0F8PH96W7",
+      "B0F8PHVY86",
+      "B0F8PJS2J8",
+      "B0F8PK6922",
+      "B0F8PKXVZV",
+      "B0F8PL11CR",
+      "B0F8PLD2FF",
+      "B0F8PLJV7X",
+      "B0F8PLSK6X",
+      "B0F8PMWKZ4",
+      "B0F8PP12M7",
+      "B0F8PP3GBL"
+    ]
+  },
+  {
+    "asin": "B0FBCNPR4M",
+    "name": "Midnight Sun [Explicit]",
+    "artist": "Zara Larsson",
+    "source": "https://music.amazon.com/embed/B0FBCNPR4M/",
+    "trackAsins": [
+      "B0FBCFR29P",
+      "B0FBCQH83B",
+      "B0FBCR1YNP",
+      "B0FBCW9N8X",
+      "B0FBCWQVN6",
+      "B0FBD29PLY",
+      "B0FBD3MG8F",
+      "B0FBD44RZ9",
+      "B0FBD5C6FQ",
+      "B0FBD89S24"
+    ]
+  },
+  {
+    "asin": "B0FBTGSQF7",
+    "name": "Willoughby Tucker, I'll Always Love You [Explicit]",
+    "artist": "Ethel Cain",
+    "source": "https://music.amazon.com/embed/B0FBTGSQF7/",
+    "trackAsins": [
+      "B0FBSP7H7V",
+      "B0FBSW7B4T",
+      "B0FBSW9XM8",
+      "B0FBT2XLNL",
+      "B0FBT6PSJW",
+      "B0FBT9B5TL",
+      "B0FBTCCVR4",
+      "B0FBTCM9VK",
+      "B0FBTK4B3Q",
+      "B0FBTKM1RD"
+    ]
+  },
+  {
+    "asin": "B0FH7LJQSK",
+    "name": "I Can See The Future",
+    "artist": "Leith Ross",
+    "source": "https://music.amazon.com/embed/B0FH7LJQSK/",
+    "trackAsins": [
+      "B0FH7HTL1R",
+      "B0FH7JKR5D",
+      "B0FH7KLVMB",
+      "B0FH7KXCJ7",
+      "B0FH7KYZDK",
+      "B0FH7L72F6",
+      "B0FH7L8P9C",
+      "B0FH7LB3HD",
+      "B0FH7LF95J",
+      "B0FH7LLSG2",
+      "B0FH7LMVNC",
+      "B0FH7M15BB",
+      "B0FH7M64QQ"
+    ]
+  },
+  {
+    "asin": "B0FH9KVF55",
+    "name": "SWAG [Explicit]",
+    "artist": "Justin Bieber",
+    "source": "https://music.amazon.com/embed/B0FH9KVF55/",
+    "trackAsins": [
+      "B0FH8XF94R",
+      "B0FH95YB6X",
+      "B0FH97GL99",
+      "B0FH999K63",
+      "B0FH9D5LH5",
+      "B0FH9D6L1T",
+      "B0FH9DTY9M",
+      "B0FH9F7K5V",
+      "B0FH9FSCWJ",
+      "B0FH9FW1DP",
+      "B0FH9FXC3W",
+      "B0FH9GSTV3",
+      "B0FH9HJZL1",
+      "B0FH9K1T7J",
+      "B0FH9LGVGT",
+      "B0FH9P64R3",
+      "B0FH9QVQ2V",
+      "B0FH9T6Q8V",
+      "B0FH9TYF2R",
+      "B0FH9XG5DT",
+      "B0FH9ZN3CY"
+    ]
+  },
+  {
+    "asin": "B0FJKPFSKG",
+    "name": "Kicking My Feet [Explicit]",
+    "artist": "Ruel",
+    "source": "https://music.amazon.com/embed/B0FJKPFSKG/",
+    "trackAsins": [
+      "B0FJKJB8P6",
+      "B0FJKNYH1P",
+      "B0FJKV3GQN",
+      "B0FJKVGPK5",
+      "B0FJKXV3JF",
+      "B0FJL1JXWY",
+      "B0FJL2CLQL",
+      "B0FJL5R6K9",
+      "B0FJL6KNDJ",
+      "B0FJL8Q32L",
+      "B0FJL9LZP8"
+    ]
+  },
+  {
+    "asin": "B0FK6YGPBZ",
+    "name": "BEAT UP CHANEL$ [Explicit]",
+    "artist": "Slayyyter",
+    "source": "https://music.amazon.com/embed/B0FK6YGPBZ/",
+    "trackAsins": [
+      "B0FK722C6X"
+    ]
+  },
+  {
+    "asin": "B0FLSX9418",
+    "name": "Baby",
+    "artist": "Dijon",
+    "source": "https://music.amazon.com/embed/B0FLSX9418/",
+    "trackAsins": [
+      "B0FLS4X418",
+      "B0FLSC5ZCN",
+      "B0FLSJBW7D",
+      "B0FLSKQX7J",
+      "B0FLSSCV67",
+      "B0FLSSQTG8",
+      "B0FLST7BSC",
+      "B0FLST7G11",
+      "B0FLSVJD37",
+      "B0FLT5FC3H",
+      "B0FLT8JH9K",
+      "B0FLTBY6T7"
+    ]
+  },
+  {
+    "asin": "B0FMDMF3CQ",
+    "name": "MotherDaughterSisterWife",
+    "artist": "Jillian Jacqueline",
+    "source": "https://music.amazon.com/embed/B0FMDMF3CQ/",
+    "trackAsins": [
+      "B0FMD5SXX7",
+      "B0FMD79239",
+      "B0FMD7KQSR",
+      "B0FMD87FTX",
+      "B0FMDHSV4V",
+      "B0FMDL1XC6",
+      "B0FMDLXFDC",
+      "B0FMDMN8XR",
+      "B0FMDQ9CSQ",
+      "B0FMDSL5LH",
+      "B0FMDSYQRW",
+      "B0FMDT2BK9",
+      "B0FMDXRS6S"
+    ]
+  },
+  {
+    "asin": "B0FMMSV99G",
+    "name": "Everybody Scream [Explicit]",
+    "artist": "Florence + The Machine",
+    "source": "https://music.amazon.com/embed/B0FMMSV99G/",
+    "trackAsins": [
+      "B0FMM9SVDG",
+      "B0FMMJWWCC",
+      "B0FMMM8WJ7",
+      "B0FMMQL8F1",
+      "B0FMMQT931",
+      "B0FMMR88L4",
+      "B0FMMTF8GG",
+      "B0FMMTNP11",
+      "B0FMMTXD8K",
+      "B0FMMXJ4N6",
+      "B0FMMYY34F",
+      "B0FMN7377T"
+    ]
+  },
+  {
+    "asin": "B0FPWXT7Y6",
+    "name": "SWAG II [Explicit]",
+    "artist": "Justin Bieber",
+    "source": "https://music.amazon.com/embed/B0FPWXT7Y6/",
+    "trackAsins": [
+      "B0FPWV37QB",
+      "B0FPWVPC7J",
+      "B0FPWVT6C3",
+      "B0FPWVV76N",
+      "B0FPWWPWH9",
+      "B0FPWWWLNN",
+      "B0FPWX497J",
+      "B0FPWX5HYC",
+      "B0FPWX5NVT",
+      "B0FPWX7C2L",
+      "B0FPWX821B",
+      "B0FPWXGVK6",
+      "B0FPWXJ2KK",
+      "B0FPWXJW4C",
+      "B0FPWXP9FJ",
+      "B0FPWXPXH1",
+      "B0FPWXTW36",
+      "B0FPWXW3YP",
+      "B0FPWY6DYB",
+      "B0FPWY8DTW",
+      "B0FPWYBK61",
+      "B0FPWYBVR7",
+      "B0FPWYC54H",
+      "B0FPWYC54J",
+      "B0FPWYC54K",
+      "B0FPWYW4VX",
+      "B0FPWZ1ZNV",
+      "B0FPWZCBZR",
+      "B0FPWZFR69",
+      "B0FPWZFZDR",
+      "B0FPWZGTFQ",
+      "B0FPWZH97C",
+      "B0FPWZHGH2",
+      "B0FPWZJ23Y",
+      "B0FPWZRDM9",
+      "B0FPWZYMDL",
+      "B0FPX11BHR",
+      "B0FPX11CQ6",
+      "B0FPX13JZ4",
+      "B0FPX197HH",
+      "B0FPX199ZM",
+      "B0FPX1J4V2",
+      "B0FPX2XQG7",
+      "B0FPX35L3Y"
+    ]
+  },
+  {
+    "asin": "B0FQTLFHS8",
+    "name": "Son Of Spergy [Explicit]",
+    "artist": "Daniel Caesar",
+    "source": "https://music.amazon.com/embed/B0FQTLFHS8/",
+    "trackAsins": [
+      "B0FQRNF2G6",
+      "B0FQSJ5YP6",
+      "B0FQSW9C9G",
+      "B0FQT11W9Y",
+      "B0FQT4VM21",
+      "B0FQT4WKXL",
+      "B0FQT62QJ8",
+      "B0FQT66BLS",
+      "B0FQTC1P6V",
+      "B0FQTKT19Y",
+      "B0FQTQV97W",
+      "B0FQTTXYYF"
+    ]
+  },
+  {
+    "asin": "B0FQWJ5G3T",
+    "name": "It’s Not That Deep [Explicit]",
+    "artist": "Demi Lovato",
+    "source": "https://music.amazon.com/embed/B0FQWJ5G3T/",
+    "trackAsins": [
+      "B0FQWBSYZW",
+      "B0FQWF3LLV",
+      "B0FQWHWTQ7",
+      "B0FQWJ36DJ",
+      "B0FQWJ4CH3",
+      "B0FQWJQWXN",
+      "B0FQWJR94Q",
+      "B0FQWN425T",
+      "B0FQWRHTT5",
+      "B0FQX4G6GJ",
+      "B0FQXDX5W8"
+    ]
+  },
+  {
+    "asin": "B0FRWBQF1K",
+    "name": "Bite My Tongue (From the Netflix Series \"Nobody Wants This\" Season 2)",
+    "artist": "Cassandra Coleman",
+    "source": "https://music.amazon.com/embed/B0FRWBQF1K/",
+    "trackAsins": [
+      "B0FRWHZTMM"
+    ]
+  },
+  {
+    "asin": "B0FSPNMH2Z",
+    "name": "PHOLKS [Explicit]",
+    "artist": "Leon Thomas",
+    "source": "https://music.amazon.com/embed/B0FSPNMH2Z/",
+    "trackAsins": [
+      "B0FSNM3MXQ",
+      "B0FSP3S9N4",
+      "B0FSP5RMWL",
+      "B0FSP7T7RQ",
+      "B0FSPD66FX",
+      "B0FSPDMD5V",
+      "B0FSPW19KS"
+    ]
+  },
+  {
+    "asin": "B0FSQMQ3L8",
+    "name": "Die On This Hill",
+    "artist": "SIENNA SPIRO",
+    "source": "https://music.amazon.com/embed/B0FSQMQ3L8/",
+    "trackAsins": [
+      "B0FSQ4PRN1"
+    ]
+  },
+  {
+    "asin": "B0FTT9LD8G",
+    "name": "Early Twenties Torture",
+    "artist": "Sadie Jean",
+    "source": "https://music.amazon.com/embed/B0FTT9LD8G/",
+    "trackAsins": [
+      "B0FTT5MSQB",
+      "B0FTT6MWW9",
+      "B0FTT73HJ2",
+      "B0FTT7XZ3W",
+      "B0FTT8DFF7",
+      "B0FTT8SB29",
+      "B0FTT9BQ31",
+      "B0FTT9P61Q",
+      "B0FTTB51VF",
+      "B0FTTB7VLM",
+      "B0FTTBN924",
+      "B0FTTCHRFC"
+    ]
+  },
+  {
+    "asin": "B0FVYK73NK",
+    "name": "West End Girl [Explicit]",
+    "artist": "Lily Allen",
+    "source": "https://music.amazon.com/embed/B0FVYK73NK/",
+    "trackAsins": [
+      "B0FVYFFRPT",
+      "B0FVYFFRPV",
+      "B0FVYFGJMZ",
+      "B0FVYFL2MK",
+      "B0FVYFVWNH",
+      "B0FVYGG9RD",
+      "B0FVYGNYY9",
+      "B0FVYGQWFX",
+      "B0FVYH7CGB",
+      "B0FVYH7M8K",
+      "B0FVYH8T91",
+      "B0FVYHKSK6",
+      "B0FVYJ5GH2",
+      "B0FVYK2M8N"
+    ]
+  },
+  {
+    "asin": "B0FXQGYL3C",
+    "name": "Thinking Too Much",
+    "artist": "Joshua Slone",
+    "source": "https://music.amazon.com/embed/B0FXQGYL3C/",
+    "trackAsins": [
+      "B0FXQDKV6S",
+      "B0FXQF1YMZ",
+      "B0FXQF35VC",
+      "B0FXQFWB5Q",
+      "B0FXQFXMPV",
+      "B0FXQGK4XR",
+      "B0FXQH3Y27",
+      "B0FXQH9R4W",
+      "B0FXQHDDSD",
+      "B0FXQHF2ZZ",
+      "B0FXQHTX3P",
+      "B0FXQHV6PZ",
+      "B0FXQJ7VCW",
+      "B0FXQJLKLX",
+      "B0FXQJPT76",
+      "B0FXQK2B11"
+    ]
+  },
+  {
+    "asin": "B0FYKGR55N",
+    "name": "George [Clean]",
+    "artist": "Jake Minch",
+    "source": "https://music.amazon.com/embed/B0FYKGR55N/",
+    "trackAsins": [
+      "B0FYKHPSG4",
+      "B0FYKJDJRB",
+      "B0FYKJR991",
+      "B0FYKK7W8H",
+      "B0FYKK8PS7",
+      "B0FYKLLHNY",
+      "B0FYKLYF5M",
+      "B0FYKM9F1S",
+      "B0FYKMZX4J",
+      "B0FYKN4K2Z",
+      "B0FYKP2P1R",
+      "B0FYKPBHK4",
+      "B0FYKQ1M1F"
+    ]
+  },
+  {
+    "asin": "B0FYRYWX1W",
+    "name": "Ego Death At A Bachelorette Party [Explicit]",
+    "artist": "Hayley Williams",
+    "source": "https://music.amazon.com/embed/B0FYRYWX1W/",
+    "trackAsins": [
+      "B0FYRQG24N",
+      "B0FYRT5SHZ",
+      "B0FYRT5SJ2",
+      "B0FYRV989N",
+      "B0FYRVK7V6",
+      "B0FYRVTK6R",
+      "B0FYRW29FQ",
+      "B0FYRW5244",
+      "B0FYRW6PCB",
+      "B0FYRWBM8T",
+      "B0FYRWC2F6",
+      "B0FYRWDHBQ",
+      "B0FYRWPZZY",
+      "B0FYRWXPXX",
+      "B0FYRX6WRL",
+      "B0FYRZJ6JJ",
+      "B0FYRZL5GS",
+      "B0FYRZT33T",
+      "B0FYS11YC2",
+      "B0FYS214T8"
+    ]
+  },
+  {
+    "asin": "B0G1PVTSXT",
+    "name": "Sex Hysteria (Deluxe) [Explicit]",
+    "artist": "Jessie Murph",
+    "source": "https://music.amazon.com/embed/B0G1PVTSXT/",
+    "trackAsins": [
+      "B0G1P1RQT2",
+      "B0G1P59R2P",
+      "B0G1P5RDSP",
+      "B0G1P8BBBV",
+      "B0G1P9LGMR",
+      "B0G1PCV82P",
+      "B0G1PDC3F1",
+      "B0G1PJHBLY",
+      "B0G1PJZ6XB",
+      "B0G1PKHM2Z",
+      "B0G1PKK1ZT",
+      "B0G1PKPLHP",
+      "B0G1PN7KL8",
+      "B0G1PNP6PS",
+      "B0G1PNQ2T1",
+      "B0G1PR89MM",
+      "B0G1PWCYKS",
+      "B0G1PXQP2F",
+      "B0G1PXRMFM",
+      "B0G1PZ6LHM",
+      "B0G1Q288ZG",
+      "B0G1Q6FHTC",
+      "B0G1QJY3BD"
+    ]
+  },
+  {
+    "asin": "B0G25YVB8K",
+    "name": "Wuthering Heights",
+    "artist": "Charli xcx",
+    "source": "https://music.amazon.com/embed/B0G25YVB8K/",
+    "trackAsins": [
+      "B0G25VQ96B",
+      "B0G25WCCGS",
+      "B0G25WKZ9L",
+      "B0G25X3644",
+      "B0G25X9FQ3",
+      "B0G25YJRQQ",
+      "B0G25Z3BDQ",
+      "B0G25Z6SJG",
+      "B0G25ZDS18",
+      "B0G25ZXY4F",
+      "B0G261JR78",
+      "B0G263KNJM"
+    ]
+  },
+  {
+    "asin": "B0G2F9PK8F",
+    "name": "SO CLOSE TO WHAT??? (deluxe) [Explicit]",
+    "artist": "Tate McRae",
+    "source": "https://music.amazon.com/embed/B0G2F9PK8F/",
+    "trackAsins": [
+      "B0G2DLC9Q6",
+      "B0G2DQ89H5",
+      "B0G2DT3X49",
+      "B0G2DYSL8T",
+      "B0G2DZSBGB",
+      "B0G2F2F8CT",
+      "B0G2F2GLZ3",
+      "B0G2F4YW1F",
+      "B0G2F78LW7",
+      "B0G2F9DDVZ",
+      "B0G2F9LLP5",
+      "B0G2FCYN2B",
+      "B0G2FGZRBF",
+      "B0G2FH131B",
+      "B0G2FH7PNM",
+      "B0G2FHJ69Y",
+      "B0G2FJ57K8",
+      "B0G2FLT154",
+      "B0G2FMJWMV",
+      "B0G2FMK9C8",
+      "B0G2FQ1YVS"
+    ]
+  },
+  {
+    "asin": "B0G4SM5VVQ",
+    "name": "Ain't No Way (Live at KOKO)",
+    "artist": "SIENNA SPIRO",
+    "source": "https://music.amazon.com/embed/B0G4SM5VVQ/",
+    "trackAsins": [
+      "B0G4SMYXV6"
+    ]
+  },
+  {
+    "asin": "B0G5WR9CFY",
+    "name": "Jukebox",
+    "artist": "Sabrina Sterling",
+    "source": "https://music.amazon.com/embed/B0G5WR9CFY/",
+    "trackAsins": [
+      "B0G5WH8ZGF"
+    ]
+  },
+  {
+    "asin": "B0G625PY2R",
+    "name": "KISS ME [Explicit]",
+    "artist": "Eddie Benjamin",
+    "source": "https://music.amazon.com/embed/B0G625PY2R/",
+    "trackAsins": [
+      "B0G62R6R7R"
+    ]
+  },
+  {
+    "asin": "B0G6L6SJHC",
+    "name": "Back To My Roots & These Roots Run Deep",
+    "artist": "Ashley Kutcher",
+    "source": "https://music.amazon.com/embed/B0G6L6SJHC/",
+    "trackAsins": [
+      "B0G6L4T4B9",
+      "B0G6L8CW52",
+      "B0G6LC1V5R",
+      "B0G6LFHGRW",
+      "B0G6LFV9SF",
+      "B0G6LGNFJS",
+      "B0G6LKKC3M",
+      "B0G6LNMMC4",
+      "B0G6LPW69N",
+      "B0G6LPWHXB"
+    ]
+  },
+  {
+    "asin": "B0GFBYHXC4",
+    "name": "Thinking 'bout You",
+    "artist": "STELLA LEFTY",
+    "source": "https://music.amazon.com/embed/B0GFBYHXC4/",
+    "trackAsins": [
+      "B0GFBLVR8P"
+    ]
+  },
+  {
+    "asin": "B0GFC6ZKT8",
+    "name": "iloveitiloveitiloveit [Explicit]",
+    "artist": "Bella Kay",
+    "source": "https://music.amazon.com/embed/B0GFC6ZKT8/",
+    "trackAsins": [
+      "B0GFC5RG7M"
+    ]
+  },
+  {
+    "asin": "B0GHSZZN6K",
+    "name": "Dancing On The Wall [Explicit]",
+    "artist": "MUNA",
+    "source": "https://music.amazon.com/embed/B0GHSZZN6K/",
+    "trackAsins": [
+      "B0GHSVXNLS",
+      "B0GHT1Q2JX",
+      "B0GHT1R94S",
+      "B0GHT49MJ3",
+      "B0GHT5DFRK",
+      "B0GHT65S4Q",
+      "B0GHT6691N",
+      "B0GHT8GRRV",
+      "B0GHT8JZK4",
+      "B0GHT8P5MT",
+      "B0GHT9944T",
+      "B0GHTCHMZT",
+      "B0GHTGFD2J"
+    ]
+  },
+  {
+    "asin": "B0GJFRNF2N",
+    "name": "Florescence [Explicit]",
+    "artist": "Maisie Peters",
+    "source": "https://music.amazon.com/embed/B0GJFRNF2N/",
+    "trackAsins": [
+      "B0GJF9M764",
+      "B0GJFC2BST",
+      "B0GJFC6ZS8",
+      "B0GJFFV33L",
+      "B0GJFGP5X8",
+      "B0GJFGXSWK",
+      "B0GJFHVPFD",
+      "B0GJFJ2WCT",
+      "B0GJFK4RX2",
+      "B0GJFK722S",
+      "B0GJFKHLKR",
+      "B0GJFKWGDB",
+      "B0GJFQ89NQ",
+      "B0GJFRSG7J",
+      "B0GJG1HKXQ"
+    ]
+  },
+  {
+    "asin": "B0GJTSV9HS",
+    "name": "The Great Divide [Explicit]",
+    "artist": "Noah Kahan",
+    "source": "https://music.amazon.com/embed/B0GJTSV9HS/",
+    "trackAsins": [
+      "B0GJTGL76D",
+      "B0GJTJXV4X",
+      "B0GJTLG8MW",
+      "B0GJTML6TZ",
+      "B0GJTMQVL6",
+      "B0GJTRXT1F",
+      "B0GJTVXK9D",
+      "B0GJTWP38F",
+      "B0GJTX1TL8",
+      "B0GJTX5Q88",
+      "B0GJTXQT4T",
+      "B0GJTY61XS",
+      "B0GJV22R9D",
+      "B0GJV2JHQF",
+      "B0GJV2WW1L",
+      "B0GJV44P1L",
+      "B0GJV5J4YF"
+    ]
+  },
+  {
+    "asin": "B0GK2KNLGM",
+    "name": "Shadow",
+    "artist": "Stevie Bill",
+    "source": "https://music.amazon.com/embed/B0GK2KNLGM/",
+    "trackAsins": [
+      "B0GK2GP947"
+    ]
+  },
+  {
+    "asin": "B0GKCX1RPL",
+    "name": "HALO [Explicit]",
+    "artist": "Tiffany Day",
+    "source": "https://music.amazon.com/embed/B0GKCX1RPL/",
+    "trackAsins": [
+      "B0GKC33X3Q",
+      "B0GKC43L8R",
+      "B0GKC5ST46",
+      "B0GKC6425C",
+      "B0GKCB7DWW",
+      "B0GKCB9SWS",
+      "B0GKCD7HCC",
+      "B0GKCDTSXB",
+      "B0GKCK2LC6",
+      "B0GKCPG4MM",
+      "B0GKCWSS8Y",
+      "B0GKD358MY",
+      "B0GKD8XZRN"
+    ]
+  },
+  {
+    "asin": "B0GR8Y4T4G",
+    "name": "Two Star & The Dream Police [Explicit]",
+    "artist": "Mk.gee",
+    "source": "https://music.amazon.com/embed/B0GR8Y4T4G/",
+    "trackAsins": [
+      "B0GR8D4YB2",
+      "B0GR8GY7Y3",
+      "B0GR8JYFXT",
+      "B0GR8K7664",
+      "B0GR8MPZH7",
+      "B0GR8S6QZ7",
+      "B0GR8WSPC6",
+      "B0GR8WT1DC",
+      "B0GR8X2CSC",
+      "B0GR8XD9CL",
+      "B0GR8Y8HY3",
+      "B0GR9187TL"
+    ]
+  },
+  {
+    "asin": "B0GS5HJYL1",
+    "name": "Middle of Nowhere [Explicit]",
+    "artist": "Kacey Musgraves",
+    "source": "https://music.amazon.com/embed/B0GS5HJYL1/",
+    "trackAsins": [
+      "B0GS4WCNB5",
+      "B0GS4ZPCJX",
+      "B0GS52XCNW",
+      "B0GS54LWCP",
+      "B0GS54R58Y",
+      "B0GS54Y5RY",
+      "B0GS55KXLM",
+      "B0GS561747",
+      "B0GS584RMF",
+      "B0GS589YFD",
+      "B0GS58C3NJ",
+      "B0GS5BFL57",
+      "B0GS5DLBMN"
+    ]
+  },
+  {
+    "asin": "B0GX2TLXTL",
+    "name": "Immunity [Explicit]",
+    "artist": "Clairo",
+    "source": "https://music.amazon.com/embed/B0GX2TLXTL/",
+    "trackAsins": [
+      "B0GX2TBDPS",
+      "B0GX2VGB5B",
+      "B0GX2WBQ1V",
+      "B0GX2WCYMN",
+      "B0GX2WGJ1J",
+      "B0GX2X3RQV",
+      "B0GX2XNQ66",
+      "B0GX2Y5HT2",
+      "B0GX2Z8G78",
+      "B0GX2ZL6Z7",
+      "B0GX2ZRDD9"
+    ]
+  },
+  {
+    "asin": "B0GY9DSVVC",
+    "name": "The Great Divide (Amazon Music Track by Track) [Explicit]",
+    "artist": "Noah Kahan",
+    "source": "https://music.amazon.com/embed/B0GY9DSVVC/",
+    "trackAsins": [
+      "B0GY98TDXY",
+      "B0GY9B87RD",
+      "B0GY9BN2N1",
+      "B0GY9BN6GQ",
+      "B0GY9BNLCR",
+      "B0GY9D9MLX",
+      "B0GY9DCH58",
+      "B0GY9F44ZF",
+      "B0GY9F4KD8",
+      "B0GY9F4TZ9",
+      "B0GY9FL4NH",
+      "B0GY9GWXZN",
+      "B0GY9GXMPJ",
+      "B0GY9J1BX6",
+      "B0GY9J3GD7",
+      "B0GY9J8Y99",
+      "B0GY9K1DM8",
+      "B0GY9K74F5",
+      "B0GY9KB4YK",
+      "B0GY9KWC18",
+      "B0GY9L344P",
+      "B0GY9LGQJB",
+      "B0GY9M2C6N",
+      "B0GY9MC823",
+      "B0GY9MF8K6",
+      "B0GY9N4851",
+      "B0GY9PVLQB",
+      "B0GY9Q44XG",
+      "B0GY9RKL1N",
+      "B0GY9RZNLC",
+      "B0GY9SPNY4"
+    ]
+  },
+  {
+    "asin": "B0GZ5KWKV3",
+    "name": "God Must Really Love Me",
+    "artist": "Tori Kelly",
+    "source": "https://music.amazon.com/embed/B0GZ5KWKV3/",
+    "trackAsins": [
+      "B0GZ5G3TS3",
+      "B0GZ5G4CVT",
+      "B0GZ5G872F",
+      "B0GZ5G91WS",
+      "B0GZ5HC4CK",
+      "B0GZ5LC4X5",
+      "B0GZ5LSMN4",
+      "B0GZ5QKC3J",
+      "B0GZ5QTQQ8",
+      "B0GZ5RD8X9",
+      "B0GZ5RM336",
+      "B0GZ5SH431",
+      "B0GZ5VKKXX",
+      "B0GZ5WNXL2"
+    ]
+  },
+  {
+    "asin": "B0GZW9VNTW",
+    "name": "PIXIE [Explicit]",
+    "artist": "Olivia O'Brien",
+    "source": "https://music.amazon.com/embed/B0GZW9VNTW/",
+    "trackAsins": [
+      "B0GZW7LTV8",
+      "B0GZW9B84Q",
+      "B0GZWC8RZQ",
+      "B0GZWCXKHJ",
+      "B0GZWDC5QS",
+      "B0GZWDKV5C",
+      "B0GZWDPWBG",
+      "B0GZWGX3RV",
+      "B0GZWH2RBK",
+      "B0GZWH8D59",
+      "B0GZWHB17C",
+      "B0GZWHJ5HK",
+      "B0GZWHPXXC",
+      "B0GZWKYDRB",
+      "B0GZWNPLTM"
+    ]
+  },
+  {
+    "asin": "B0H1LW472V",
+    "name": "trees for the woods",
+    "artist": "Amie Blu",
+    "source": "https://music.amazon.com/embed/B0H1LW472V/",
+    "trackAsins": [
+      "B0H1LZPTZQ"
+    ]
+  },
+  {
+    "asin": "B0H271QR6H",
+    "name": "Fools for the Fleeting [Explicit]",
+    "artist": "Katie Pruitt",
+    "source": "https://music.amazon.com/embed/B0H271QR6H/",
+    "trackAsins": [
+      "B0H26YRYZC",
+      "B0H26Z9RQ3",
+      "B0H272185V",
+      "B0H27297MY",
+      "B0H272HY88",
+      "B0H2741PQ8",
+      "B0H27475L1",
+      "B0H274MDFS",
+      "B0H274N96C",
+      "B0H277HT9L"
+    ]
+  },
+  {
+    "asin": "B0H2N8845Z",
+    "name": "Chuck Timely & The Hourglass [Explicit]",
+    "artist": "ROLE MODEL",
+    "source": "https://music.amazon.com/embed/B0H2N8845Z/",
+    "trackAsins": [
+      "B0H2N2KJG4",
+      "B0H2N4L5D7",
+      "B0H2N5TQZR",
+      "B0H2NC8XL4",
+      "B0H2NDB1B1",
+      "B0H2NDW862",
+      "B0H2NFCNPD",
+      "B0H2NFF57L",
+      "B0H2NG23S6",
+      "B0H2NGYGMV",
+      "B0H2NH7QG5",
+      "B0H2NHSWRS"
+    ]
+  },
+  {
+    "asin": "B0H3CFQN48",
+    "name": "Good Grief",
+    "artist": "Sara Bareilles",
+    "source": "https://music.amazon.com/embed/B0H3CFQN48/",
+    "trackAsins": [
+      "B0H3C5BVP3",
+      "B0H3C928G1",
+      "B0H3C96DLC",
+      "B0H3CBY2ZY",
+      "B0H3CCTCHB",
+      "B0H3CDKCLX",
+      "B0H3CFD24B",
+      "B0H3CHH6SB",
+      "B0H3CHR4P6",
+      "B0H3CJ2YDN",
+      "B0H3CJ5GZG",
+      "B0H3CLZP57",
+      "B0H3CMH6XV",
+      "B0H3CNDN6S"
+    ]
+  },
+  {
+    "asin": "B0H3M1J74G",
+    "name": "I Knew It, I Knew You (From \"Toy Story 5\")",
+    "artist": "Taylor Swift",
+    "source": "https://music.amazon.com/embed/B0H3M1J74G/",
+    "trackAsins": [
+      "B0H3LZ4FDR"
+    ]
+  },
+  {
+    "asin": "B0H3QNBM62",
+    "name": "I Don't Know How But They Found Me...Again! [Explicit]",
+    "artist": "Jensen McRae",
+    "source": "https://music.amazon.com/embed/B0H3QNBM62/",
+    "trackAsins": [
+      "B0H3QJR3XR",
+      "B0H3QKNRPX",
+      "B0H3QL93MK",
+      "B0H3QN8TKW",
+      "B0H3QND4D4",
+      "B0H3QNMXT2",
+      "B0H3QNMXT7",
+      "B0H3QPLX1V",
+      "B0H3QPT915",
+      "B0H3QQKHTT",
+      "B0H3QQM8QY",
+      "B0H3QRQFMC",
+      "B0H3QRW415",
+      "B0H3QT785T",
+      "B0H3QT7C5H",
+      "B0H3QW75Z8",
+      "B0H3QWKHXM",
+      "B0H3QWPD9T",
+      "B0H3QWXP9Z",
+      "B0H3QYYS4D",
+      "B0H3QZT2V4",
+      "B0H3QZW1S5",
+      "B0H3R2LKCR"
+    ]
+  },
+  {
+    "asin": "B0H4MJJFVM",
+    "name": "PAREIDOLIA [Explicit]",
+    "artist": "Erin LeCount",
+    "source": "https://music.amazon.com/embed/B0H4MJJFVM/",
+    "trackAsins": [
+      "B0H4LXTZMS",
+      "B0H4M1ZRMN",
+      "B0H4M4954T",
+      "B0H4M7FC3Y",
+      "B0H4MD7ZF3",
+      "B0H4MHCLB9",
+      "B0H4MKJ94L"
+    ]
+  },
+  {
+    "asin": "B0H4VNQXNR",
+    "name": "Keepers",
+    "artist": "Tiny Habits",
+    "source": "https://music.amazon.com/embed/B0H4VNQXNR/",
+    "trackAsins": [
+      "B0H4VG5X3R",
+      "B0H4VG9VDV",
+      "B0H4VHRKGN",
+      "B0H4VJV42B",
+      "B0H4VKFJ4X",
+      "B0H4VLM44B",
+      "B0H4VM4Y81",
+      "B0H4VMKRDX",
+      "B0H4VN3THY",
+      "B0H4VPNMKQ",
+      "B0H4VSPBLS",
+      "B0H4VY8DLD"
+    ]
+  },
+  {
+    "asin": "B0H5G35XDR",
+    "name": "Lovesweet [Explicit]",
+    "artist": "girlsweetvoiced",
+    "source": "https://music.amazon.com/embed/B0H5G35XDR/",
+    "trackAsins": [
+      "B0H5FGL1LM",
+      "B0H5FJNPTR",
+      "B0H5FMKFZM",
+      "B0H5FP9QCL",
+      "B0H5FQ4Q5F",
+      "B0H5FQ8BP1",
+      "B0H5FS2NQD",
+      "B0H5FSHRRJ",
+      "B0H5FSRVKC",
+      "B0H5FYC85J",
+      "B0H5G387GQ",
+      "B0H5G58SV5"
+    ]
+  },
+  {
+    "asin": "B0H5T512RP",
+    "name": "Day and Night [Explicit]",
+    "artist": "Carly Rae Jepsen",
+    "source": "https://music.amazon.com/embed/B0H5T512RP/",
+    "trackAsins": [
+      "B0H5SVK4ZZ",
+      "B0H5SVK511",
+      "B0H5SY99WX",
+      "B0H5T423J8",
+      "B0H5T4681N",
+      "B0H5T75Z2L",
+      "B0H5T785PC",
+      "B0H5T833RJ",
+      "B0H5T8DFCR",
+      "B0H5T96RD8",
+      "B0H5TCKXXX",
+      "B0H5TF2364",
+      "B0H5TF7D2W",
+      "B0H5TG91CK",
+      "B0H5THPRY1",
+      "B0H5TJ213Y",
+      "B0H5TJVHDH",
+      "B0H5TL2NPJ",
+      "B0H5TMKS6R",
+      "B0H5TQL1YY",
+      "B0H5TQLCGZ",
+      "B0H5TRB6TF",
+      "B0H5TRKF5T",
+      "B0H5V2S45T"
+    ]
+  },
+  {
+    "asin": "B0H5TJKTYQ",
+    "name": "Happy [Explicit]",
+    "artist": "Yana",
+    "source": "https://music.amazon.com/embed/B0H5TJKTYQ/",
+    "trackAsins": [
+      "B0H5SZX7NG"
+    ]
+  },
+  {
+    "asin": "B0H5WVG2GQ",
+    "name": "Pylon [Explicit]",
+    "artist": "beabadoobee",
+    "source": "https://music.amazon.com/embed/B0H5WVG2GQ/",
+    "trackAsins": [
+      "B0H5WJC7PJ",
+      "B0H5WJZMLN",
+      "B0H5WLTVND",
+      "B0H5WMPR22",
+      "B0H5WNS83D",
+      "B0H5WPRB97",
+      "B0H5WQRLVB",
+      "B0H5WVM7NV",
+      "B0H5WXD8Q4",
+      "B0H5WXTRJQ",
+      "B0H5WXVKS9",
+      "B0H5WXWLQL",
+      "B0H5WZ12JC",
+      "B0H5X293CW"
+    ]
+  },
+  {
+    "asin": "B0H5ZKF7GV",
+    "name": "King of Having Fun [Explicit]",
+    "artist": "Medium Build",
+    "source": "https://music.amazon.com/embed/B0H5ZKF7GV/",
+    "trackAsins": [
+      "B0H5YMZJKX",
+      "B0H5YN6B2Y",
+      "B0H5YV7DKQ",
+      "B0H5YYX79X",
+      "B0H5Z39YVL",
+      "B0H5Z3B1RJ",
+      "B0H5Z43BQW",
+      "B0H5Z5GCN6",
+      "B0H5Z5GQKN",
+      "B0H5Z7YWGY",
+      "B0H5ZCJ8B7",
+      "B0H5ZKK2FZ",
+      "B0H5ZPLWJH",
+      "B0H5ZPRVJM"
+    ]
+  },
+  {
+    "asin": "B0H61R5C18",
+    "name": "born to lose",
+    "artist": "Bea Miller",
+    "source": "https://music.amazon.com/embed/B0H61R5C18/",
+    "trackAsins": [
+      "B0H61JGWJK"
+    ]
+  },
+  {
+    "asin": "B0H8C6T63Q",
+    "name": "Feelings Are Forever [Explicit]",
+    "artist": "Yana",
+    "source": "https://music.amazon.com/embed/B0H8C6T63Q/",
+    "trackAsins": [
+      "B0H8C2GFDQ",
+      "B0H8C4LD54",
+      "B0H8C4RN92",
+      "B0H8C4VGB9",
+      "B0H8C6N8XB",
+      "B0H8C83WK4",
+      "B0H8C8BFYK",
+      "B0H8CD5C93",
+      "B0H8CFSFMR",
+      "B0H8CGW3QH"
+    ]
+  },
+  {
+    "asin": "B0H8QFXV6C",
+    "name": "Revolver, 2026",
+    "artist": "The WLDLFE",
+    "source": "https://music.amazon.com/embed/B0H8QFXV6C/",
+    "trackAsins": [
+      "B0H8Q7RB46",
+      "B0H8QCHTRF",
+      "B0H8QCJTMP",
+      "B0H8QCS4VW",
+      "B0H8QCX755",
+      "B0H8QDS43W",
+      "B0H8QF4K8T",
+      "B0H8QFWN5Q",
+      "B0H8QGLKFQ",
+      "B0H8QK4CPN",
+      "B0H8QK849L",
+      "B0H8QK8KXC",
+      "B0H8QLZR74",
+      "B0H8QLZR75"
+    ]
+  },
+  {
+    "asin": "B0H9NQRML3",
+    "name": "PRIMA [Explicit]",
+    "artist": "ADÉLA",
+    "source": "https://music.amazon.com/embed/B0H9NQRML3/",
+    "trackAsins": [
+      "B0H9NLLS8H",
+      "B0H9NMRBD3",
+      "B0H9NTGML7",
+      "B0H9NZMK6X",
+      "B0H9P18DHG",
+      "B0H9P1DW13",
+      "B0H9P1LHDT",
+      "B0H9P29WNL",
+      "B0H9P6LGDG",
+      "B0H9P8D5Z9",
+      "B0H9P8S6SC"
+    ]
+  },
+  {
+    "asin": "B0HB7P61R8",
+    "name": "Mr. Peaked In High School [Explicit]",
+    "artist": "Bea Miller",
+    "source": "https://music.amazon.com/embed/B0HB7P61R8/",
+    "trackAsins": [
+      "B0HB6R4DGR",
+      "B0HB6VFP9H",
+      "B0HB6VQN7W",
+      "B0HB6W2FGJ",
+      "B0HB6WJYZR",
+      "B0HB6ZPS7H",
+      "B0HB6ZZ763",
+      "B0HB727NJQ",
+      "B0HB73VMBN",
+      "B0HB75TMFP",
+      "B0HB7843TX",
+      "B0HB78BC33",
+      "B0HB7CHGT9"
+    ]
+  },
+  {
+    "asin": "B0HBZYB59V",
+    "name": "Sterling Point (Prime Original Series Soundtrack)",
+    "artist": "VARIOUS ARTISTS",
+    "source": "https://music.amazon.com/embed/B0HBZYB59V/",
+    "trackAsins": [
+      "B0HBZ522TT",
+      "B0HBZD1G7S",
+      "B0HBZGQLZY",
+      "B0HBZXKM8T"
+    ]
+  },
+  {
+    "asin": "B0HDQ4VQJZ",
+    "name": "Lost Weekend",
+    "artist": "Phoebe Bridgers",
+    "source": "https://music.amazon.com/embed/B0HDQ4VQJZ/",
+    "trackAsins": [
+      "B0HDPNS2N1",
+      "B0HDPYP7D2",
+      "B0HDPYXKJZ",
+      "B0HDPZS8GY",
+      "B0HDQ1161B",
+      "B0HDQ152PK",
+      "B0HDQ2FN75",
+      "B0HDQ4KDKT",
+      "B0HDQ5KZ82",
+      "B0HDQ6RC94",
+      "B0HDQ7Y1PH",
+      "B0HDQ81MJW",
+      "B0HDQ84DWN",
+      "B0HDQB781X",
+      "B0HDQDGMTG",
+      "B0HDQF47MT"
+    ]
+  },
+  {
+    "asin": "B0HFPWLFN3",
+    "name": "When Saturn Returns [Explicit]",
+    "artist": "Grace Carter",
+    "source": "https://music.amazon.com/embed/B0HFPWLFN3/",
+    "trackAsins": [
+      "B0HFPM8WVY",
+      "B0HFPVKWX7",
+      "B0HFPYMMYS",
+      "B0HFPZ5X9G",
+      "B0HFPZR7VP",
+      "B0HFQ4ZLL9",
+      "B0HFQ659TF",
+      "B0HFQ6D5ZD",
+      "B0HFQ6N4V3",
+      "B0HFQ85CDZ",
+      "B0HFQ8P6HB",
+      "B0HFQ984T6",
+      "B0HFQCJB7C"
+    ]
+  },
+  {
+    "asin": "B0HGKC8CW4",
+    "name": "Love Ruins Everything",
+    "artist": "Tiny Habits",
+    "source": "https://music.amazon.com/embed/B0HGKC8CW4/",
+    "trackAsins": [
+      "B0HGJZJHQ3"
+    ]
+  },
+  {
+    "asin": "B0HGYWZD4K",
+    "name": "Dream Fatigue [Explicit]",
+    "artist": "Rex Orange County",
+    "source": "https://music.amazon.com/embed/B0HGYWZD4K/",
+    "trackAsins": [
+      "B0HGYJF4FC",
+      "B0HGYJYN4Y",
+      "B0HGYQ5FRZ",
+      "B0HGYRDB93",
+      "B0HGYS44SN",
+      "B0HGYVPDX9",
+      "B0HGYYW863",
+      "B0HGYZXVJ4",
+      "B0HGZ3FD5H",
+      "B0HGZ4NCYH",
+      "B0HGZ4SPLY",
+      "B0HGZ6MXVR"
+    ]
+  },
+  {
+    "asin": "B0HJ1QDYL6",
+    "name": "And The Crowd Goes Mild [Explicit]",
+    "artist": "Sasha Alex Sloan",
+    "source": "https://music.amazon.com/embed/B0HJ1QDYL6/",
+    "trackAsins": [
+      "B0HJ1LMXPZ",
+      "B0HJ1NYD44",
+      "B0HJ1P1P9D",
+      "B0HJ1PNJH8",
+      "B0HJ1QM57F",
+      "B0HJ1R7YHD",
+      "B0HJ1S8D63",
+      "B0HJ1T1ZHW",
+      "B0HJ1YVVZH",
+      "B0HJ1ZK5BX"
+    ]
+  },
+  {
+    "asin": "B0HNJY7WL7",
+    "name": "Tom and Jerry",
+    "artist": "John Mayer",
+    "source": "https://music.amazon.com/embed/B0HNJY7WL7/",
+    "trackAsins": [
+      "B0HNK2WNW7"
     ]
   }
 ]
