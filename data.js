@@ -4,11 +4,11 @@ export const snapshot = {
   "endDate": "2026-11-16",
   "totalEvents": 91024,
   "coverage": {
-    "album": 0.94821,
-    "song": 0.92418,
-    "artist": 0.9523
+    "album": 0.96772,
+    "song": 0.94027,
+    "artist": 0.9573
   },
-  "inferredAlbumShare": 0.01427,
+  "inferredAlbumShare": 0.01337,
   "views": {
     "album": [
       {
@@ -123,8 +123,8 @@ export const snapshot = {
         "id": "album-7a9eb198a3706eac4a",
         "title": "Middle of Nowhere",
         "artist": "Kacey Musgraves",
-        "seconds": 94552.0,
-        "events": 683,
+        "seconds": 94735.0,
+        "events": 685,
         "catalogId": "B0GS5HJYL1",
         "topTrack": "Loneliest Girl"
       },
@@ -732,6 +732,15 @@ export const snapshot = {
         "topTrack": "Harmony"
       },
       {
+        "id": "album-1697e7059f150d7446",
+        "title": "Son Of Spergy",
+        "artist": "Daniel Caesar",
+        "seconds": 23599.0,
+        "events": 162,
+        "catalogId": "B0FQTLFHS8",
+        "topTrack": "Call On Me"
+      },
+      {
         "id": "album-37ee637003da477174",
         "title": "KISS ME",
         "artist": "Eddie Benjamin",
@@ -739,15 +748,6 @@ export const snapshot = {
         "events": 179,
         "catalogId": "B0G625PY2R",
         "topTrack": "KISS ME"
-      },
-      {
-        "id": "album-1697e7059f150d7446",
-        "title": "Son Of Spergy",
-        "artist": "Daniel Caesar",
-        "seconds": 23401.0,
-        "events": 161,
-        "catalogId": "B0FQTLFHS8",
-        "topTrack": "Call On Me"
       },
       {
         "id": "album-af5bccb2690ec9dd2a",

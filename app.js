@@ -1,7 +1,7 @@
-import { snapshot } from './data.js?v=playground-5';
-import { artwork } from './art.js?v=playground-5';
-import { Pit } from './physics.js?v=playground-5';
-import { makeSticker } from './stickers.js?v=playground-5';
+import { snapshot } from './data.js?v=playground-6';
+import { artwork } from './art.js?v=playground-6';
+import { Pit } from './physics.js?v=playground-6';
+import { makeSticker } from './stickers.js?v=playground-6';
 
 const byId = id => document.getElementById(id);
 const colors = ['#bba2f4', '#f4b5a4', '#f9ce90', '#a9cdae', '#9ec9f3', '#e4a9d0'];

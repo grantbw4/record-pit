@@ -399,14 +399,14 @@ export const artwork = {
     "source": "https://musicbrainz.org/release/4a338e2d-9842-4624-9e28-e0a11adeaf07",
     "sourceName": "Cover Art Archive"
   },
-  "album-37ee637003da477174": {
-    "url": "https://m.media-amazon.com/images/I/31yi7Mr8cWL.jpg",
-    "source": "https://music.amazon.com/albums/B0G625PY2R",
-    "sourceName": "Amazon Music"
-  },
   "album-1697e7059f150d7446": {
     "url": "https://m.media-amazon.com/images/I/31dmSxye8lL._SY240_.jpg",
     "source": "https://music.amazon.com/embed/B0FQTLFHS8/",
+    "sourceName": "Amazon Music"
+  },
+  "album-37ee637003da477174": {
+    "url": "https://m.media-amazon.com/images/I/31yi7Mr8cWL.jpg",
+    "source": "https://music.amazon.com/albums/B0G625PY2R",
     "sourceName": "Amazon Music"
   },
   "album-af5bccb2690ec9dd2a": {
